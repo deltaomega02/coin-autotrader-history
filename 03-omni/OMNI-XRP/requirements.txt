@@ -1,0 +1,10 @@
+pyupbit
+openai
+pandas
+numpy<2.0  
+pandas-ta
+python-dotenv
+schedule
+requests
+urllib3
+certifi

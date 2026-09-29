@@ -1,0 +1,15 @@
+[Unit]
+Description=METIS V5 paper leverage validation (real-time, 5 variants, sim only)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=YOUR_SERVICE_USER
+WorkingDirectory=YOUR_HOME_DIR/metis-v4
+ExecStart=YOUR_HOME_DIR/metis-v4/run_paper.sh
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

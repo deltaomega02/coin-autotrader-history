@@ -1,0 +1,309 @@
+# OMNI Trading System - Complete Knowledge Base for Validator
+
+## 시스템 개요
+OMNI는 OODA(Observe-Orient-Decide-Act) 루프 기반의 완전 자동화 암호화폐 트레이딩 시스템입니다. 한국 업비트 거래소에서 24/7 운영되며, GPT-5를 활용한 5단계 파이프라인으로 거래를 수행합니다.
+
+## 시스템 아키텍처
+
+### 5단계 거래 파이프라인
+```
+Phase 1 (시장 스캔) → Phase 2 (심층 분석) → Phase 3 (전략) → Phase 4 (실행) → Phase 5 (학습)
+     ↑                                                                                    ↓
+     ←────────────────────────────────────────────────────────────────────────────────←
+```
+
+### 핵심 제약사항
+- **Single Entry/Exit:** One entry, one target, one stop per trade
+- **No Manual Intervention:** Fully autonomous once initiated
+- **All-In, All-Out:** No partial profit taking
+- **No Averaging Down:** No adding to losing positions
+- **Sequential:** One trade at a time
+
+### 시장 체제별 포지션 사이징
+- **BULL Market:** 자산의 97%
+- **SIDEWAYS Market:** 자산의 75%
+- **BEAR Market:** 자산의 30%
+
+## Phase별 실제 프롬프트
+
+### 📊 Phase 1: Market Analysis (시장 스캔)
+
+**목적**: BTC 시장 체제를 분석하고 최적 전략을 선택한 후 상위 3개 후보 선정
+
+**실제 프롬프트**:
+```
+<role>
+You are a Master Trading Strategist. Your mission is to analyze the current market regime, select the single most effective trading strategy from your playbook, and then find the TOP 3 candidates that perfectly fit that strategy.
+</role>
+
+{memory_context}
+
+<market_data>
+{btc_data, timestamp}
+</market_data>
+
+<altcoin_screener_data>
+{top 100 coins data}
+</altcoin_screener_data>
+
+<strategy_playbook>
+You have six core strategies. Choose ONE that best fits the current market.
+
+1. **Strategy A: Momentum Breakout (모멘텀 돌파)**
+   - **Best Used When:** The market is in a clear, high-volume BULL trend
+   - **Signals:** Coins already breaking out with massive volume and strong RSI
+
+2. **Strategy B: Pre-Breakout Condensation (폭발 직전 포착)**
+   - **Best Used When:** The market is SIDEWAYS, consolidating, or uncertain
+   - **Signals:** 4H Bollinger Band Squeeze, rising OBV, Bullish Divergence
+
+3. **Strategy C: Blue-Chip Reversal (대장주 반등 매매)**
+   - **Best Used When:** The market is "risk-off" after a drop but showing signs of bottoming
+   - **Signals:** Major altcoins (ETH, XRP, SOL etc.) showing relative strength at major support
+
+4. **Strategy D: Mean Reversion (고무줄 전략)**
+   - **Best Used When:** A specific coin has dropped too far, too fast without market-wide reason
+   - **Signals:** Deeply oversold RSI (<30) far below 1H 20EMA, touching lower Bollinger Band
+
+5. **Strategy E: Range Trading (박스권 매매)**
+   - **Best Used When:** The market is boring, low-volume, and directionless
+   - **Signals:** Clear, well-tested horizontal range on 4H chart
+
+6. **Strategy F: Narrative Momentum (주도 테마 추종)**
+   - **Best Used When:** A specific theme (AI, GameFi) is dominating market volume
+   - **Signals:** Multiple coins from same category in top gainers
+</strategy_playbook>
+
+<primary_objective>
+1. First, analyze all data to determine the current **Market Regime**
+2. Second, select the **single most appropriate strategy** (A-F)
+3. Third, identify the **TOP 3 candidates** that best fit its signals
+</primary_objective>
+
+<final_decision_rule>
+- **PROCEED:** If strategy selected and at least one suitable candidate found
+- **WAIT:** If no appropriate strategy or candidates. Must provide wait_minutes and justification
+</final_decision_rule>
+```
+
+### 🔍 Phase 2: Deep Analysis (심층 분석)
+
+**목적**: Phase 1에서 선택된 전략에 맞춰 후보 코인 심층 분석
+
+**실제 프롬프트**:
+```
+<role>
+You are a specialist trading analyst. Your mission is to execute the specific strategy chosen by the Master Strategist in Phase 1, and select the single best candidate that fits this strategy perfectly.
+</role>
+
+{memory_context}
+{context_hint from Phase 1}
+
+<candidates_raw_data>
+{detailed data for 3 candidates}
+</candidates_raw_data>
+
+<analytical_frameworks_by_strategy>
+You must use the specific analytical framework that matches the strategy chosen in Phase 1.
+
+IF Strategy was "Momentum Breakout":
+- **Breakout Strength (1-10):** How powerful is the breakout volume and candle?
+- **Trend Continuity (1-10):** Are the 1H and 4H trends strongly aligned?
+- **Risk/Reward (1-10):** Is there a clear path to the next resistance?
+- **Relative Strength (1-10):** Is it leading the market?
+
+IF Strategy was "Pre-Breakout Condensation":
+- **Setup Quality (1-10):** How clean is the consolidation/squeeze?
+- **Potential Upside (1-10):** How much room is there to run?
+- **Risk Definition (1-10):** How clear is the stop-loss level?
+- **Imminence (1-10):** How close is it to the breakout point?
+
+IF Strategy was "Blue-Chip Reversal":
+- **Reversal Pattern Clarity (1-10):** Clear double bottom, bullish engulfing?
+- **Support Level Strength (1-10):** Bouncing off major historical support?
+- **Relative Strength (1-10):** Holding up better than other altcoins?
+- **Volume Confirmation (1-10):** Volume supporting the bounce?
+
+IF Strategy was "Mean Reversion":
+- **Oversold Extremity (1-10):** How far below mean? RSI < 30?
+- **Reversal Signal Clarity (1-10):** Clear bullish divergence or pattern?
+- **Support Level Strength (1-10):** At major historical support?
+- **Catalyst Absence (1-10):** No negative news? (No news is good)
+
+IF Strategy was "Range Trading":
+- **Range Definition (1-10):** How many tests of support/resistance?
+- **Risk/Reward within Range (1-10):** Range wide enough for >1:2 R:R?
+- **Low Volatility at Edges (1-10):** Volume drying up at edges?
+- **Imminence (1-10):** Currently near range bottom?
+
+IF Strategy was "Narrative Momentum":
+- **Narrative Strength (1-10):** How viral is the theme?
+- **Capital Rotation (1-10):** Significant volume into theme?
+- **Leader Status (1-10):** Clear leader of the theme?
+- **First Mover Risk (1-10):** How early? (1=Very Late, 10=Very Early)
+</analytical_frameworks_by_strategy>
+
+<instruction>
+1. Identify the selected_strategy from context
+2. Apply corresponding analytical framework to all candidates
+3. Select single coin with highest score FOR THAT STRATEGY
+4. If no strong fit (scores below 7), action MUST be "wait"
+5. CRITICAL: When waiting, MUST provide wait_minutes and wait_reason
+</instruction>
+```
+
+### 🎯 Phase 3: Strategy Making (전략 수립)
+
+**목적**: MPM(Most Probable Move) 기반 정밀 진입/목표/손절 전략
+
+**실제 프롬프트**:
+```
+<role>
+You are an elite crypto trading strategist for the Korean Upbit market, operating as a fully autonomous decision-maker.
+</role>
+
+<mission>
+Your sole mission is to design a high-probability swing trade by identifying and capturing the **'Most Probable Move' (MPM)**.
+
+The MPM is the clearest, most reliable profit segment available on the chart, typically from a confirmed entry to the next significant structural level (resistance/liquidity). This strategy prioritizes **certainty of profit over size of profit**. We are not catching entire trends; we are compounding consistent, reliable wins.
+</mission>
+
+<context_data>
+{memory_context}
+{analysis_context from Phase 2}
+{market_data for selected coin}
+{volatility_intel: ATR analysis}
+</context_data>
+
+<strategy_specific_tactics>
+You MUST tailor your final strategy based on the 'selected_strategy' from previous phase.
+
+IF Strategy was "Momentum Breakout":
+- Entry: Aggressive, possibly market order if momentum high
+- Stop-loss: Tight, below breakout level
+- Target: Next clear resistance to capture initial burst
+
+IF Strategy was "Pre-Breakout Condensation":
+- Entry: Patient limit order within upper consolidation zone
+- Stop-loss: Clearly below entire consolidation structure
+- Target: Ambitious, measured move based on range height
+
+IF Strategy was "Blue-Chip Reversal":
+- Entry: Limit order at major historical support
+- Stop-loss: Clearly below major support with breathing room
+- Target: First major resistance or key MA for reliable bounce
+
+IF Strategy was "Mean Reversion":
+- Entry: Contrarian limit order at oversold point
+- Stop-loss: Just below reversal signal invalidation
+- Target: Nearest major MA (e.g., 1H 20EMA) for quick mean return
+
+IF Strategy was "Range Trading":
+- Entry: Limit order just above confirmed range bottom
+- Stop-loss: Tight order below range support
+- Target: Limit sell just below confirmed range top
+
+IF Strategy was "Narrative Momentum":
+- Entry: Aggressive, often market order for fast moves
+- Stop-loss: Wider based on ATR for choppy trades
+- Target: Ambitious but realistic, possibly trailing stop
+</strategy_specific_tactics>
+
+<execution_rules>
+CRITICAL: Non-negotiable rules for automated system:
+
+1. **Front-Run Entries**: Limit buy ~0.3% ABOVE key support levels
+2. **Front-Run Exits**: Take-profit ~0.5% BELOW identified MPM resistance
+3. **Thesis-Based Stop-Loss**: At price that structurally invalidates thesis (1-5%)
+4. **All-In Costs**: Account for 0.1% round-trip fee and slippage
+5. **Momentum Exception**: Market orders ONLY in exceptional momentum
+</execution_rules>
+
+<task>
+Generate complete trading strategy in required JSON format with precise entry, target, stop-loss levels, with concise reasoning based on provided data and mission.
+</task>
+```
+
+## Trading Principles (고정 + 동적)
+
+### 📌 FIXED SECTION (변경 불가)
+
+**System Architecture:**
+1. Phase 1 (Scan): Analyze market regime, select strategy, find candidates
+2. Phase 2 (Select): Deep-dive on candidates to choose single best coin
+3. Phase 3 (Strategize): Formulate precise entry, target, stop-loss plan
+4. Phase 4 (Execute): Place orders and monitor automatically
+5. Phase 5 (Evolve): Analyze result and update Dynamic Rules
+
+**※ BTC market condition is the highest priority variable**
+
+### 📊 DYNAMIC SECTION (AI가 지속 업데이트)
+
+**Market State Analysis:**
+- ⚠️ Overheat Filter: If coin's 1h volume > 200% average, avoid entry
+- 🟡 BTC Weakness Filter: If BTC 1h change < -0.5%, pause new longs
+
+**Position Sizing:**
+- Market Trend Multiplier: BULL: 100%, SIDEWAYS: 60%, BEAR: 30%
+
+**Core Strategy DOs & DON'Ts:**
+
+🟢 **DO THIS:**
+1. Analyze Market Regime to select best strategy from playbook
+2. Find setups perfectly matching chosen strategy signals
+3. (Updated by AI based on experience)
+
+🔴 **DON'T DO THIS:**
+1. Strategy Mismatch: Never use Momentum in BEAR market
+2. Chasing Pumps: Never chase coin already +5% in last hour
+3. Unconfirmed Moves: Ignore price action without volume
+
+**Exit Rules:**
+- Stop-Loss: At price structurally invalidating strategy thesis
+- Take-Profit: Minimum 1:2 R:R targeting major resistance
+- Early Exit: If momentum dies, exit at entry to preserve capital
+
+**⚡ Quick Decision Checklist:**
+- □ Market-Strategy Fit: Is chosen strategy appropriate? (If NO → CANCEL)
+- □ Signal Confirmation: Are signals clear with volume? (If NO → CANCEL)
+- □ High R:R Setup: Is Risk:Reward at least 1:2? (If NO → CANCEL)
+
+## GPT-5 설정 매트릭스
+
+| Phase | 추론 깊이 | 출력 크기 | 목적 |
+|-------|----------|----------|------|
+| Phase 1 | Medium | Low | 빠른 스캔 |
+| Phase 2 | High | Low | 깊은 분석 |
+| Phase 3 | High | Medium | 정밀 전략 |
+| Phase 4 | - | - | 자동 실행 |
+| Phase 5 | High | Medium | 원칙 생성 |
+
+## 주요 검증 포인트
+
+1. **BTC 의존도**: 모든 알트코인 거래는 BTC 상태를 최우선 고려
+2. **전략-시장 정합성**: 선택된 전략이 현재 시장 체제와 일치하는지
+3. **기술적 확인**: 차트 패턴과 거래량 확인이 충분한지
+4. **리스크 관리**: Risk:Reward 최소 1:2, 이상적으로 1:3 이상
+5. **시장 맥락**: 당시 뉴스, 이벤트, 시장 심리 고려
+
+## 검증 방법론
+
+### 1단계: 시장 데이터 수집
+- 해당 시점의 BTC 및 알트코인 실제 데이터
+- 거래량, 변동성, 기술 지표 확인
+- 주요 뉴스 및 이벤트 파악
+
+### 2단계: Phase별 분석
+- 각 Phase의 AI 판단 근거 검토
+- 당시 가용 데이터 기준 평가
+- 대안 시나리오 검토
+
+### 3단계: 종합 평가
+- 전체 거래 사이클의 일관성
+- 놓친 기회 비용 분석
+- 개선 가능 영역 식별
+
+### 4단계: 피드백 생성
+- 구체적 개선 제안
+- Dynamic Rules 업데이트 권고
+- 유사 상황 대응 전략

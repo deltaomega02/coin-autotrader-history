@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.env copy
+
+# Log files
+logs/
+
+# Other
+omni/data/upbit_client copy.py
+omni/ai/gpt_client_ver*.py

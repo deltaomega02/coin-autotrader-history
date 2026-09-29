@@ -1,0 +1,15 @@
+[Unit]
+Description=METIS v4 BTC spot SMA125 trend bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=YOUR_SERVICE_USER
+WorkingDirectory=YOUR_HOME_DIR/metis-v4
+ExecStart=YOUR_HOME_DIR/metis-v4/run_bot.sh
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

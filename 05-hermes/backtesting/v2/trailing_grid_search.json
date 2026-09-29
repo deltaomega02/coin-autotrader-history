@@ -1,0 +1,705 @@
+[
+  {
+    "activation": 3.0,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 2486,
+    "wins": 965,
+    "win_rate": 38.8,
+    "total_pnl": 2719.64,
+    "return_pct": 906.5,
+    "max_dd": 42.4,
+    "reasons": {
+      "TRAILING": 824,
+      "SL": 1521,
+      "TP": 141
+    }
+  },
+  {
+    "activation": 2.0,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 3051,
+    "wins": 1440,
+    "win_rate": 47.2,
+    "total_pnl": 2299.82,
+    "return_pct": 766.6,
+    "max_dd": 47.2,
+    "reasons": {
+      "TRAILING": 1352,
+      "SL": 1614,
+      "TP": 85
+    }
+  },
+  {
+    "activation": 5.0,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 1984,
+    "wins": 600,
+    "win_rate": 30.2,
+    "total_pnl": 2219.11,
+    "return_pct": 739.7,
+    "max_dd": 47.0,
+    "reasons": {
+      "TRAILING": 337,
+      "SL": 1384,
+      "TP": 263
+    }
+  },
+  {
+    "activation": 4.0,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 2154,
+    "wins": 717,
+    "win_rate": 33.3,
+    "total_pnl": 1985.33,
+    "return_pct": 661.8,
+    "max_dd": 42.6,
+    "reasons": {
+      "TRAILING": 502,
+      "SL": 1437,
+      "TP": 215
+    }
+  },
+  {
+    "activation": 6.0,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 1877,
+    "wins": 528,
+    "win_rate": 28.1,
+    "total_pnl": 1848.17,
+    "return_pct": 616.1,
+    "max_dd": 51.6,
+    "reasons": {
+      "TP": 314,
+      "SL": 1350,
+      "TRAILING": 213
+    }
+  },
+  {
+    "activation": 1.5,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 3493,
+    "wins": 1855,
+    "win_rate": 53.1,
+    "total_pnl": 1716.63,
+    "return_pct": 572.2,
+    "max_dd": 43.1,
+    "reasons": {
+      "TRAILING": 1788,
+      "SL": 1644,
+      "TP": 61
+    }
+  },
+  {
+    "activation": 8.0,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 1767,
+    "wins": 465,
+    "win_rate": 26.3,
+    "total_pnl": 1622.63,
+    "return_pct": 540.9,
+    "max_dd": 49.2,
+    "reasons": {
+      "TP": 371,
+      "SL": 1302,
+      "TRAILING": 94
+    }
+  },
+  {
+    "activation": 0,
+    "distance": 0,
+    "use_trailing": false,
+    "total_trades": 1688,
+    "wins": 427,
+    "win_rate": 25.3,
+    "total_pnl": 1512.62,
+    "return_pct": 504.2,
+    "max_dd": 49.7,
+    "reasons": {
+      "TP": 427,
+      "SL": 1261
+    }
+  },
+  {
+    "activation": 8.0,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 1767,
+    "wins": 465,
+    "win_rate": 26.3,
+    "total_pnl": 1508.1,
+    "return_pct": 502.7,
+    "max_dd": 49.8,
+    "reasons": {
+      "TP": 371,
+      "SL": 1302,
+      "TRAILING": 94
+    }
+  },
+  {
+    "activation": 5.0,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 1984,
+    "wins": 600,
+    "win_rate": 30.2,
+    "total_pnl": 1484.93,
+    "return_pct": 495.0,
+    "max_dd": 51.0,
+    "reasons": {
+      "TRAILING": 332,
+      "SL": 1388,
+      "TP": 264
+    }
+  },
+  {
+    "activation": 6.0,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 1877,
+    "wins": 528,
+    "win_rate": 28.1,
+    "total_pnl": 1469.12,
+    "return_pct": 489.7,
+    "max_dd": 52.7,
+    "reasons": {
+      "TP": 314,
+      "SL": 1350,
+      "TRAILING": 213
+    }
+  },
+  {
+    "activation": 15.0,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 1699,
+    "wins": 429,
+    "win_rate": 25.3,
+    "total_pnl": 1462.36,
+    "return_pct": 487.5,
+    "max_dd": 48.1,
+    "reasons": {
+      "TP": 422,
+      "SL": 1270,
+      "TRAILING": 7
+    }
+  },
+  {
+    "activation": 15.0,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 1699,
+    "wins": 429,
+    "win_rate": 25.3,
+    "total_pnl": 1456.08,
+    "return_pct": 485.4,
+    "max_dd": 48.2,
+    "reasons": {
+      "TP": 422,
+      "SL": 1270,
+      "TRAILING": 7
+    }
+  },
+  {
+    "activation": 15.0,
+    "distance": 1.5,
+    "use_trailing": true,
+    "total_trades": 1699,
+    "wins": 429,
+    "win_rate": 25.3,
+    "total_pnl": 1449.81,
+    "return_pct": 483.3,
+    "max_dd": 48.3,
+    "reasons": {
+      "TP": 422,
+      "SL": 1270,
+      "TRAILING": 7
+    }
+  },
+  {
+    "activation": 15.0,
+    "distance": 2.0,
+    "use_trailing": true,
+    "total_trades": 1699,
+    "wins": 429,
+    "win_rate": 25.3,
+    "total_pnl": 1446.08,
+    "return_pct": 482.0,
+    "max_dd": 48.4,
+    "reasons": {
+      "TP": 422,
+      "SL": 1270,
+      "TRAILING": 7
+    }
+  },
+  {
+    "activation": 10.0,
+    "distance": 0.5,
+    "use_trailing": true,
+    "total_trades": 1722,
+    "wins": 440,
+    "win_rate": 25.6,
+    "total_pnl": 1445.69,
+    "return_pct": 481.9,
+    "max_dd": 47.4,
+    "reasons": {
+      "TP": 400,
+      "SL": 1282,
+      "TRAILING": 40
+    }
+  },
+  {
+    "activation": 15.0,
+    "distance": 3.0,
+    "use_trailing": true,
+    "total_trades": 1699,
+    "wins": 429,
+    "win_rate": 25.3,
+    "total_pnl": 1437.42,
+    "return_pct": 479.1,
+    "max_dd": 48.6,
+    "reasons": {
+      "TP": 422,
+      "SL": 1273,
+      "TRAILING": 4
+    }
+  },
+  {
+    "activation": 15.0,
+    "distance": 5.0,
+    "use_trailing": true,
+    "total_trades": 1697,
+    "wins": 429,
+    "win_rate": 25.3,
+    "total_pnl": 1431.23,
+    "return_pct": 477.1,
+    "max_dd": 48.3,
+    "reasons": {
+      "TP": 423,
+      "SL": 1271,
+      "TRAILING": 3
+    }
+  },
+  {
+    "activation": 8.0,
+    "distance": 1.5,
+    "use_trailing": true,
+    "total_trades": 1767,
+    "wins": 465,
+    "win_rate": 26.3,
+    "total_pnl": 1402.92,
+    "return_pct": 467.6,
+    "max_dd": 50.3,
+    "reasons": {
+      "TP": 371,
+      "SL": 1305,
+      "TRAILING": 91
+    }
+  },
+  {
+    "activation": 10.0,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 1722,
+    "wins": 440,
+    "win_rate": 25.6,
+    "total_pnl": 1401.84,
+    "return_pct": 467.3,
+    "max_dd": 47.4,
+    "reasons": {
+      "TP": 400,
+      "SL": 1282,
+      "TRAILING": 40
+    }
+  },
+  {
+    "activation": 10.0,
+    "distance": 1.5,
+    "use_trailing": true,
+    "total_trades": 1722,
+    "wins": 440,
+    "win_rate": 25.6,
+    "total_pnl": 1359.62,
+    "return_pct": 453.2,
+    "max_dd": 48.0,
+    "reasons": {
+      "TP": 400,
+      "SL": 1282,
+      "TRAILING": 40
+    }
+  },
+  {
+    "activation": 6.0,
+    "distance": 1.5,
+    "use_trailing": true,
+    "total_trades": 1879,
+    "wins": 531,
+    "win_rate": 28.3,
+    "total_pnl": 1337.21,
+    "return_pct": 445.7,
+    "max_dd": 50.8,
+    "reasons": {
+      "TP": 321,
+      "SL": 1357,
+      "TRAILING": 201
+    }
+  },
+  {
+    "activation": 10.0,
+    "distance": 5.0,
+    "use_trailing": true,
+    "total_trades": 1722,
+    "wins": 440,
+    "win_rate": 25.6,
+    "total_pnl": 1333.01,
+    "return_pct": 444.3,
+    "max_dd": 50.3,
+    "reasons": {
+      "TP": 411,
+      "SL": 1293,
+      "TRAILING": 18
+    }
+  },
+  {
+    "activation": 8.0,
+    "distance": 2.0,
+    "use_trailing": true,
+    "total_trades": 1769,
+    "wins": 465,
+    "win_rate": 26.3,
+    "total_pnl": 1321.66,
+    "return_pct": 440.6,
+    "max_dd": 50.3,
+    "reasons": {
+      "TP": 375,
+      "SL": 1312,
+      "TRAILING": 82
+    }
+  },
+  {
+    "activation": 10.0,
+    "distance": 2.0,
+    "use_trailing": true,
+    "total_trades": 1722,
+    "wins": 440,
+    "win_rate": 25.6,
+    "total_pnl": 1318.84,
+    "return_pct": 439.6,
+    "max_dd": 48.6,
+    "reasons": {
+      "TP": 400,
+      "SL": 1283,
+      "TRAILING": 39
+    }
+  },
+  {
+    "activation": 10.0,
+    "distance": 3.0,
+    "use_trailing": true,
+    "total_trades": 1722,
+    "wins": 440,
+    "win_rate": 25.6,
+    "total_pnl": 1265.18,
+    "return_pct": 421.7,
+    "max_dd": 49.1,
+    "reasons": {
+      "TP": 401,
+      "SL": 1287,
+      "TRAILING": 34
+    }
+  },
+  {
+    "activation": 8.0,
+    "distance": 3.0,
+    "use_trailing": true,
+    "total_trades": 1762,
+    "wins": 465,
+    "win_rate": 26.4,
+    "total_pnl": 1254.32,
+    "return_pct": 418.1,
+    "max_dd": 49.6,
+    "reasons": {
+      "TP": 382,
+      "SL": 1316,
+      "TRAILING": 64
+    }
+  },
+  {
+    "activation": 8.0,
+    "distance": 5.0,
+    "use_trailing": true,
+    "total_trades": 1750,
+    "wins": 460,
+    "win_rate": 26.3,
+    "total_pnl": 1253.45,
+    "return_pct": 417.8,
+    "max_dd": 50.0,
+    "reasons": {
+      "TP": 401,
+      "SL": 1324,
+      "TRAILING": 25
+    }
+  },
+  {
+    "activation": 6.0,
+    "distance": 2.0,
+    "use_trailing": true,
+    "total_trades": 1877,
+    "wins": 530,
+    "win_rate": 28.2,
+    "total_pnl": 1154.98,
+    "return_pct": 385.0,
+    "max_dd": 54.4,
+    "reasons": {
+      "TP": 326,
+      "SL": 1372,
+      "TRAILING": 179
+    }
+  },
+  {
+    "activation": 6.0,
+    "distance": 5.0,
+    "use_trailing": true,
+    "total_trades": 1822,
+    "wins": 517,
+    "win_rate": 28.4,
+    "total_pnl": 1141.35,
+    "return_pct": 380.5,
+    "max_dd": 54.4,
+    "reasons": {
+      "TP": 387,
+      "SL": 1389,
+      "TRAILING": 46
+    }
+  },
+  {
+    "activation": 6.0,
+    "distance": 3.0,
+    "use_trailing": true,
+    "total_trades": 1865,
+    "wins": 530,
+    "win_rate": 28.4,
+    "total_pnl": 1095.54,
+    "return_pct": 365.2,
+    "max_dd": 55.2,
+    "reasons": {
+      "TP": 344,
+      "SL": 1400,
+      "TRAILING": 121
+    }
+  },
+  {
+    "activation": 5.0,
+    "distance": 1.5,
+    "use_trailing": true,
+    "total_trades": 1987,
+    "wins": 601,
+    "win_rate": 30.2,
+    "total_pnl": 1076.83,
+    "return_pct": 358.9,
+    "max_dd": 55.7,
+    "reasons": {
+      "TRAILING": 295,
+      "SL": 1415,
+      "TP": 277
+    }
+  },
+  {
+    "activation": 5.0,
+    "distance": 2.0,
+    "use_trailing": true,
+    "total_trades": 1981,
+    "wins": 602,
+    "win_rate": 30.4,
+    "total_pnl": 1001.18,
+    "return_pct": 333.7,
+    "max_dd": 57.1,
+    "reasons": {
+      "TRAILING": 253,
+      "SL": 1433,
+      "TP": 295
+    }
+  },
+  {
+    "activation": 4.0,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 2152,
+    "wins": 717,
+    "win_rate": 33.3,
+    "total_pnl": 968.53,
+    "return_pct": 322.8,
+    "max_dd": 48.6,
+    "reasons": {
+      "TRAILING": 491,
+      "SL": 1444,
+      "TP": 217
+    }
+  },
+  {
+    "activation": 5.0,
+    "distance": 3.0,
+    "use_trailing": true,
+    "total_trades": 1944,
+    "wins": 591,
+    "win_rate": 30.4,
+    "total_pnl": 935.98,
+    "return_pct": 312.0,
+    "max_dd": 55.3,
+    "reasons": {
+      "SL": 1454,
+      "TRAILING": 163,
+      "TP": 327
+    }
+  },
+  {
+    "activation": 3.0,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 2482,
+    "wins": 962,
+    "win_rate": 38.8,
+    "total_pnl": 648.73,
+    "return_pct": 216.2,
+    "max_dd": 57.7,
+    "reasons": {
+      "TRAILING": 785,
+      "SL": 1552,
+      "TP": 145
+    }
+  },
+  {
+    "activation": 4.0,
+    "distance": 3.0,
+    "use_trailing": true,
+    "total_trades": 2059,
+    "wins": 691,
+    "win_rate": 33.6,
+    "total_pnl": 640.37,
+    "return_pct": 213.5,
+    "max_dd": 60.2,
+    "reasons": {
+      "SL": 1545,
+      "TRAILING": 208,
+      "TP": 306
+    }
+  },
+  {
+    "activation": 4.0,
+    "distance": 1.5,
+    "use_trailing": true,
+    "total_trades": 2149,
+    "wins": 719,
+    "win_rate": 33.5,
+    "total_pnl": 626.41,
+    "return_pct": 208.8,
+    "max_dd": 52.6,
+    "reasons": {
+      "TRAILING": 438,
+      "SL": 1470,
+      "TP": 241
+    }
+  },
+  {
+    "activation": 4.0,
+    "distance": 2.0,
+    "use_trailing": true,
+    "total_trades": 2130,
+    "wins": 715,
+    "win_rate": 33.6,
+    "total_pnl": 566.77,
+    "return_pct": 188.9,
+    "max_dd": 58.2,
+    "reasons": {
+      "TRAILING": 352,
+      "SL": 1515,
+      "TP": 263
+    }
+  },
+  {
+    "activation": 3.0,
+    "distance": 1.5,
+    "use_trailing": true,
+    "total_trades": 2464,
+    "wins": 954,
+    "win_rate": 38.7,
+    "total_pnl": 17.17,
+    "return_pct": 5.7,
+    "max_dd": 73.3,
+    "reasons": {
+      "TRAILING": 659,
+      "SL": 1629,
+      "TP": 176
+    }
+  },
+  {
+    "activation": 3.0,
+    "distance": 2.0,
+    "use_trailing": true,
+    "total_trades": 2409,
+    "wins": 940,
+    "win_rate": 39.0,
+    "total_pnl": -129.93,
+    "return_pct": -43.3,
+    "max_dd": 75.9,
+    "reasons": {
+      "TRAILING": 525,
+      "SL": 1677,
+      "TP": 207
+    }
+  },
+  {
+    "activation": 2.0,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 3045,
+    "wins": 1437,
+    "win_rate": 47.2,
+    "total_pnl": -175.92,
+    "return_pct": -58.6,
+    "max_dd": 73.9,
+    "reasons": {
+      "TRAILING": 1294,
+      "SL": 1662,
+      "TP": 89
+    }
+  },
+  {
+    "activation": 1.5,
+    "distance": 1.0,
+    "use_trailing": true,
+    "total_trades": 3468,
+    "wins": 1834,
+    "win_rate": 52.9,
+    "total_pnl": -532.6,
+    "return_pct": -177.5,
+    "max_dd": 84.9,
+    "reasons": {
+      "TRAILING": 1652,
+      "SL": 1747,
+      "TP": 69
+    }
+  },
+  {
+    "activation": 2.0,
+    "distance": 1.5,
+    "use_trailing": true,
+    "total_trades": 2976,
+    "wins": 1418,
+    "win_rate": 47.6,
+    "total_pnl": -572.94,
+    "return_pct": -191.0,
+    "max_dd": 90.1,
+    "reasons": {
+      "TRAILING": 1059,
+      "SL": 1797,
+      "TP": 120
+    }
+  }
+]

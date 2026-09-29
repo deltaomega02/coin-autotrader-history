@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-04-12T12:51:20.493269",
+  "config": {
+    "seed": 600.0,
+    "params": {
+      "ema_fast": 5,
+      "ema_slow": 18,
+      "rsi_period": 14,
+      "rsi_oversold": 35,
+      "rsi_overbought": 65,
+      "pullback_ema_dist_pct": 1.5,
+      "sl_atr_mult": 1.5,
+      "tp_rr_ratio": 4.0,
+      "entry_score_threshold": 40,
+      "adx_enter_trending": 35,
+      "adx_exit_trending": 20,
+      "atr_high_vol_percentile": 85,
+      "orderbook_imbalance_min": 0.55,
+      "funding_bias_threshold": 0.0005
+    },
+    "trailing": {
+      "activation": 1.5,
+      "distance": 0.3
+    },
+    "daily_cost_usd": 0.7823,
+    "skip_years": [
+      2023
+    ]
+  },
+  "A_현재시스템": {
+    "cooldown": "2연패→60분, 3연패→당일중단",
+    "final_balance": 17028.69,
+    "net_profit": 16428.69,
+    "net_pct": 2738.1,
+    "max_dd": 28.0,
+    "ruined": false,
+    "ruin_date": null,
+    "total_trades": 2262,
+    "wins": 1230,
+    "win_rate": 54.4,
+    "skipped_years": [
+      2023
+    ],
+    "yearly": {
+      "2022": {
+        "trades": 739,
+        "wins": 424,
+        "pnl": 1471.02
+      },
+      "2023": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -15.73
+      },
+      "2024": {
+        "trades": 707,
+        "wins": 387,
+        "pnl": 4415.7
+      },
+      "2025": {
+        "trades": 602,
+        "wins": 304,
+        "pnl": 3514.81
+      },
+      "2026": {
+        "trades": 213,
+        "wins": 115,
+        "pnl": 8263.3
+      }
+    },
+    "year_end_balance": {
+      "2022": 1786.26,
+      "2023": 1484.98,
+      "2024": 5614.36,
+      "2025": 8843.63,
+      "2026": 17028.69
+    }
+  },
+  "B_쿨다운제거": {
+    "cooldown": "없음",
+    "final_balance": 36616.65,
+    "net_profit": 36016.65,
+    "net_pct": 6002.8,
+    "max_dd": 26.8,
+    "ruined": false,
+    "ruin_date": null,
+    "total_trades": 2573,
+    "wins": 1390,
+    "win_rate": 54.0,
+    "skipped_years": [
+      2023
+    ],
+    "yearly": {
+      "2022": {
+        "trades": 802,
+        "wins": 461,
+        "pnl": 1809.63
+      },
+      "2023": {
+        "trades": 1,
+        "wins": 0,
+        "pnl": -18.71
+      },
+      "2024": {
+        "trades": 790,
+        "wins": 431,
+        "pnl": 8743.42
+      },
+      "2025": {
+        "trades": 739,
+        "wins": 372,
+        "pnl": 10509.88
+      },
+      "2026": {
+        "trades": 241,
+        "wins": 126,
+        "pnl": 16192.85
+      }
+    },
+    "year_end_balance": {
+      "2022": 2124.87,
+      "2023": 1820.61,
+      "2024": 10277.7,
+      "2025": 20502.03,
+      "2026": 36616.65
+    }
+  }
+}

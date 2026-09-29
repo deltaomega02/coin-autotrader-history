@@ -1,0 +1,387 @@
+[
+  {
+    "name": "1위_EMA5_18_ADX35_PB1.5",
+    "params": {
+      "ema_fast": 5,
+      "ema_slow": 18,
+      "rsi_period": 14,
+      "rsi_oversold": 35,
+      "rsi_overbought": 65,
+      "pullback_ema_dist_pct": 1.5,
+      "sl_atr_mult": 1.5,
+      "tp_rr_ratio": 4.0,
+      "entry_score_threshold": 40,
+      "adx_enter_trending": 35,
+      "adx_exit_trending": 20,
+      "atr_high_vol_percentile": 85,
+      "orderbook_imbalance_min": 0.55,
+      "funding_bias_threshold": 0.0005
+    },
+    "total_trades": 3481,
+    "wins": 1842,
+    "win_rate": 52.9,
+    "total_pnl": -376.4,
+    "final_balance": -76.4,
+    "return_pct": -125.5,
+    "max_dd": 139.3,
+    "total_fees": 707.56,
+    "reason_stats": {
+      "TRAILING": {
+        "count": 1697,
+        "pnl": 3392.6595589074846,
+        "wins": 1697
+      },
+      "SL": {
+        "count": 1716,
+        "pnl": -4262.587490073843,
+        "wins": 77
+      },
+      "TP": {
+        "count": 68,
+        "pnl": 493.53018106688535,
+        "wins": 68
+      }
+    },
+    "yearly": {
+      "2022": {
+        "trades": 891,
+        "wins": 519,
+        "pnl": -31.831064561829574
+      },
+      "2023": {
+        "trades": 723,
+        "wins": 315,
+        "pnl": -251.30637141993228
+      },
+      "2024": {
+        "trades": 842,
+        "wins": 465,
+        "pnl": -70.483208407077
+      },
+      "2025": {
+        "trades": 767,
+        "wins": 403,
+        "pnl": -85.43957158990015
+      },
+      "2026": {
+        "trades": 258,
+        "wins": 140,
+        "pnl": 62.66246587925958
+      }
+    },
+    "long_trades": 1216,
+    "long_wins": 571,
+    "long_pnl": -333.49,
+    "short_trades": 2265,
+    "short_wins": 1271,
+    "short_pnl": -42.9
+  },
+  {
+    "name": "2위_EMA5_18_ADX35_PB2.0",
+    "params": {
+      "ema_fast": 5,
+      "ema_slow": 18,
+      "rsi_period": 14,
+      "rsi_oversold": 35,
+      "rsi_overbought": 65,
+      "pullback_ema_dist_pct": 2.0,
+      "sl_atr_mult": 1.5,
+      "tp_rr_ratio": 4.0,
+      "entry_score_threshold": 40,
+      "adx_enter_trending": 35,
+      "adx_exit_trending": 20,
+      "atr_high_vol_percentile": 85,
+      "orderbook_imbalance_min": 0.55,
+      "funding_bias_threshold": 0.0005
+    },
+    "total_trades": 3489,
+    "wins": 1848,
+    "win_rate": 53.0,
+    "total_pnl": -374.72,
+    "final_balance": -74.72,
+    "return_pct": -124.9,
+    "max_dd": 138.2,
+    "total_fees": 710.69,
+    "reason_stats": {
+      "TRAILING": {
+        "count": 1703,
+        "pnl": 3411.833325773261,
+        "wins": 1703
+      },
+      "SL": {
+        "count": 1718,
+        "pnl": -4281.31594746022,
+        "wins": 77
+      },
+      "TP": {
+        "count": 68,
+        "pnl": 494.7626597984062,
+        "wins": 68
+      }
+    },
+    "yearly": {
+      "2022": {
+        "trades": 897,
+        "wins": 523,
+        "pnl": -33.39763919872918
+      },
+      "2023": {
+        "trades": 723,
+        "wins": 315,
+        "pnl": -253.0333958056721
+      },
+      "2024": {
+        "trades": 843,
+        "wins": 466,
+        "pnl": -68.4274002623399
+      },
+      "2025": {
+        "trades": 768,
+        "wins": 404,
+        "pnl": -82.55451789668054
+      },
+      "2026": {
+        "trades": 258,
+        "wins": 140,
+        "pnl": 62.69299127485591
+      }
+    },
+    "long_trades": 1218,
+    "long_wins": 572,
+    "long_pnl": -338.59,
+    "short_trades": 2271,
+    "short_wins": 1276,
+    "short_pnl": -36.13
+  },
+  {
+    "name": "3위_EMA5_15_ADX25_PB1.5",
+    "params": {
+      "ema_fast": 5,
+      "ema_slow": 15,
+      "rsi_period": 14,
+      "rsi_oversold": 35,
+      "rsi_overbought": 65,
+      "pullback_ema_dist_pct": 1.5,
+      "sl_atr_mult": 1.5,
+      "tp_rr_ratio": 4.0,
+      "entry_score_threshold": 40,
+      "adx_enter_trending": 25,
+      "adx_exit_trending": 20,
+      "atr_high_vol_percentile": 85,
+      "orderbook_imbalance_min": 0.55,
+      "funding_bias_threshold": 0.0005
+    },
+    "total_trades": 4096,
+    "wins": 2144,
+    "win_rate": 52.3,
+    "total_pnl": -474.03,
+    "final_balance": -174.03,
+    "return_pct": -158.0,
+    "max_dd": 161.2,
+    "total_fees": 761.45,
+    "reason_stats": {
+      "TRAILING": {
+        "count": 1973,
+        "pnl": 3704.631651183125,
+        "wins": 1973
+      },
+      "SL": {
+        "count": 2049,
+        "pnl": -4651.111610838615,
+        "wins": 97
+      },
+      "TP": {
+        "count": 74,
+        "pnl": 472.45293491225675,
+        "wins": 74
+      }
+    },
+    "yearly": {
+      "2022": {
+        "trades": 1053,
+        "wins": 608,
+        "pnl": -60.08976443552995
+      },
+      "2023": {
+        "trades": 861,
+        "wins": 375,
+        "pnl": -265.1255999800869
+      },
+      "2024": {
+        "trades": 956,
+        "wins": 525,
+        "pnl": -73.51050605087858
+      },
+      "2025": {
+        "trades": 938,
+        "wins": 482,
+        "pnl": -129.07660922598689
+      },
+      "2026": {
+        "trades": 288,
+        "wins": 154,
+        "pnl": 53.775454949245
+      }
+    },
+    "long_trades": 1464,
+    "long_wins": 694,
+    "long_pnl": -323.09,
+    "short_trades": 2632,
+    "short_wins": 1450,
+    "short_pnl": -150.94
+  },
+  {
+    "name": "4위_EMA7_21_ADX25_PB1.0",
+    "params": {
+      "ema_fast": 7,
+      "ema_slow": 21,
+      "rsi_period": 14,
+      "rsi_oversold": 35,
+      "rsi_overbought": 65,
+      "pullback_ema_dist_pct": 1.0,
+      "sl_atr_mult": 2.0,
+      "tp_rr_ratio": 4.0,
+      "entry_score_threshold": 40,
+      "adx_enter_trending": 25,
+      "adx_exit_trending": 20,
+      "atr_high_vol_percentile": 85,
+      "orderbook_imbalance_min": 0.55,
+      "funding_bias_threshold": 0.0005
+    },
+    "total_trades": 3393,
+    "wins": 1966,
+    "win_rate": 57.9,
+    "total_pnl": -507.51,
+    "final_balance": -207.51,
+    "return_pct": -169.2,
+    "max_dd": 173.8,
+    "total_fees": 442.8,
+    "reason_stats": {
+      "TRAILING": {
+        "count": 1852,
+        "pnl": 2537.3407239805765,
+        "wins": 1852
+      },
+      "SL": {
+        "count": 1516,
+        "pnl": -3201.7968276807514,
+        "wins": 89
+      },
+      "TP": {
+        "count": 25,
+        "pnl": 156.9458528551135,
+        "wins": 25
+      }
+    },
+    "yearly": {
+      "2022": {
+        "trades": 870,
+        "wins": 544,
+        "pnl": -152.02653779504388
+      },
+      "2023": {
+        "trades": 713,
+        "wins": 346,
+        "pnl": -217.99887637118823
+      },
+      "2024": {
+        "trades": 814,
+        "wins": 494,
+        "pnl": -85.92699023705838
+      },
+      "2025": {
+        "trades": 780,
+        "wins": 448,
+        "pnl": -93.02551871909692
+      },
+      "2026": {
+        "trades": 216,
+        "wins": 134,
+        "pnl": 41.4676722773309
+      }
+    },
+    "long_trades": 1205,
+    "long_wins": 632,
+    "long_pnl": -303.58,
+    "short_trades": 2188,
+    "short_wins": 1334,
+    "short_pnl": -203.93
+  },
+  {
+    "name": "5위_기존시스템",
+    "params": {
+      "ema_fast": 9,
+      "ema_slow": 21,
+      "rsi_period": 14,
+      "rsi_oversold": 35,
+      "rsi_overbought": 65,
+      "pullback_ema_dist_pct": 1.0,
+      "sl_atr_mult": 1.5,
+      "tp_rr_ratio": 2.5,
+      "entry_score_threshold": 60,
+      "adx_enter_trending": 25,
+      "adx_exit_trending": 20,
+      "atr_high_vol_percentile": 85,
+      "orderbook_imbalance_min": 0.55,
+      "funding_bias_threshold": 0.0005
+    },
+    "total_trades": 2889,
+    "wins": 1408,
+    "win_rate": 48.7,
+    "total_pnl": -609.56,
+    "final_balance": -309.56,
+    "return_pct": -203.2,
+    "max_dd": 189.2,
+    "total_fees": 513.9,
+    "reason_stats": {
+      "TP": {
+        "count": 239,
+        "pnl": 1002.6949163045163,
+        "wins": 239
+      },
+      "TRAILING": {
+        "count": 1091,
+        "pnl": 1492.20423932237,
+        "wins": 1091
+      },
+      "SL": {
+        "count": 1559,
+        "pnl": -3104.4544200032014,
+        "wins": 78
+      }
+    },
+    "yearly": {
+      "2022": {
+        "trades": 701,
+        "wins": 377,
+        "pnl": -165.07034780275185
+      },
+      "2023": {
+        "trades": 636,
+        "wins": 242,
+        "pnl": -298.330649555894
+      },
+      "2024": {
+        "trades": 698,
+        "wins": 364,
+        "pnl": -68.80073095262765
+      },
+      "2025": {
+        "trades": 660,
+        "wins": 324,
+        "pnl": -82.69000811007378
+      },
+      "2026": {
+        "trades": 194,
+        "wins": 101,
+        "pnl": 5.336472045025128
+      }
+    },
+    "long_trades": 1087,
+    "long_wins": 493,
+    "long_pnl": -227.61,
+    "short_trades": 1802,
+    "short_wins": 915,
+    "short_pnl": -381.94
+  }
+]

@@ -1,0 +1,2415 @@
+{
+  "robust_top20": [],
+  "realistic_top20": [
+    {
+      "cfg_hash": "v7_baseline",
+      "cfg": {
+        "ema_fast": 5,
+        "ema_slow": 18,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.55,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.1,
+        "risk_per_trade": 0.015,
+        "max_leverage": 7,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "cfg_hash": "v7_baseline"
+      },
+      "tier": "B",
+      "base_profit": 221393,
+      "base_dd": 51.7,
+      "base_trades": null,
+      "base_wr": null,
+      "base_calmar": 4282,
+      "base_long_wr": null,
+      "base_short_wr": null,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 2396.86,
+            "dd": 51.7,
+            "trades": 2526,
+            "wr": 58.1,
+            "ruined": false,
+            "final_bal": 2976.86
+          },
+          "test": {
+            "profit": 61368.46,
+            "dd": 57.6,
+            "trades": 4066,
+            "wr": 53.8,
+            "ruined": false,
+            "final_bal": 61948.46
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 2149.88,
+            "dd": 51.7,
+            "trades": 2528,
+            "wr": 58.1,
+            "ruined": false,
+            "final_bal": 2729.88
+          },
+          "test": {
+            "profit": 36396.17,
+            "dd": 29.1,
+            "trades": 2889,
+            "wr": 55.8,
+            "ruined": false,
+            "final_bal": 36976.17
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 4269.77,
+            "dd": 32.8,
+            "trades": 2214,
+            "wr": 59.9,
+            "ruined": false,
+            "final_bal": 4849.77
+          },
+          "test": {
+            "profit": 36396.17,
+            "dd": 29.1,
+            "trades": 2889,
+            "wr": 55.8,
+            "ruined": false,
+            "final_bal": 36976.17
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 24931.29,
+            "dd": 51.7,
+            "trades": 3798,
+            "wr": 57.5,
+            "ruined": false,
+            "final_bal": 25511.29
+          },
+          "test": {
+            "profit": 2624.43,
+            "dd": 31.5,
+            "trades": 1622,
+            "wr": 55.4,
+            "ruined": false,
+            "final_bal": 3204.43
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 2624.0,
+      "wf_max_dd": 57.6,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 63.54,
+        "dd": 4.4,
+        "trades": 19,
+        "wr": 57.9,
+        "ruined": false,
+        "final_bal": 643.54
+      },
+      "score_realistic": 8349.9,
+      "score_maxret": 221393,
+      "score_wfrobust": 21491.81,
+      "mc": {
+        "ruin_rate": 0.78,
+        "n_iter": 300,
+        "median": 236287.0,
+        "p25": 199795.0,
+        "p75": 274204.0,
+        "p10": 161722.0,
+        "p90": 290753.0,
+        "worst": 104388.0,
+        "best": 346991.0
+      },
+      "ptier": "A",
+      "ruin": 0.78,
+      "mc_median": 236287.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 2624.43,
+      "oos_p_fl": 63.54
+    }
+  ],
+  "best_mc_top20": [
+    {
+      "cfg_hash": "f4bf896f82",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.5,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 802828704999.82,
+      "base_dd": 56.3,
+      "base_trades": 6737,
+      "base_wr": 58.0,
+      "base_calmar": 14259834902.31,
+      "base_long_wr": 54.8,
+      "base_short_wr": 60.6,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 2262980.17,
+            "dd": 56.3,
+            "trades": 3159,
+            "wr": 58.9,
+            "ruined": false,
+            "final_bal": 2263560.17
+          },
+          "test": {
+            "profit": 2877614542.11,
+            "dd": 45.8,
+            "trades": 5059,
+            "wr": 55.0,
+            "ruined": false,
+            "final_bal": 2877615122.11
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 2298169.9,
+            "dd": 56.3,
+            "trades": 3161,
+            "wr": 58.9,
+            "ruined": false,
+            "final_bal": 2298749.9
+          },
+          "test": {
+            "profit": 218327306.24,
+            "dd": 42.1,
+            "trades": 3569,
+            "wr": 57.4,
+            "ruined": false,
+            "final_bal": 218327886.24
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 2079426.28,
+            "dd": 56.3,
+            "trades": 2767,
+            "wr": 60.4,
+            "ruined": false,
+            "final_bal": 2080006.28
+          },
+          "test": {
+            "profit": 218327306.24,
+            "dd": 42.1,
+            "trades": 3569,
+            "wr": 57.4,
+            "ruined": false,
+            "final_bal": 218327886.24
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 1266029520.4,
+            "dd": 56.3,
+            "trades": 4691,
+            "wr": 58.7,
+            "ruined": false,
+            "final_bal": 1266030100.4
+          },
+          "test": {
+            "profit": 229429.72,
+            "dd": 42.3,
+            "trades": 2037,
+            "wr": 56.3,
+            "ruined": false,
+            "final_bal": 230009.72
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 229430.0,
+      "wf_max_dd": 45.8,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 205.87,
+        "dd": 7.8,
+        "trades": 25,
+        "wr": 64.0,
+        "ruined": false,
+        "final_bal": 785.87
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 802828704999.82,
+      "score_wfrobust": 74898755.54,
+      "mc": {
+        "ruin_rate": 0.947,
+        "n_iter": 300,
+        "median": 845981350167.0,
+        "p25": 776497687050.0,
+        "p75": 940389244162.0,
+        "p10": 511629769625.0,
+        "p90": 1257247036310.0,
+        "worst": 211934291234.0,
+        "best": 1375748700996.0
+      },
+      "ptier": "C",
+      "ruin": 0.947,
+      "mc_median": 845981350167.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 229429.72,
+      "oos_p_fl": 205.87
+    },
+    {
+      "cfg_hash": "4f2083704f",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 2.0,
+        "adx_enter_trending": 27,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "tier": "C",
+      "base_profit": 231577714996.74,
+      "base_dd": 52.7,
+      "base_trades": 6707,
+      "base_wr": 58.3,
+      "base_calmar": 4394264041.68,
+      "base_long_wr": 55.0,
+      "base_short_wr": 60.9,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 3986873.11,
+            "dd": 52.7,
+            "trades": 3166,
+            "wr": 59.6,
+            "ruined": false,
+            "final_bal": 3987453.11
+          },
+          "test": {
+            "profit": 153590594.16,
+            "dd": 62.7,
+            "trades": 5045,
+            "wr": 54.7,
+            "ruined": false,
+            "final_bal": 153591174.16
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 4053923.78,
+            "dd": 52.7,
+            "trades": 3168,
+            "wr": 59.6,
+            "ruined": false,
+            "final_bal": 4054503.78
+          },
+          "test": {
+            "profit": 31283776.81,
+            "dd": 41.9,
+            "trades": 3530,
+            "wr": 57.1,
+            "ruined": false,
+            "final_bal": 31284356.81
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 4182123.77,
+            "dd": 37.2,
+            "trades": 2774,
+            "wr": 61.3,
+            "ruined": false,
+            "final_bal": 4182703.77
+          },
+          "test": {
+            "profit": 31283776.81,
+            "dd": 41.9,
+            "trades": 3530,
+            "wr": 57.1,
+            "ruined": false,
+            "final_bal": 31284356.81
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 978336529.05,
+            "dd": 52.7,
+            "trades": 4667,
+            "wr": 59.1,
+            "ruined": false,
+            "final_bal": 978337109.05
+          },
+          "test": {
+            "profit": 87619.52,
+            "dd": 42.0,
+            "trades": 2028,
+            "wr": 56.3,
+            "ruined": false,
+            "final_bal": 88199.52
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 87620.0,
+      "wf_max_dd": 62.7,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 142.18,
+        "dd": 7.7,
+        "trades": 22,
+        "wr": 59.1,
+        "ruined": false,
+        "final_bal": 722.18
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 231577714996.74,
+      "score_wfrobust": 10712749.8,
+      "mc": {
+        "ruin_rate": 0.887,
+        "n_iter": 300,
+        "median": 228825630381.0,
+        "p25": 154054826775.0,
+        "p75": 279570735340.0,
+        "p10": 100334885114.0,
+        "p90": 373215815221.0,
+        "worst": 72651512954.0,
+        "best": 420361555286.0
+      },
+      "ptier": "C",
+      "ruin": 0.887,
+      "mc_median": 228825630381.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 87619.52,
+      "oos_p_fl": 142.18
+    },
+    {
+      "cfg_hash": "b74ec28609",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.5,
+        "entry_score_threshold": 35,
+        "pullback_ema_dist_pct": 1.0,
+        "adx_enter_trending": 25,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 167069940435.1,
+      "base_dd": 51.4,
+      "base_trades": 6476,
+      "base_wr": 57.8,
+      "base_calmar": 3250387946.21,
+      "base_long_wr": 54.6,
+      "base_short_wr": 60.3,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 1546810.04,
+            "dd": 51.4,
+            "trades": 3025,
+            "wr": 58.9,
+            "ruined": false,
+            "final_bal": 1547390.04
+          },
+          "test": {
+            "profit": 704233626.05,
+            "dd": 46.2,
+            "trades": 4891,
+            "wr": 54.6,
+            "ruined": false,
+            "final_bal": 704234206.05
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 1570775.7,
+            "dd": 51.4,
+            "trades": 3027,
+            "wr": 58.9,
+            "ruined": false,
+            "final_bal": 1571355.7
+          },
+          "test": {
+            "profit": 66086339.48,
+            "dd": 39.8,
+            "trades": 3443,
+            "wr": 57.0,
+            "ruined": false,
+            "final_bal": 66086919.48
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 1201536.27,
+            "dd": 51.4,
+            "trades": 2647,
+            "wr": 60.4,
+            "ruined": false,
+            "final_bal": 1202116.27
+          },
+          "test": {
+            "profit": 66086339.48,
+            "dd": 39.8,
+            "trades": 3443,
+            "wr": 57.0,
+            "ruined": false,
+            "final_bal": 66086919.48
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 498975524.69,
+            "dd": 51.4,
+            "trades": 4512,
+            "wr": 58.6,
+            "ruined": false,
+            "final_bal": 498976104.69
+          },
+          "test": {
+            "profit": 116332.42,
+            "dd": 40.5,
+            "trades": 1953,
+            "wr": 56.0,
+            "ruined": false,
+            "final_bal": 116912.42
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 116332.0,
+      "wf_max_dd": 46.2,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 171.93,
+        "dd": 7.8,
+        "trades": 23,
+        "wr": 60.9,
+        "ruined": false,
+        "final_bal": 751.93
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 167069940435.1,
+      "score_wfrobust": 24457396.74,
+      "mc": {
+        "ruin_rate": 0.93,
+        "n_iter": 300,
+        "median": 206494279160.0,
+        "p25": 163532195103.0,
+        "p75": 267602667681.0,
+        "p10": 108913446500.0,
+        "p90": 290941538329.0,
+        "worst": 79207967131.0,
+        "best": 339134858223.0
+      },
+      "ptier": "C",
+      "ruin": 0.93,
+      "mc_median": 206494279160.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 116332.42,
+      "oos_p_fl": 171.93
+    },
+    {
+      "cfg_hash": "2585fc8188",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.1,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 173631534972.39,
+      "base_dd": 52.6,
+      "base_trades": 6861,
+      "base_wr": 59.8,
+      "base_calmar": 3300979752.33,
+      "base_long_wr": 56.4,
+      "base_short_wr": 62.4,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 1173194.7,
+            "dd": 52.6,
+            "trades": 3214,
+            "wr": 60.7,
+            "ruined": false,
+            "final_bal": 1173774.7
+          },
+          "test": {
+            "profit": 1208705898.47,
+            "dd": 48.0,
+            "trades": 5162,
+            "wr": 56.8,
+            "ruined": false,
+            "final_bal": 1208706478.47
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 1184157.6,
+            "dd": 52.6,
+            "trades": 3216,
+            "wr": 60.7,
+            "ruined": false,
+            "final_bal": 1184737.6
+          },
+          "test": {
+            "profit": 91723767.85,
+            "dd": 48.0,
+            "trades": 3638,
+            "wr": 59.1,
+            "ruined": false,
+            "final_bal": 91724347.85
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 1059510.35,
+            "dd": 52.6,
+            "trades": 2811,
+            "wr": 62.2,
+            "ruined": false,
+            "final_bal": 1060090.35
+          },
+          "test": {
+            "profit": 91723767.85,
+            "dd": 48.0,
+            "trades": 3638,
+            "wr": 59.1,
+            "ruined": false,
+            "final_bal": 91724347.85
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 354952809.89,
+            "dd": 52.6,
+            "trades": 4785,
+            "wr": 60.4,
+            "ruined": false,
+            "final_bal": 354953389.89
+          },
+          "test": {
+            "profit": 189406.41,
+            "dd": 48.4,
+            "trades": 2066,
+            "wr": 58.1,
+            "ruined": false,
+            "final_bal": 189986.41
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 189406.0,
+      "wf_max_dd": 48.4,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 181.02,
+        "dd": 7.8,
+        "trades": 25,
+        "wr": 64.0,
+        "ruined": false,
+        "final_bal": 761.02
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 173631534972.39,
+      "score_wfrobust": 37253730.78,
+      "mc": {
+        "ruin_rate": 0.927,
+        "n_iter": 300,
+        "median": 158235332539.0,
+        "p25": 138152661686.0,
+        "p75": 199827699214.0,
+        "p10": 113411983981.0,
+        "p90": 239756820963.0,
+        "worst": 99465695688.0,
+        "best": 333388904359.0
+      },
+      "ptier": "C",
+      "ruin": 0.927,
+      "mc_median": 158235332539.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 189406.41,
+      "oos_p_fl": 181.02
+    },
+    {
+      "cfg_hash": "dc35a95d08",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 24,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 107307722496.52,
+      "base_dd": 54.0,
+      "base_trades": 6574,
+      "base_wr": 58.0,
+      "base_calmar": 1987180046.23,
+      "base_long_wr": 54.7,
+      "base_short_wr": 60.5,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 1328091.17,
+            "dd": 54.0,
+            "trades": 3080,
+            "wr": 59.0,
+            "ruined": false,
+            "final_bal": 1328671.17
+          },
+          "test": {
+            "profit": 518132983.36,
+            "dd": 49.3,
+            "trades": 4949,
+            "wr": 54.8,
+            "ruined": false,
+            "final_bal": 518133563.36
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 1347999.2,
+            "dd": 54.0,
+            "trades": 3082,
+            "wr": 59.0,
+            "ruined": false,
+            "final_bal": 1348579.2
+          },
+          "test": {
+            "profit": 49407318.51,
+            "dd": 43.7,
+            "trades": 3485,
+            "wr": 57.1,
+            "ruined": false,
+            "final_bal": 49407898.51
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 1136996.41,
+            "dd": 54.0,
+            "trades": 2699,
+            "wr": 60.5,
+            "ruined": false,
+            "final_bal": 1137576.41
+          },
+          "test": {
+            "profit": 49407318.51,
+            "dd": 43.7,
+            "trades": 3485,
+            "wr": 57.1,
+            "ruined": false,
+            "final_bal": 49407898.51
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 391521891.58,
+            "dd": 54.0,
+            "trades": 4582,
+            "wr": 58.7,
+            "ruined": false,
+            "final_bal": 391522471.58
+          },
+          "test": {
+            "profit": 95443.97,
+            "dd": 44.1,
+            "trades": 1981,
+            "wr": 56.1,
+            "ruined": false,
+            "final_bal": 96023.97
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 95444.0,
+      "wf_max_dd": 49.3,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 191.89,
+        "dd": 7.8,
+        "trades": 24,
+        "wr": 62.5,
+        "ruined": false,
+        "final_bal": 771.89
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 107307722496.52,
+      "score_wfrobust": 18639878.44,
+      "mc": {
+        "ruin_rate": 0.927,
+        "n_iter": 300,
+        "median": 113352384982.0,
+        "p25": 84967913748.0,
+        "p75": 117999313120.0,
+        "p10": 75011845735.0,
+        "p90": 141452811717.0,
+        "worst": 57213111774.0,
+        "best": 182217425696.0
+      },
+      "ptier": "C",
+      "ruin": 0.927,
+      "mc_median": 113352384982.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 95443.97,
+      "oos_p_fl": 191.89
+    },
+    {
+      "cfg_hash": "75a553ad30",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.1,
+        "trailing_distance": 0.08,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 76219729325.1,
+      "base_dd": 53.1,
+      "base_trades": 6869,
+      "base_wr": 59.8,
+      "base_calmar": 1435399798.97,
+      "base_long_wr": 56.5,
+      "base_short_wr": 62.5,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 848106.52,
+            "dd": 53.1,
+            "trades": 3220,
+            "wr": 60.8,
+            "ruined": false,
+            "final_bal": 848686.52
+          },
+          "test": {
+            "profit": 529054960.97,
+            "dd": 49.6,
+            "trades": 5166,
+            "wr": 56.9,
+            "ruined": false,
+            "final_bal": 529055540.97
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 855752.44,
+            "dd": 53.1,
+            "trades": 3222,
+            "wr": 60.8,
+            "ruined": false,
+            "final_bal": 856332.44
+          },
+          "test": {
+            "profit": 55652264.06,
+            "dd": 49.6,
+            "trades": 3640,
+            "wr": 59.1,
+            "ruined": false,
+            "final_bal": 55652844.06
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 845948.79,
+            "dd": 53.1,
+            "trades": 2815,
+            "wr": 62.3,
+            "ruined": false,
+            "final_bal": 846528.79
+          },
+          "test": {
+            "profit": 55652264.06,
+            "dd": 49.6,
+            "trades": 3640,
+            "wr": 59.1,
+            "ruined": false,
+            "final_bal": 55652844.06
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 226946726.84,
+            "dd": 53.1,
+            "trades": 4792,
+            "wr": 60.5,
+            "ruined": false,
+            "final_bal": 226947306.84
+          },
+          "test": {
+            "profit": 128337.59,
+            "dd": 50.1,
+            "trades": 2068,
+            "wr": 58.2,
+            "ruined": false,
+            "final_bal": 128917.59
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 128338.0,
+      "wf_max_dd": 50.1,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 178.77,
+        "dd": 7.8,
+        "trades": 25,
+        "wr": 64.0,
+        "ruined": false,
+        "final_bal": 758.77
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 76219729325.1,
+      "score_wfrobust": 21414359.35,
+      "mc": {
+        "ruin_rate": 0.95,
+        "n_iter": 300,
+        "median": 104648531086.0,
+        "p25": 87581161622.0,
+        "p75": 115528934898.0,
+        "p10": 66523387946.0,
+        "p90": 121288864862.0,
+        "worst": 45605857890.0,
+        "best": 143975204929.0
+      },
+      "ptier": "C",
+      "ruin": 0.95,
+      "mc_median": 104648531086.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 128337.59,
+      "oos_p_fl": 178.77
+    },
+    {
+      "cfg_hash": "fe38ce6a67",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 25,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 96707955778.89,
+      "base_dd": 51.3,
+      "base_trades": 6446,
+      "base_wr": 57.6,
+      "base_calmar": 1885145336.82,
+      "base_long_wr": 54.5,
+      "base_short_wr": 60.1,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 1041670.99,
+            "dd": 51.3,
+            "trades": 3003,
+            "wr": 58.6,
+            "ruined": false,
+            "final_bal": 1042250.99
+          },
+          "test": {
+            "profit": 698454540.2,
+            "dd": 45.5,
+            "trades": 4877,
+            "wr": 54.5,
+            "ruined": false,
+            "final_bal": 698455120.2
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 1057719.95,
+            "dd": 51.3,
+            "trades": 3005,
+            "wr": 58.6,
+            "ruined": false,
+            "final_bal": 1058299.95
+          },
+          "test": {
+            "profit": 59117766.57,
+            "dd": 38.8,
+            "trades": 3435,
+            "wr": 56.9,
+            "ruined": false,
+            "final_bal": 59118346.57
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 838495.25,
+            "dd": 51.3,
+            "trades": 2626,
+            "wr": 60.1,
+            "ruined": false,
+            "final_bal": 839075.25
+          },
+          "test": {
+            "profit": 59117766.57,
+            "dd": 38.8,
+            "trades": 3435,
+            "wr": 56.9,
+            "ruined": false,
+            "final_bal": 59118346.57
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 350967870.74,
+            "dd": 51.3,
+            "trades": 4487,
+            "wr": 58.3,
+            "ruined": false,
+            "final_bal": 350968450.74
+          },
+          "test": {
+            "profit": 93313.92,
+            "dd": 39.6,
+            "trades": 1948,
+            "wr": 55.7,
+            "ruined": false,
+            "final_bal": 93893.92
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 93314.0,
+      "wf_max_dd": 45.5,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 171.93,
+        "dd": 7.8,
+        "trades": 23,
+        "wr": 60.9,
+        "ruined": false,
+        "final_bal": 751.93
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 96707955778.89,
+      "score_wfrobust": 21846413.72,
+      "mc": {
+        "ruin_rate": 0.927,
+        "n_iter": 300,
+        "median": 103024048548.0,
+        "p25": 92813640274.0,
+        "p75": 133490411863.0,
+        "p10": 81327661293.0,
+        "p90": 163390861135.0,
+        "worst": 66397191445.0,
+        "best": 201422529462.0
+      },
+      "ptier": "C",
+      "ruin": 0.927,
+      "mc_median": 103024048548.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 93313.92,
+      "oos_p_fl": 171.93
+    },
+    {
+      "cfg_hash": "d2667cd3b2",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 2.5,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.08,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "tier": "C",
+      "base_profit": 63734768922.57,
+      "base_dd": 56.8,
+      "base_trades": 6588,
+      "base_wr": 58.3,
+      "base_calmar": 1122091002.16,
+      "base_long_wr": 54.9,
+      "base_short_wr": 61.0,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 1959691.11,
+            "dd": 56.8,
+            "trades": 3115,
+            "wr": 59.6,
+            "ruined": false,
+            "final_bal": 1960271.11
+          },
+          "test": {
+            "profit": 96441117.95,
+            "dd": 60.1,
+            "trades": 4947,
+            "wr": 54.9,
+            "ruined": false,
+            "final_bal": 96441697.95
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 1991992.49,
+            "dd": 56.8,
+            "trades": 3117,
+            "wr": 59.6,
+            "ruined": false,
+            "final_bal": 1992572.49
+          },
+          "test": {
+            "profit": 18127833.2,
+            "dd": 46.7,
+            "trades": 3466,
+            "wr": 57.2,
+            "ruined": false,
+            "final_bal": 18128413.2
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 2779363.4,
+            "dd": 37.8,
+            "trades": 2733,
+            "wr": 61.4,
+            "ruined": false,
+            "final_bal": 2779943.4
+          },
+          "test": {
+            "profit": 18127833.2,
+            "dd": 46.7,
+            "trades": 3466,
+            "wr": 57.2,
+            "ruined": false,
+            "final_bal": 18128413.2
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 361342592.15,
+            "dd": 56.8,
+            "trades": 4595,
+            "wr": 59.2,
+            "ruined": false,
+            "final_bal": 361343172.15
+          },
+          "test": {
+            "profit": 70226.91,
+            "dd": 46.8,
+            "trades": 1983,
+            "wr": 56.4,
+            "ruined": false,
+            "final_bal": 70806.91
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 70227.0,
+      "wf_max_dd": 60.1,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 135.96,
+        "dd": 7.7,
+        "trades": 20,
+        "wr": 60.0,
+        "ruined": false,
+        "final_bal": 715.96
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 63734768922.57,
+      "score_wfrobust": 6868539.45,
+      "mc": {
+        "ruin_rate": 0.933,
+        "n_iter": 300,
+        "median": 70968926162.0,
+        "p25": 64475482393.0,
+        "p75": 81405237231.0,
+        "p10": 46303531093.0,
+        "p90": 100285421359.0,
+        "worst": 25237781266.0,
+        "best": 106939064594.0
+      },
+      "ptier": "C",
+      "ruin": 0.933,
+      "mc_median": 70968926162.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 70226.91,
+      "oos_p_fl": 135.96
+    },
+    {
+      "cfg_hash": "26bac88140",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 37,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 24,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 56961339092.26,
+      "base_dd": 45.2,
+      "base_trades": 6818,
+      "base_wr": 61.7,
+      "base_calmar": 1260206617.09,
+      "base_long_wr": 58.4,
+      "base_short_wr": 64.3,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 1159251.58,
+            "dd": 45.0,
+            "trades": 3198,
+            "wr": 62.7,
+            "ruined": false,
+            "final_bal": 1159831.58
+          },
+          "test": {
+            "profit": 227502516.08,
+            "dd": 46.3,
+            "trades": 5141,
+            "wr": 58.4,
+            "ruined": false,
+            "final_bal": 227503096.08
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 1170080.86,
+            "dd": 45.0,
+            "trades": 3200,
+            "wr": 62.7,
+            "ruined": false,
+            "final_bal": 1170660.86
+          },
+          "test": {
+            "profit": 30510955.72,
+            "dd": 45.2,
+            "trades": 3611,
+            "wr": 60.9,
+            "ruined": false,
+            "final_bal": 30511535.72
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 785073.55,
+            "dd": 45.0,
+            "trades": 2784,
+            "wr": 64.2,
+            "ruined": false,
+            "final_bal": 785653.55
+          },
+          "test": {
+            "profit": 30510955.72,
+            "dd": 45.2,
+            "trades": 3611,
+            "wr": 60.9,
+            "ruined": false,
+            "final_bal": 30511535.72
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 258302036.02,
+            "dd": 45.0,
+            "trades": 4770,
+            "wr": 62.4,
+            "ruined": false,
+            "final_bal": 258302616.02
+          },
+          "test": {
+            "profit": 79449.86,
+            "dd": 46.1,
+            "trades": 2037,
+            "wr": 59.7,
+            "ruined": false,
+            "final_bal": 80029.86
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 79450.0,
+      "wf_max_dd": 46.3,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 181.64,
+        "dd": 7.8,
+        "trades": 25,
+        "wr": 64.0,
+        "ruined": false,
+        "final_bal": 761.64
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 56961339092.26,
+      "score_wfrobust": 11389318.57,
+      "mc": {
+        "ruin_rate": 0.917,
+        "n_iter": 300,
+        "median": 65356710475.0,
+        "p25": 47076375609.0,
+        "p75": 80720555557.0,
+        "p10": 41546207299.0,
+        "p90": 87043435123.0,
+        "worst": 24613091599.0,
+        "best": 106129047604.0
+      },
+      "ptier": "C",
+      "ruin": 0.917,
+      "mc_median": 65356710475.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 79449.86,
+      "oos_p_fl": 181.64
+    },
+    {
+      "cfg_hash": "e522bf2810",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 3.0,
+        "entry_score_threshold": 42,
+        "pullback_ema_dist_pct": 2.0,
+        "adx_enter_trending": 29,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "tier": "C",
+      "base_profit": 56082130594.2,
+      "base_dd": 57.3,
+      "base_trades": 6618,
+      "base_wr": 58.3,
+      "base_calmar": 978745734.63,
+      "base_long_wr": 54.9,
+      "base_short_wr": 61.0,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 1663636.61,
+            "dd": 57.3,
+            "trades": 3122,
+            "wr": 59.5,
+            "ruined": false,
+            "final_bal": 1664216.61
+          },
+          "test": {
+            "profit": 73429906.79,
+            "dd": 62.6,
+            "trades": 4981,
+            "wr": 54.9,
+            "ruined": false,
+            "final_bal": 73430486.79
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 1691454.73,
+            "dd": 57.3,
+            "trades": 3124,
+            "wr": 59.5,
+            "ruined": false,
+            "final_bal": 1692034.73
+          },
+          "test": {
+            "profit": 18834162.11,
+            "dd": 45.8,
+            "trades": 3489,
+            "wr": 57.3,
+            "ruined": false,
+            "final_bal": 18834742.11
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 2411384.38,
+            "dd": 37.6,
+            "trades": 2739,
+            "wr": 61.2,
+            "ruined": false,
+            "final_bal": 2411964.38
+          },
+          "test": {
+            "profit": 18834162.11,
+            "dd": 45.8,
+            "trades": 3489,
+            "wr": 57.3,
+            "ruined": false,
+            "final_bal": 18834742.11
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 345913870.68,
+            "dd": 57.3,
+            "trades": 4610,
+            "wr": 59.1,
+            "ruined": false,
+            "final_bal": 345914450.68
+          },
+          "test": {
+            "profit": 63700.65,
+            "dd": 45.9,
+            "trades": 1998,
+            "wr": 56.3,
+            "ruined": false,
+            "final_bal": 64280.65
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 63701.0,
+      "wf_max_dd": 62.6,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 141.79,
+        "dd": 7.7,
+        "trades": 22,
+        "wr": 59.1,
+        "ruined": false,
+        "final_bal": 721.79
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 56082130594.2,
+      "score_wfrobust": 6382302.17,
+      "mc": {
+        "ruin_rate": 0.933,
+        "n_iter": 300,
+        "median": 53864363767.0,
+        "p25": 46977586074.0,
+        "p75": 64451200347.0,
+        "p10": 25700231381.0,
+        "p90": 70924227683.0,
+        "worst": 19188004788.0,
+        "best": 80068856663.0
+      },
+      "ptier": "C",
+      "ruin": 0.933,
+      "mc_median": 53864363767.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 63700.65,
+      "oos_p_fl": 141.79
+    },
+    {
+      "cfg_hash": "532b4d923a",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 37,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 28,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 0.8,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 52213196827.53,
+      "base_dd": 39.7,
+      "base_trades": 6794,
+      "base_wr": 65.7,
+      "base_calmar": 1315193874.75,
+      "base_long_wr": 62.9,
+      "base_short_wr": 68.0,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 1202856.75,
+            "dd": 39.7,
+            "trades": 3217,
+            "wr": 66.6,
+            "ruined": false,
+            "final_bal": 1203436.75
+          },
+          "test": {
+            "profit": 158064702.82,
+            "dd": 45.0,
+            "trades": 5097,
+            "wr": 62.6,
+            "ruined": false,
+            "final_bal": 158065282.82
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 1214675.7,
+            "dd": 39.7,
+            "trades": 3219,
+            "wr": 66.6,
+            "ruined": false,
+            "final_bal": 1215255.7
+          },
+          "test": {
+            "profit": 25855824.47,
+            "dd": 35.4,
+            "trades": 3569,
+            "wr": 65.1,
+            "ruined": false,
+            "final_bal": 25856404.47
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 672006.47,
+            "dd": 39.9,
+            "trades": 2761,
+            "wr": 68.3,
+            "ruined": false,
+            "final_bal": 672586.47
+          },
+          "test": {
+            "profit": 25855824.47,
+            "dd": 35.4,
+            "trades": 3569,
+            "wr": 65.1,
+            "ruined": false,
+            "final_bal": 25856404.47
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 268252885.67,
+            "dd": 39.7,
+            "trades": 4783,
+            "wr": 66.2,
+            "ruined": false,
+            "final_bal": 268253465.67
+          },
+          "test": {
+            "profit": 73214.4,
+            "dd": 36.7,
+            "trades": 2004,
+            "wr": 64.4,
+            "ruined": false,
+            "final_bal": 73794.4
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 73214.0,
+      "wf_max_dd": 45.0,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 11.64,
+        "dd": 8.0,
+        "trades": 22,
+        "wr": 59.1,
+        "ruined": false,
+        "final_bal": 591.64
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 52213196827.53,
+      "score_wfrobust": 9378579.13,
+      "mc": {
+        "ruin_rate": 0.923,
+        "n_iter": 300,
+        "median": 51847101769.0,
+        "p25": 36610235201.0,
+        "p75": 60925171879.0,
+        "p10": 30856382380.0,
+        "p90": 69649559573.0,
+        "worst": 4080016644.0,
+        "best": 96277137823.0
+      },
+      "ptier": "C",
+      "ruin": 0.923,
+      "mc_median": 51847101769.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 73214.4,
+      "oos_p_fl": 11.64
+    },
+    {
+      "cfg_hash": "d090b1d68b",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 26,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.1,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 40336021746.99,
+      "base_dd": 45.7,
+      "base_trades": 6532,
+      "base_wr": 59.5,
+      "base_calmar": 882626296.43,
+      "base_long_wr": 56.3,
+      "base_short_wr": 62.1,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 869893.82,
+            "dd": 41.9,
+            "trades": 3045,
+            "wr": 60.6,
+            "ruined": false,
+            "final_bal": 870473.82
+          },
+          "test": {
+            "profit": 323598427.38,
+            "dd": 45.9,
+            "trades": 4946,
+            "wr": 56.4,
+            "ruined": false,
+            "final_bal": 323599007.38
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 877950.15,
+            "dd": 41.9,
+            "trades": 3047,
+            "wr": 60.6,
+            "ruined": false,
+            "final_bal": 878530.15
+          },
+          "test": {
+            "profit": 29635475.44,
+            "dd": 45.7,
+            "trades": 3479,
+            "wr": 58.8,
+            "ruined": false,
+            "final_bal": 29636055.44
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 657662.45,
+            "dd": 41.9,
+            "trades": 2658,
+            "wr": 62.1,
+            "ruined": false,
+            "final_bal": 658242.45
+          },
+          "test": {
+            "profit": 29635475.44,
+            "dd": 45.7,
+            "trades": 3479,
+            "wr": 58.8,
+            "ruined": false,
+            "final_bal": 29636055.44
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 186258328.35,
+            "dd": 41.9,
+            "trades": 4562,
+            "wr": 60.3,
+            "ruined": false,
+            "final_bal": 186258908.35
+          },
+          "test": {
+            "profit": 76518.03,
+            "dd": 46.7,
+            "trades": 1960,
+            "wr": 57.7,
+            "ruined": false,
+            "final_bal": 77098.03
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 76518.0,
+      "wf_max_dd": 46.7,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 148.59,
+        "dd": 7.8,
+        "trades": 23,
+        "wr": 60.9,
+        "ruined": false,
+        "final_bal": 728.59
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 40336021746.99,
+      "score_wfrobust": 12143629.13,
+      "mc": {
+        "ruin_rate": 0.917,
+        "n_iter": 300,
+        "median": 41911068917.0,
+        "p25": 35352546805.0,
+        "p75": 46721516655.0,
+        "p10": 24843541658.0,
+        "p90": 62796664835.0,
+        "worst": 19118293434.0,
+        "best": 76451203945.0
+      },
+      "ptier": "C",
+      "ruin": 0.917,
+      "mc_median": 41911068917.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 76518.03,
+      "oos_p_fl": 148.59
+    },
+    {
+      "cfg_hash": "e3d76f5b5d",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 26,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "tier": "C",
+      "base_profit": 30119877283.06,
+      "base_dd": 43.3,
+      "base_trades": 6631,
+      "base_wr": 61.4,
+      "base_calmar": 695609175.13,
+      "base_long_wr": 58.2,
+      "base_short_wr": 64.1,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 721252.8,
+            "dd": 41.8,
+            "trades": 3101,
+            "wr": 62.3,
+            "ruined": false,
+            "final_bal": 721832.8
+          },
+          "test": {
+            "profit": 221817145.24,
+            "dd": 44.8,
+            "trades": 5010,
+            "wr": 58.3,
+            "ruined": false,
+            "final_bal": 221817725.24
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 727884.68,
+            "dd": 41.8,
+            "trades": 3103,
+            "wr": 62.3,
+            "ruined": false,
+            "final_bal": 728464.68
+          },
+          "test": {
+            "profit": 26494179.22,
+            "dd": 43.3,
+            "trades": 3522,
+            "wr": 60.8,
+            "ruined": false,
+            "final_bal": 26494759.22
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 527014.77,
+            "dd": 41.8,
+            "trades": 2695,
+            "wr": 63.8,
+            "ruined": false,
+            "final_bal": 527594.77
+          },
+          "test": {
+            "profit": 26494179.22,
+            "dd": 43.3,
+            "trades": 3522,
+            "wr": 60.8,
+            "ruined": false,
+            "final_bal": 26494759.22
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 150147293.9,
+            "dd": 41.8,
+            "trades": 4640,
+            "wr": 62.1,
+            "ruined": false,
+            "final_bal": 150147873.9
+          },
+          "test": {
+            "profit": 72518.78,
+            "dd": 44.4,
+            "trades": 1981,
+            "wr": 59.7,
+            "ruined": false,
+            "final_bal": 73098.78
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 72519.0,
+      "wf_max_dd": 44.8,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 158.05,
+        "dd": 7.8,
+        "trades": 24,
+        "wr": 62.5,
+        "ruined": false,
+        "final_bal": 738.05
+      },
+      "score_realistic": -1000000000.0,
+      "score_maxret": 30119877283.06,
+      "score_wfrobust": 10308290.17,
+      "mc": {
+        "ruin_rate": 0.913,
+        "n_iter": 300,
+        "median": 31732238880.0,
+        "p25": 28449938364.0,
+        "p75": 35263001066.0,
+        "p10": 26146009496.0,
+        "p90": 38086793464.0,
+        "worst": 13812696404.0,
+        "best": 45701760907.0
+      },
+      "ptier": "C",
+      "ruin": 0.913,
+      "mc_median": 31732238880.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 72518.78,
+      "oos_p_fl": 158.05
+    },
+    {
+      "cfg_hash": "v7_baseline",
+      "cfg": {
+        "ema_fast": 5,
+        "ema_slow": 18,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.55,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.1,
+        "risk_per_trade": 0.015,
+        "max_leverage": 7,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "cfg_hash": "v7_baseline"
+      },
+      "tier": "B",
+      "base_profit": 221393,
+      "base_dd": 51.7,
+      "base_trades": null,
+      "base_wr": null,
+      "base_calmar": 4282,
+      "base_long_wr": null,
+      "base_short_wr": null,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 2396.86,
+            "dd": 51.7,
+            "trades": 2526,
+            "wr": 58.1,
+            "ruined": false,
+            "final_bal": 2976.86
+          },
+          "test": {
+            "profit": 61368.46,
+            "dd": 57.6,
+            "trades": 4066,
+            "wr": 53.8,
+            "ruined": false,
+            "final_bal": 61948.46
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 2149.88,
+            "dd": 51.7,
+            "trades": 2528,
+            "wr": 58.1,
+            "ruined": false,
+            "final_bal": 2729.88
+          },
+          "test": {
+            "profit": 36396.17,
+            "dd": 29.1,
+            "trades": 2889,
+            "wr": 55.8,
+            "ruined": false,
+            "final_bal": 36976.17
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 4269.77,
+            "dd": 32.8,
+            "trades": 2214,
+            "wr": 59.9,
+            "ruined": false,
+            "final_bal": 4849.77
+          },
+          "test": {
+            "profit": 36396.17,
+            "dd": 29.1,
+            "trades": 2889,
+            "wr": 55.8,
+            "ruined": false,
+            "final_bal": 36976.17
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 24931.29,
+            "dd": 51.7,
+            "trades": 3798,
+            "wr": 57.5,
+            "ruined": false,
+            "final_bal": 25511.29
+          },
+          "test": {
+            "profit": 2624.43,
+            "dd": 31.5,
+            "trades": 1622,
+            "wr": 55.4,
+            "ruined": false,
+            "final_bal": 3204.43
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 2624.0,
+      "wf_max_dd": 57.6,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 63.54,
+        "dd": 4.4,
+        "trades": 19,
+        "wr": 57.9,
+        "ruined": false,
+        "final_bal": 643.54
+      },
+      "score_realistic": 8349.9,
+      "score_maxret": 221393,
+      "score_wfrobust": 21491.81,
+      "mc": {
+        "ruin_rate": 0.78,
+        "n_iter": 300,
+        "median": 236287.0,
+        "p25": 199795.0,
+        "p75": 274204.0,
+        "p10": 161722.0,
+        "p90": 290753.0,
+        "worst": 104388.0,
+        "best": 346991.0
+      },
+      "ptier": "A",
+      "ruin": 0.78,
+      "mc_median": 236287.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 2624.43,
+      "oos_p_fl": 63.54
+    }
+  ],
+  "conservative_top20": [
+    {
+      "cfg_hash": "v7_baseline",
+      "cfg": {
+        "ema_fast": 5,
+        "ema_slow": 18,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.55,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.1,
+        "risk_per_trade": 0.015,
+        "max_leverage": 7,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "cfg_hash": "v7_baseline"
+      },
+      "tier": "B",
+      "base_profit": 221393,
+      "base_dd": 51.7,
+      "base_trades": null,
+      "base_wr": null,
+      "base_calmar": 4282,
+      "base_long_wr": null,
+      "base_short_wr": null,
+      "wf": {
+        "WF1": {
+          "train": {
+            "profit": 2396.86,
+            "dd": 51.7,
+            "trades": 2526,
+            "wr": 58.1,
+            "ruined": false,
+            "final_bal": 2976.86
+          },
+          "test": {
+            "profit": 61368.46,
+            "dd": 57.6,
+            "trades": 4066,
+            "wr": 53.8,
+            "ruined": false,
+            "final_bal": 61948.46
+          }
+        },
+        "WF2": {
+          "train": {
+            "profit": 2149.88,
+            "dd": 51.7,
+            "trades": 2528,
+            "wr": 58.1,
+            "ruined": false,
+            "final_bal": 2729.88
+          },
+          "test": {
+            "profit": 36396.17,
+            "dd": 29.1,
+            "trades": 2889,
+            "wr": 55.8,
+            "ruined": false,
+            "final_bal": 36976.17
+          }
+        },
+        "WF3": {
+          "train": {
+            "profit": 4269.77,
+            "dd": 32.8,
+            "trades": 2214,
+            "wr": 59.9,
+            "ruined": false,
+            "final_bal": 4849.77
+          },
+          "test": {
+            "profit": 36396.17,
+            "dd": 29.1,
+            "trades": 2889,
+            "wr": 55.8,
+            "ruined": false,
+            "final_bal": 36976.17
+          }
+        },
+        "WF4": {
+          "train": {
+            "profit": 24931.29,
+            "dd": 51.7,
+            "trades": 3798,
+            "wr": 57.5,
+            "ruined": false,
+            "final_bal": 25511.29
+          },
+          "test": {
+            "profit": 2624.43,
+            "dd": 31.5,
+            "trades": 1622,
+            "wr": 55.4,
+            "ruined": false,
+            "final_bal": 3204.43
+          }
+        }
+      },
+      "wf_all_pos": true,
+      "wf_min_profit": 2624.0,
+      "wf_max_dd": 57.6,
+      "wf_ruined": false,
+      "oos": {
+        "profit": 63.54,
+        "dd": 4.4,
+        "trades": 19,
+        "wr": 57.9,
+        "ruined": false,
+        "final_bal": 643.54
+      },
+      "score_realistic": 8349.9,
+      "score_maxret": 221393,
+      "score_wfrobust": 21491.81,
+      "mc": {
+        "ruin_rate": 0.78,
+        "n_iter": 300,
+        "median": 236287.0,
+        "p25": 199795.0,
+        "p75": 274204.0,
+        "p10": 161722.0,
+        "p90": 290753.0,
+        "worst": 104388.0,
+        "best": 346991.0
+      },
+      "ptier": "A",
+      "ruin": 0.78,
+      "mc_median": 236287.0,
+      "wf_all_pos_fl": true,
+      "wf_min_fl": 2624.43,
+      "oos_p_fl": 63.54
+    }
+  ],
+  "v7_baseline": {
+    "cfg_hash": "v7_baseline",
+    "cfg": {
+      "ema_fast": 5,
+      "ema_slow": 18,
+      "sl_atr_mult": 1.5,
+      "tp_rr_ratio": 6.0,
+      "entry_score_threshold": 40,
+      "pullback_ema_dist_pct": 1.5,
+      "adx_enter_trending": 30,
+      "adx_exit_trending": 20,
+      "atr_high_vol_percentile": 85,
+      "orderbook_imbalance_min": 0.55,
+      "trailing_activation": 1.2,
+      "trailing_distance": 0.1,
+      "risk_per_trade": 0.015,
+      "max_leverage": 7,
+      "max_simultaneous": 3,
+      "use_funding": true,
+      "funding_bias_threshold": 0.0005,
+      "rsi_period": 14,
+      "rsi_oversold": 35,
+      "rsi_overbought": 65,
+      "cfg_hash": "v7_baseline"
+    },
+    "tier": "B",
+    "base_profit": 221393,
+    "base_dd": 51.7,
+    "base_trades": null,
+    "base_wr": null,
+    "base_calmar": 4282,
+    "base_long_wr": null,
+    "base_short_wr": null,
+    "wf": {
+      "WF1": {
+        "train": {
+          "profit": 2396.86,
+          "dd": 51.7,
+          "trades": 2526,
+          "wr": 58.1,
+          "ruined": false,
+          "final_bal": 2976.86
+        },
+        "test": {
+          "profit": 61368.46,
+          "dd": 57.6,
+          "trades": 4066,
+          "wr": 53.8,
+          "ruined": false,
+          "final_bal": 61948.46
+        }
+      },
+      "WF2": {
+        "train": {
+          "profit": 2149.88,
+          "dd": 51.7,
+          "trades": 2528,
+          "wr": 58.1,
+          "ruined": false,
+          "final_bal": 2729.88
+        },
+        "test": {
+          "profit": 36396.17,
+          "dd": 29.1,
+          "trades": 2889,
+          "wr": 55.8,
+          "ruined": false,
+          "final_bal": 36976.17
+        }
+      },
+      "WF3": {
+        "train": {
+          "profit": 4269.77,
+          "dd": 32.8,
+          "trades": 2214,
+          "wr": 59.9,
+          "ruined": false,
+          "final_bal": 4849.77
+        },
+        "test": {
+          "profit": 36396.17,
+          "dd": 29.1,
+          "trades": 2889,
+          "wr": 55.8,
+          "ruined": false,
+          "final_bal": 36976.17
+        }
+      },
+      "WF4": {
+        "train": {
+          "profit": 24931.29,
+          "dd": 51.7,
+          "trades": 3798,
+          "wr": 57.5,
+          "ruined": false,
+          "final_bal": 25511.29
+        },
+        "test": {
+          "profit": 2624.43,
+          "dd": 31.5,
+          "trades": 1622,
+          "wr": 55.4,
+          "ruined": false,
+          "final_bal": 3204.43
+        }
+      }
+    },
+    "wf_all_pos": true,
+    "wf_min_profit": 2624.0,
+    "wf_max_dd": 57.6,
+    "wf_ruined": false,
+    "oos": {
+      "profit": 63.54,
+      "dd": 4.4,
+      "trades": 19,
+      "wr": 57.9,
+      "ruined": false,
+      "final_bal": 643.54
+    },
+    "score_realistic": 8349.9,
+    "score_maxret": 221393,
+    "score_wfrobust": 21491.81,
+    "mc": {
+      "ruin_rate": 0.78,
+      "n_iter": 300,
+      "median": 236287.0,
+      "p25": 199795.0,
+      "p75": 274204.0,
+      "p10": 161722.0,
+      "p90": 290753.0,
+      "worst": 104388.0,
+      "best": 346991.0
+    },
+    "ptier": "A",
+    "ruin": 0.78,
+    "mc_median": 236287.0,
+    "wf_all_pos_fl": true,
+    "wf_min_fl": 2624.43,
+    "oos_p_fl": 63.54
+  }
+}

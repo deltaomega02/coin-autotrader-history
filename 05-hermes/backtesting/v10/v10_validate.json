@@ -1,0 +1,1363 @@
+{
+  "timestamp": "2026-04-19T00:58:30.122498",
+  "results": [
+    {
+      "label": "V8 (EMA 3/15)",
+      "base": {
+        "profit": 2493374.4,
+        "dd": 43.1,
+        "trades": 5843,
+        "wr": 57.4,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 87.87,
+        "dd": 4.8,
+        "trades": 27,
+        "wr": 59.3
+      },
+      "last_2w": {
+        "profit": 75.3,
+        "dd": 10.1,
+        "trades": 45,
+        "wr": 55.6
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 10243.02,
+            "dd": 43.1,
+            "trades": 2744,
+            "wr": 58.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 44318.91,
+            "dd": 57.9,
+            "trades": 3097,
+            "wr": 56.3,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 10079.43,
+            "dd": 43.1,
+            "trades": 2746,
+            "wr": 58.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 112764.65,
+            "dd": 28.2,
+            "trades": 3093,
+            "wr": 56.4,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 17139.13,
+            "dd": 26.0,
+            "trades": 2399,
+            "wr": 60.3,
+            "ruined": false
+          },
+          "test": {
+            "profit": 112764.65,
+            "dd": 28.2,
+            "trades": 3093,
+            "wr": 56.4,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 158076.79,
+            "dd": 43.1,
+            "trades": 4101,
+            "wr": 58.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 6098.89,
+            "dd": 29.4,
+            "trades": 1736,
+            "wr": 55.8,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.91,
+        "n_iter": 300,
+        "median": 2661115.0,
+        "p25": 2337121.0,
+        "p75": 2876092.0,
+        "p10": 2073683.0,
+        "p90": 3109057.0
+      }
+    },
+    {
+      "label": "V7 (EMA 5/18)",
+      "base": {
+        "profit": 221393.08,
+        "dd": 51.7,
+        "trades": 5422,
+        "wr": 56.8,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 57.94,
+        "dd": 4.9,
+        "trades": 24,
+        "wr": 54.2
+      },
+      "last_2w": {
+        "profit": 54.03,
+        "dd": 11.8,
+        "trades": 37,
+        "wr": 54.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 2396.86,
+            "dd": 51.7,
+            "trades": 2526,
+            "wr": 58.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 12848.06,
+            "dd": 54.1,
+            "trades": 2894,
+            "wr": 55.8,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 2149.88,
+            "dd": 51.7,
+            "trades": 2528,
+            "wr": 58.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 36396.17,
+            "dd": 29.1,
+            "trades": 2889,
+            "wr": 55.8,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 4269.77,
+            "dd": 32.8,
+            "trades": 2214,
+            "wr": 59.9,
+            "ruined": false
+          },
+          "test": {
+            "profit": 36396.17,
+            "dd": 29.1,
+            "trades": 2889,
+            "wr": 55.8,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 24931.29,
+            "dd": 51.7,
+            "trades": 3798,
+            "wr": 57.5,
+            "ruined": false
+          },
+          "test": {
+            "profit": 2624.43,
+            "dd": 31.5,
+            "trades": 1622,
+            "wr": 55.4,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.823,
+        "n_iter": 300,
+        "median": 236479.0,
+        "p25": 176288.0,
+        "p75": 268221.0,
+        "p10": 153784.0,
+        "p90": 294525.0
+      }
+    },
+    {
+      "label": "1D-above EMA10",
+      "base": {
+        "profit": 1040869689.91,
+        "dd": 19.0,
+        "trades": 4855,
+        "wr": 61.9,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 110.16,
+        "dd": 4.6,
+        "trades": 21,
+        "wr": 66.7
+      },
+      "last_2w": {
+        "profit": 104.75,
+        "dd": 8.8,
+        "trades": 36,
+        "wr": 61.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 177886.65,
+            "dd": 19.0,
+            "trades": 2273,
+            "wr": 62.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 1291352.87,
+            "dd": 49.6,
+            "trades": 2580,
+            "wr": 61.3,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 179612.05,
+            "dd": 19.0,
+            "trades": 2275,
+            "wr": 62.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 2797244.09,
+            "dd": 18.7,
+            "trades": 2578,
+            "wr": 61.3,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 99572.13,
+            "dd": 19.4,
+            "trades": 1993,
+            "wr": 64.0,
+            "ruined": false
+          },
+          "test": {
+            "profit": 2797244.09,
+            "dd": 18.7,
+            "trades": 2578,
+            "wr": 61.3,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 11360512.06,
+            "dd": 19.0,
+            "trades": 3389,
+            "wr": 62.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 42447.94,
+            "dd": 20.5,
+            "trades": 1462,
+            "wr": 60.3,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.843,
+        "n_iter": 300,
+        "median": 1083939683.0,
+        "p25": 990797246.0,
+        "p75": 1197099503.0,
+        "p10": 728053456.0,
+        "p90": 1305793018.0
+      }
+    },
+    {
+      "label": "1D-dir EMA20",
+      "base": {
+        "profit": 98225239.18,
+        "dd": 26.2,
+        "trades": 4476,
+        "wr": 61.0,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 110.16,
+        "dd": 4.6,
+        "trades": 21,
+        "wr": 66.7
+      },
+      "last_2w": {
+        "profit": 104.75,
+        "dd": 8.8,
+        "trades": 36,
+        "wr": 61.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 58295.85,
+            "dd": 26.2,
+            "trades": 2119,
+            "wr": 61.7,
+            "ruined": false
+          },
+          "test": {
+            "profit": 342954.07,
+            "dd": 50.9,
+            "trades": 2355,
+            "wr": 60.4,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 58673.71,
+            "dd": 26.2,
+            "trades": 2121,
+            "wr": 61.7,
+            "ruined": false
+          },
+          "test": {
+            "profit": 798385.75,
+            "dd": 21.4,
+            "trades": 2358,
+            "wr": 60.5,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 35408.96,
+            "dd": 27.2,
+            "trades": 1855,
+            "wr": 63.0,
+            "ruined": false
+          },
+          "test": {
+            "profit": 798385.75,
+            "dd": 21.4,
+            "trades": 2358,
+            "wr": 60.5,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 1840920.01,
+            "dd": 26.2,
+            "trades": 3142,
+            "wr": 61.4,
+            "ruined": false
+          },
+          "test": {
+            "profit": 21717.06,
+            "dd": 21.6,
+            "trades": 1326,
+            "wr": 59.9,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.877,
+        "n_iter": 300,
+        "median": 103106957.0,
+        "p25": 88743163.0,
+        "p75": 114159797.0,
+        "p10": 78023932.0,
+        "p90": 119253064.0
+      }
+    },
+    {
+      "label": "1D-dir EMA10",
+      "base": {
+        "profit": 1040869689.91,
+        "dd": 19.0,
+        "trades": 4855,
+        "wr": 61.9,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 110.16,
+        "dd": 4.6,
+        "trades": 21,
+        "wr": 66.7
+      },
+      "last_2w": {
+        "profit": 104.75,
+        "dd": 8.8,
+        "trades": 36,
+        "wr": 61.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 177886.65,
+            "dd": 19.0,
+            "trades": 2273,
+            "wr": 62.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 1291352.87,
+            "dd": 49.6,
+            "trades": 2580,
+            "wr": 61.3,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 179612.05,
+            "dd": 19.0,
+            "trades": 2275,
+            "wr": 62.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 2797244.09,
+            "dd": 18.7,
+            "trades": 2578,
+            "wr": 61.3,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 99572.13,
+            "dd": 19.4,
+            "trades": 1993,
+            "wr": 64.0,
+            "ruined": false
+          },
+          "test": {
+            "profit": 2797244.09,
+            "dd": 18.7,
+            "trades": 2578,
+            "wr": 61.3,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 11360512.06,
+            "dd": 19.0,
+            "trades": 3389,
+            "wr": 62.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 42447.94,
+            "dd": 20.5,
+            "trades": 1462,
+            "wr": 60.3,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.843,
+        "n_iter": 300,
+        "median": 1083939683.0,
+        "p25": 990797246.0,
+        "p75": 1197099503.0,
+        "p10": 728053456.0,
+        "p90": 1305793018.0
+      }
+    },
+    {
+      "label": "1D-dir EMA14",
+      "base": {
+        "profit": 292759981.2,
+        "dd": 26.2,
+        "trades": 4666,
+        "wr": 61.4,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 110.16,
+        "dd": 4.6,
+        "trades": 21,
+        "wr": 66.7
+      },
+      "last_2w": {
+        "profit": 104.75,
+        "dd": 8.8,
+        "trades": 36,
+        "wr": 61.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 106511.63,
+            "dd": 26.2,
+            "trades": 2189,
+            "wr": 62.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 585293.84,
+            "dd": 49.6,
+            "trades": 2475,
+            "wr": 60.8,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 107432.79,
+            "dd": 26.2,
+            "trades": 2191,
+            "wr": 62.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 1292127.51,
+            "dd": 19.3,
+            "trades": 2473,
+            "wr": 60.9,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 59375.19,
+            "dd": 26.6,
+            "trades": 1916,
+            "wr": 63.4,
+            "ruined": false
+          },
+          "test": {
+            "profit": 1292127.51,
+            "dd": 19.3,
+            "trades": 2473,
+            "wr": 60.9,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 4351285.12,
+            "dd": 26.2,
+            "trades": 3268,
+            "wr": 61.9,
+            "ruined": false
+          },
+          "test": {
+            "profit": 28517.42,
+            "dd": 19.5,
+            "trades": 1393,
+            "wr": 60.2,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.883,
+        "n_iter": 300,
+        "median": 292294418.0,
+        "p25": 256598433.0,
+        "p75": 342829213.0,
+        "p10": 234321438.0,
+        "p90": 351227370.0
+      }
+    },
+    {
+      "label": "1D-dir EMA30",
+      "base": {
+        "profit": 42845581.14,
+        "dd": 26.2,
+        "trades": 4230,
+        "wr": 60.7,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 110.16,
+        "dd": 4.6,
+        "trades": 21,
+        "wr": 66.7
+      },
+      "last_2w": {
+        "profit": 104.75,
+        "dd": 8.8,
+        "trades": 36,
+        "wr": 61.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 49162.83,
+            "dd": 26.2,
+            "trades": 2009,
+            "wr": 61.7,
+            "ruined": false
+          },
+          "test": {
+            "profit": 171155.15,
+            "dd": 50.3,
+            "trades": 2219,
+            "wr": 59.9,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 49437.78,
+            "dd": 26.2,
+            "trades": 2011,
+            "wr": 61.7,
+            "ruined": false
+          },
+          "test": {
+            "profit": 408680.02,
+            "dd": 22.2,
+            "trades": 2231,
+            "wr": 60.0,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 30085.19,
+            "dd": 26.5,
+            "trades": 1761,
+            "wr": 63.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 408680.02,
+            "dd": 22.2,
+            "trades": 2231,
+            "wr": 60.0,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 1055094.45,
+            "dd": 26.2,
+            "trades": 2949,
+            "wr": 61.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 17559.5,
+            "dd": 22.5,
+            "trades": 1274,
+            "wr": 59.8,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.803,
+        "n_iter": 300,
+        "median": 47514545.0,
+        "p25": 39671721.0,
+        "p75": 52622916.0,
+        "p10": 35264277.0,
+        "p90": 58874493.0
+      }
+    },
+    {
+      "label": "4H-dir EMA30",
+      "base": {
+        "profit": 31639850.67,
+        "dd": 28.5,
+        "trades": 5490,
+        "wr": 59.1,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 85.96,
+        "dd": 4.8,
+        "trades": 25,
+        "wr": 60.0
+      },
+      "last_2w": {
+        "profit": 96.98,
+        "dd": 8.7,
+        "trades": 41,
+        "wr": 58.5
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 48133.84,
+            "dd": 28.5,
+            "trades": 2579,
+            "wr": 60.4,
+            "ruined": false
+          },
+          "test": {
+            "profit": 129995.46,
+            "dd": 56.5,
+            "trades": 2909,
+            "wr": 58.0,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 48397.2,
+            "dd": 28.5,
+            "trades": 2581,
+            "wr": 60.4,
+            "ruined": false
+          },
+          "test": {
+            "profit": 339631.33,
+            "dd": 25.3,
+            "trades": 2901,
+            "wr": 58.1,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 39677.61,
+            "dd": 22.4,
+            "trades": 2270,
+            "wr": 61.9,
+            "ruined": false
+          },
+          "test": {
+            "profit": 339631.33,
+            "dd": 25.3,
+            "trades": 2901,
+            "wr": 58.1,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 1059804.66,
+            "dd": 28.5,
+            "trades": 3851,
+            "wr": 59.9,
+            "ruined": false
+          },
+          "test": {
+            "profit": 12563.2,
+            "dd": 25.7,
+            "trades": 1632,
+            "wr": 57.4,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.86,
+        "n_iter": 300,
+        "median": 35373360.0,
+        "p25": 29556413.0,
+        "p75": 37968674.0,
+        "p10": 28333330.0,
+        "p90": 41223470.0
+      }
+    },
+    {
+      "label": "4H-dir EMA50",
+      "base": {
+        "profit": 12429001.61,
+        "dd": 26.8,
+        "trades": 5181,
+        "wr": 58.7,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 85.96,
+        "dd": 4.8,
+        "trades": 25,
+        "wr": 60.0
+      },
+      "last_2w": {
+        "profit": 85.09,
+        "dd": 11.4,
+        "trades": 38,
+        "wr": 57.9
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 25638.8,
+            "dd": 26.8,
+            "trades": 2439,
+            "wr": 59.7,
+            "ruined": false
+          },
+          "test": {
+            "profit": 90588.34,
+            "dd": 57.0,
+            "trades": 2740,
+            "wr": 57.9,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 25648.69,
+            "dd": 26.8,
+            "trades": 2441,
+            "wr": 59.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 244685.18,
+            "dd": 23.0,
+            "trades": 2732,
+            "wr": 58.0,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 22094.97,
+            "dd": 25.0,
+            "trades": 2143,
+            "wr": 61.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 244685.18,
+            "dd": 23.0,
+            "trades": 2732,
+            "wr": 58.0,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 491683.63,
+            "dd": 26.8,
+            "trades": 3627,
+            "wr": 59.4,
+            "ruined": false
+          },
+          "test": {
+            "profit": 10372.16,
+            "dd": 25.5,
+            "trades": 1552,
+            "wr": 57.2,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.873,
+        "n_iter": 300,
+        "median": 13337723.0,
+        "p25": 11525972.0,
+        "p75": 15580956.0,
+        "p10": 9011404.0,
+        "p90": 17607243.0
+      }
+    },
+    {
+      "label": "1D-10 + Triple(3/13/15)",
+      "base": {
+        "profit": 334505752.3,
+        "dd": 21.1,
+        "trades": 4584,
+        "wr": 61.6,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 106.92,
+        "dd": 4.6,
+        "trades": 20,
+        "wr": 65.0
+      },
+      "last_2w": {
+        "profit": 101.53,
+        "dd": 8.8,
+        "trades": 35,
+        "wr": 60.0
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 117851.86,
+            "dd": 21.1,
+            "trades": 2132,
+            "wr": 62.2,
+            "ruined": false
+          },
+          "test": {
+            "profit": 637882.8,
+            "dd": 50.1,
+            "trades": 2451,
+            "wr": 61.2,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 116482.29,
+            "dd": 21.1,
+            "trades": 2133,
+            "wr": 62.2,
+            "ruined": false
+          },
+          "test": {
+            "profit": 1399248.08,
+            "dd": 19.8,
+            "trades": 2450,
+            "wr": 61.2,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 58642.43,
+            "dd": 21.5,
+            "trades": 1864,
+            "wr": 63.5,
+            "ruined": false
+          },
+          "test": {
+            "profit": 1399248.08,
+            "dd": 19.8,
+            "trades": 2450,
+            "wr": 61.2,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 5669854.75,
+            "dd": 21.1,
+            "trades": 3200,
+            "wr": 62.4,
+            "ruined": false
+          },
+          "test": {
+            "profit": 25511.97,
+            "dd": 21.0,
+            "trades": 1383,
+            "wr": 59.7,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.89,
+        "n_iter": 300,
+        "median": 339956387.0,
+        "p25": 281148645.0,
+        "p75": 384983356.0,
+        "p10": 258118269.0,
+        "p90": 442795578.0
+      }
+    },
+    {
+      "label": "V7 + 1D-dir EMA10",
+      "base": {
+        "profit": 154598560.14,
+        "dd": 18.3,
+        "trades": 4425,
+        "wr": 62.1,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 62.92,
+        "dd": 4.7,
+        "trades": 16,
+        "wr": 62.5
+      },
+      "last_2w": {
+        "profit": 54.23,
+        "dd": 9.3,
+        "trades": 31,
+        "wr": 58.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 64287.94,
+            "dd": 17.0,
+            "trades": 2047,
+            "wr": 62.8,
+            "ruined": false
+          },
+          "test": {
+            "profit": 492210.66,
+            "dd": 49.4,
+            "trades": 2376,
+            "wr": 61.6,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 64842.76,
+            "dd": 17.0,
+            "trades": 2049,
+            "wr": 62.8,
+            "ruined": false
+          },
+          "test": {
+            "profit": 1117299.97,
+            "dd": 18.3,
+            "trades": 2378,
+            "wr": 61.6,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 36552.88,
+            "dd": 17.6,
+            "trades": 1802,
+            "wr": 64.3,
+            "ruined": false
+          },
+          "test": {
+            "profit": 1117299.97,
+            "dd": 18.3,
+            "trades": 2378,
+            "wr": 61.6,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 2306894.17,
+            "dd": 17.0,
+            "trades": 3062,
+            "wr": 62.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 29748.76,
+            "dd": 18.4,
+            "trades": 1361,
+            "wr": 60.9,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.86,
+        "n_iter": 300,
+        "median": 162922028.0,
+        "p25": 142364592.0,
+        "p75": 176818956.0,
+        "p10": 128429957.0,
+        "p90": 182606222.0
+      }
+    },
+    {
+      "label": "1D-10 + Triple(3/8/15)",
+      "base": {
+        "profit": 188692443.66,
+        "dd": 24.2,
+        "trades": 4459,
+        "wr": 61.3,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 106.92,
+        "dd": 4.6,
+        "trades": 20,
+        "wr": 65.0
+      },
+      "last_2w": {
+        "profit": 95.32,
+        "dd": 8.8,
+        "trades": 34,
+        "wr": 58.8
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 95159.81,
+            "dd": 20.7,
+            "trades": 2083,
+            "wr": 62.0,
+            "ruined": false
+          },
+          "test": {
+            "profit": 444258.84,
+            "dd": 49.4,
+            "trades": 2375,
+            "wr": 60.8,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 93997.95,
+            "dd": 20.7,
+            "trades": 2084,
+            "wr": 62.0,
+            "ruined": false
+          },
+          "test": {
+            "profit": 990756.14,
+            "dd": 24.2,
+            "trades": 2376,
+            "wr": 60.9,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 59655.53,
+            "dd": 21.0,
+            "trades": 1828,
+            "wr": 63.5,
+            "ruined": false
+          },
+          "test": {
+            "profit": 990756.14,
+            "dd": 24.2,
+            "trades": 2376,
+            "wr": 60.9,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 3903830.51,
+            "dd": 20.7,
+            "trades": 3112,
+            "wr": 62.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 20849.5,
+            "dd": 24.4,
+            "trades": 1346,
+            "wr": 59.4,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.857,
+        "n_iter": 300,
+        "median": 204290673.0,
+        "p25": 161946294.0,
+        "p75": 219985891.0,
+        "p10": 149877603.0,
+        "p90": 228819734.0
+      }
+    },
+    {
+      "label": "1D-10 + 4H-30",
+      "base": {
+        "profit": 998939893.11,
+        "dd": 19.2,
+        "trades": 4778,
+        "wr": 62.1,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 110.16,
+        "dd": 4.6,
+        "trades": 21,
+        "wr": 66.7
+      },
+      "last_2w": {
+        "profit": 104.75,
+        "dd": 8.8,
+        "trades": 36,
+        "wr": 61.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 219423.19,
+            "dd": 17.8,
+            "trades": 2234,
+            "wr": 63.2,
+            "ruined": false
+          },
+          "test": {
+            "profit": 997897.86,
+            "dd": 49.6,
+            "trades": 2542,
+            "wr": 61.1,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 221616.62,
+            "dd": 17.8,
+            "trades": 2236,
+            "wr": 63.1,
+            "ruined": false
+          },
+          "test": {
+            "profit": 2169836.23,
+            "dd": 19.2,
+            "trades": 2540,
+            "wr": 61.1,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 133082.32,
+            "dd": 18.1,
+            "trades": 1959,
+            "wr": 64.7,
+            "ruined": false
+          },
+          "test": {
+            "profit": 2169836.23,
+            "dd": 19.2,
+            "trades": 2540,
+            "wr": 61.1,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 12091167.79,
+            "dd": 17.8,
+            "trades": 3339,
+            "wr": 62.9,
+            "ruined": false
+          },
+          "test": {
+            "profit": 37810.34,
+            "dd": 19.7,
+            "trades": 1435,
+            "wr": 60.2,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.84,
+        "n_iter": 300,
+        "median": 1104724497.0,
+        "p25": 959766041.0,
+        "p75": 1268480672.0,
+        "p10": 794647297.0,
+        "p90": 1318290038.0
+      }
+    },
+    {
+      "label": "1D-20 + 4H-50",
+      "base": {
+        "profit": 82369660.92,
+        "dd": 23.8,
+        "trades": 4395,
+        "wr": 61.1,
+        "ruined": false
+      },
+      "live_10d": {
+        "profit": 110.16,
+        "dd": 4.6,
+        "trades": 21,
+        "wr": 66.7
+      },
+      "last_2w": {
+        "profit": 104.75,
+        "dd": 8.8,
+        "trades": 36,
+        "wr": 61.1
+      },
+      "wf": {
+        "WF1 train20-22/test23-26": {
+          "train": {
+            "profit": 59154.26,
+            "dd": 23.8,
+            "trades": 2087,
+            "wr": 62.0,
+            "ruined": false
+          },
+          "test": {
+            "profit": 283169.52,
+            "dd": 50.9,
+            "trades": 2306,
+            "wr": 60.3,
+            "ruined": false
+          }
+        },
+        "WF2 train20-23/test24-26": {
+          "train": {
+            "profit": 59541.8,
+            "dd": 23.8,
+            "trades": 2089,
+            "wr": 61.9,
+            "ruined": false
+          },
+          "test": {
+            "profit": 659563.74,
+            "dd": 21.4,
+            "trades": 2309,
+            "wr": 60.4,
+            "ruined": false
+          }
+        },
+        "WF3 train21-23/test24-26": {
+          "train": {
+            "profit": 34146.72,
+            "dd": 24.9,
+            "trades": 1828,
+            "wr": 63.3,
+            "ruined": false
+          },
+          "test": {
+            "profit": 659563.74,
+            "dd": 21.4,
+            "trades": 2309,
+            "wr": 60.4,
+            "ruined": false
+          }
+        },
+        "WF4 train20-24/test25-26": {
+          "train": {
+            "profit": 1739417.02,
+            "dd": 23.8,
+            "trades": 3091,
+            "wr": 61.6,
+            "ruined": false
+          },
+          "test": {
+            "profit": 19350.2,
+            "dd": 21.6,
+            "trades": 1299,
+            "wr": 59.8,
+            "ruined": false
+          }
+        }
+      },
+      "mc": {
+        "ruin_rate": 0.877,
+        "n_iter": 300,
+        "median": 88984911.0,
+        "p25": 69352799.0,
+        "p75": 97340322.0,
+        "p10": 58043568.0,
+        "p90": 102673500.0
+      }
+    }
+  ]
+}

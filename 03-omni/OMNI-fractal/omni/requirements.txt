@@ -1,0 +1,31 @@
+# OMNI Trading System - Final Requirements
+
+# ===========================
+# Core Dependencies
+# ===========================
+
+# Upbit API Client
+pyupbit>=0.2.33
+
+# OpenAI GPT API Client
+openai>=1.0.0
+
+# Data Handling and Processing
+pandas>=2.0.0
+
+# Technical Analysis Library
+pandas-ta>=0.3.14b0
+
+# For loading environment variables (.env file)
+python-dotenv>=1.0.0
+
+
+# ===========================
+# Dashboard Dependencies
+# ===========================
+
+# Streamlit Web Dashboard
+streamlit>=1.47.0
+
+# Interactive Charting
+plotly>=6.2.0

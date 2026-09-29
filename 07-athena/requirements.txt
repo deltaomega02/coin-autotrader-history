@@ -1,0 +1,15 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Google GenAI SDK (2025-05 GA, deprecated google-generativeai 대체)
+google-genai>=1.0.0
+
+# Bybit 공식 SDK (HMAC 자동, 안정성)
+pybit>=5.7.0
+
+# 거시 지표
+yfinance>=0.2.40
+
+# 대시보드 (선택 — dashboard.py 사용 시만)
+streamlit>=1.30.0
+pandas>=2.0.0

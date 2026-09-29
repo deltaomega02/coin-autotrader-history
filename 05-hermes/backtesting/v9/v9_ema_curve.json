@@ -1,0 +1,1282 @@
+[
+  {
+    "ema_fast": 1,
+    "ema_slow": 10,
+    "profit": 116498101.26,
+    "dd": 31.8,
+    "trades": 6999,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 116498681.26
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 6,
+    "profit": 39492263.41,
+    "dd": 33.1,
+    "trades": 7068,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 39492843.41
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 8,
+    "profit": 52178064.59,
+    "dd": 35.1,
+    "trades": 7044,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 52178644.59
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 21,
+    "profit": 68984266.8,
+    "dd": 32.8,
+    "trades": 7059,
+    "wr": 57.2,
+    "ruined": false,
+    "final": 68984846.8
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 14,
+    "profit": 81453059.87,
+    "dd": 34.2,
+    "trades": 6997,
+    "wr": 57.2,
+    "ruined": false,
+    "final": 81453639.87
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 7,
+    "profit": 24835625.52,
+    "dd": 35.4,
+    "trades": 7068,
+    "wr": 56.6,
+    "ruined": false,
+    "final": 24836205.52
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 25,
+    "profit": 51342397.71,
+    "dd": 32.1,
+    "trades": 7098,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 51342977.71
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 15,
+    "profit": 93448474.71,
+    "dd": 32.5,
+    "trades": 7009,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 93449054.71
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 17,
+    "profit": 97125225.7,
+    "dd": 31.6,
+    "trades": 7015,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 97125805.7
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 5,
+    "profit": 31700985.37,
+    "dd": 33.7,
+    "trades": 7098,
+    "wr": 56.7,
+    "ruined": false,
+    "final": 31701565.37
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 12,
+    "profit": 118220696.23,
+    "dd": 31.1,
+    "trades": 7003,
+    "wr": 57.5,
+    "ruined": false,
+    "final": 118221276.23
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 9,
+    "profit": 68413317.78,
+    "dd": 32.8,
+    "trades": 7023,
+    "wr": 57.1,
+    "ruined": false,
+    "final": 68413897.78
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 18,
+    "profit": 82302909.87,
+    "dd": 30.2,
+    "trades": 7019,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 82303489.87
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 30,
+    "profit": 48511663.51,
+    "dd": 38.9,
+    "trades": 7121,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 48512243.51
+  },
+  {
+    "ema_fast": 1,
+    "ema_slow": 35,
+    "profit": 29939771.06,
+    "dd": 36.3,
+    "trades": 7156,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 29940351.06
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 12,
+    "profit": 4899421.21,
+    "dd": 39.2,
+    "trades": 6129,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 4900001.21
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 5,
+    "profit": 2195932.54,
+    "dd": 41.1,
+    "trades": 6090,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 2196512.54
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 6,
+    "profit": 2581764.95,
+    "dd": 45.4,
+    "trades": 6094,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 2582344.95
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 17,
+    "profit": 11072803.47,
+    "dd": 38.2,
+    "trades": 6174,
+    "wr": 57.4,
+    "ruined": false,
+    "final": 11073383.47
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 18,
+    "profit": 10017517.45,
+    "dd": 38.4,
+    "trades": 6187,
+    "wr": 57.4,
+    "ruined": false,
+    "final": 10018097.45
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 9,
+    "profit": 3560857.25,
+    "dd": 42.3,
+    "trades": 6073,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 3561437.25
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 14,
+    "profit": 6870792.14,
+    "dd": 40.7,
+    "trades": 6124,
+    "wr": 57.2,
+    "ruined": false,
+    "final": 6871372.14
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 10,
+    "profit": 2872481.75,
+    "dd": 40.7,
+    "trades": 6087,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 2873061.75
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 15,
+    "profit": 9098493.06,
+    "dd": 39.4,
+    "trades": 6134,
+    "wr": 57.2,
+    "ruined": false,
+    "final": 9099073.06
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 7,
+    "profit": 2273442.74,
+    "dd": 42.0,
+    "trades": 6054,
+    "wr": 56.7,
+    "ruined": false,
+    "final": 2274022.74
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 8,
+    "profit": 2605955.5,
+    "dd": 42.4,
+    "trades": 6053,
+    "wr": 56.7,
+    "ruined": false,
+    "final": 2606535.5
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 21,
+    "profit": 10335707.79,
+    "dd": 35.6,
+    "trades": 6247,
+    "wr": 57.4,
+    "ruined": false,
+    "final": 10336287.79
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 25,
+    "profit": 8465934.38,
+    "dd": 36.9,
+    "trades": 6328,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 8466514.38
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 35,
+    "profit": 5512650.58,
+    "dd": 37.0,
+    "trades": 6469,
+    "wr": 57.1,
+    "ruined": false,
+    "final": 5513230.58
+  },
+  {
+    "ema_fast": 2,
+    "ema_slow": 30,
+    "profit": 4836106.23,
+    "dd": 37.4,
+    "trades": 6397,
+    "wr": 57.1,
+    "ruined": false,
+    "final": 4836686.23
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 18,
+    "profit": 1926801.86,
+    "dd": 40.2,
+    "trades": 5909,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 1927381.86
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 6,
+    "profit": 180205.37,
+    "dd": 59.8,
+    "trades": 5643,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 180785.37
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 9,
+    "profit": 580885.45,
+    "dd": 49.2,
+    "trades": 5704,
+    "wr": 56.7,
+    "ruined": false,
+    "final": 581465.45
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 14,
+    "profit": 1817902.23,
+    "dd": 40.5,
+    "trades": 5817,
+    "wr": 57.1,
+    "ruined": false,
+    "final": 1818482.23
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 7,
+    "profit": 226502.09,
+    "dd": 55.6,
+    "trades": 5658,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 227082.09
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 10,
+    "profit": 873182.67,
+    "dd": 42.9,
+    "trades": 5730,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 873762.67
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 12,
+    "profit": 1235925.5,
+    "dd": 41.3,
+    "trades": 5774,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 1236505.5
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 8,
+    "profit": 318544.29,
+    "dd": 50.3,
+    "trades": 5697,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 319124.29
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 21,
+    "profit": 2113791.3,
+    "dd": 36.4,
+    "trades": 5967,
+    "wr": 57.2,
+    "ruined": false,
+    "final": 2114371.3
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 25,
+    "profit": 1728661.95,
+    "dd": 39.7,
+    "trades": 6040,
+    "wr": 57.2,
+    "ruined": false,
+    "final": 1729241.95
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 15,
+    "profit": 2493374.4,
+    "dd": 43.1,
+    "trades": 5843,
+    "wr": 57.4,
+    "ruined": false,
+    "final": 2493954.4
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 17,
+    "profit": 2240057.09,
+    "dd": 39.1,
+    "trades": 5886,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 2240637.09
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 30,
+    "profit": 1101496.01,
+    "dd": 42.1,
+    "trades": 6145,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 1102076.01
+  },
+  {
+    "ema_fast": 3,
+    "ema_slow": 35,
+    "profit": 1141014.65,
+    "dd": 33.8,
+    "trades": 6252,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 1141594.65
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 8,
+    "profit": 309798.69,
+    "dd": 51.8,
+    "trades": 5359,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 310378.69
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 14,
+    "profit": 390448.44,
+    "dd": 50.5,
+    "trades": 5548,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 391028.44
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 9,
+    "profit": 470522.89,
+    "dd": 43.9,
+    "trades": 5377,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 471102.89
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 7,
+    "profit": 96578.6,
+    "dd": 62.1,
+    "trades": 5352,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 97158.6
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 10,
+    "profit": 492520.78,
+    "dd": 42.0,
+    "trades": 5412,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 493100.78
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 15,
+    "profit": 289485.2,
+    "dd": 53.6,
+    "trades": 5586,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 290065.2
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 18,
+    "profit": 229427.19,
+    "dd": 54.7,
+    "trades": 5648,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 230007.19
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 17,
+    "profit": 280857.52,
+    "dd": 52.9,
+    "trades": 5632,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 281437.52
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 21,
+    "profit": 294787.44,
+    "dd": 52.1,
+    "trades": 5705,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 295367.44
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 30,
+    "profit": 256094.33,
+    "dd": 44.9,
+    "trades": 5941,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 256674.33
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 12,
+    "profit": 282779.96,
+    "dd": 59.7,
+    "trades": 5466,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 283359.96
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 25,
+    "profit": 322325.44,
+    "dd": 48.0,
+    "trades": 5822,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 322905.44
+  },
+  {
+    "ema_fast": 4,
+    "ema_slow": 35,
+    "profit": 169632.25,
+    "dd": 45.5,
+    "trades": 6044,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 170212.25
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 8,
+    "profit": 341566.74,
+    "dd": 56.0,
+    "trades": 5121,
+    "wr": 57.2,
+    "ruined": false,
+    "final": 342146.74
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 15,
+    "profit": 215570.42,
+    "dd": 46.8,
+    "trades": 5344,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 216150.42
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 21,
+    "profit": 327657.75,
+    "dd": 44.7,
+    "trades": 5510,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 328237.75
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 9,
+    "profit": 532657.76,
+    "dd": 46.3,
+    "trades": 5158,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 533237.76
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 14,
+    "profit": 220824.4,
+    "dd": 50.4,
+    "trades": 5326,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 221404.4
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 10,
+    "profit": 502060.29,
+    "dd": 50.1,
+    "trades": 5193,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 502640.29
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 17,
+    "profit": 204313.83,
+    "dd": 48.8,
+    "trades": 5391,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 204893.83
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 25,
+    "profit": 295524.76,
+    "dd": 43.7,
+    "trades": 5634,
+    "wr": 56.7,
+    "ruined": false,
+    "final": 296104.76
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 12,
+    "profit": 473611.51,
+    "dd": 48.4,
+    "trades": 5258,
+    "wr": 57.3,
+    "ruined": false,
+    "final": 474191.51
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 35,
+    "profit": 172325.45,
+    "dd": 51.1,
+    "trades": 5839,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 172905.45
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 30,
+    "profit": 258615.25,
+    "dd": 47.6,
+    "trades": 5764,
+    "wr": 56.7,
+    "ruined": false,
+    "final": 259195.25
+  },
+  {
+    "ema_fast": 5,
+    "ema_slow": 18,
+    "profit": 221393.08,
+    "dd": 51.7,
+    "trades": 5422,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 221973.08
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 9,
+    "profit": 130115.52,
+    "dd": 55.1,
+    "trades": 4974,
+    "wr": 57.0,
+    "ruined": false,
+    "final": 130695.52
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 10,
+    "profit": 97725.68,
+    "dd": 58.4,
+    "trades": 5003,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 98305.68
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 14,
+    "profit": 56786.64,
+    "dd": 59.4,
+    "trades": 5129,
+    "wr": 56.6,
+    "ruined": false,
+    "final": 57366.64
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 15,
+    "profit": 46872.18,
+    "dd": 63.4,
+    "trades": 5165,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 47452.18
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 12,
+    "profit": 60452.44,
+    "dd": 58.2,
+    "trades": 5086,
+    "wr": 56.6,
+    "ruined": false,
+    "final": 61032.44
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 10,
+    "profit": 116479.75,
+    "dd": 48.0,
+    "trades": 4881,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 117059.75
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 30,
+    "profit": 48298.87,
+    "dd": 54.3,
+    "trades": 5622,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 48878.87
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 21,
+    "profit": 80139.47,
+    "dd": 49.3,
+    "trades": 5345,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 80719.47
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 17,
+    "profit": 36837.8,
+    "dd": 61.5,
+    "trades": 5220,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 37417.8
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 18,
+    "profit": 47490.98,
+    "dd": 57.5,
+    "trades": 5255,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 48070.98
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 12,
+    "profit": 131569.31,
+    "dd": 40.7,
+    "trades": 4935,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 132149.31
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 25,
+    "profit": 81186.72,
+    "dd": 54.6,
+    "trades": 5483,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 81766.72
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 14,
+    "profit": 75485.83,
+    "dd": 48.8,
+    "trades": 5002,
+    "wr": 56.6,
+    "ruined": false,
+    "final": 76065.83
+  },
+  {
+    "ema_fast": 6,
+    "ema_slow": 35,
+    "profit": 56989.05,
+    "dd": 52.4,
+    "trades": 5725,
+    "wr": 56.2,
+    "ruined": false,
+    "final": 57569.05
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 15,
+    "profit": 87760.01,
+    "dd": 47.6,
+    "trades": 5023,
+    "wr": 56.6,
+    "ruined": false,
+    "final": 88340.01
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 17,
+    "profit": 113241.94,
+    "dd": 40.5,
+    "trades": 5092,
+    "wr": 56.6,
+    "ruined": false,
+    "final": 113821.94
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 18,
+    "profit": 113279.11,
+    "dd": 40.5,
+    "trades": 5118,
+    "wr": 56.6,
+    "ruined": false,
+    "final": 113859.11
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 21,
+    "profit": 76220.29,
+    "dd": 50.4,
+    "trades": 5221,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 76800.29
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 25,
+    "profit": 72985.76,
+    "dd": 46.4,
+    "trades": 5366,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 73565.76
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 12,
+    "profit": 119833.13,
+    "dd": 40.5,
+    "trades": 4824,
+    "wr": 56.8,
+    "ruined": false,
+    "final": 120413.13
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 30,
+    "profit": 63711.38,
+    "dd": 48.1,
+    "trades": 5498,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 64291.38
+  },
+  {
+    "ema_fast": 7,
+    "ema_slow": 35,
+    "profit": 84263.77,
+    "dd": 41.4,
+    "trades": 5621,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 84843.77
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 25,
+    "profit": 82472.48,
+    "dd": 45.1,
+    "trades": 5241,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 83052.48
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 15,
+    "profit": 104639.61,
+    "dd": 42.4,
+    "trades": 4895,
+    "wr": 56.7,
+    "ruined": false,
+    "final": 105219.61
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 17,
+    "profit": 64860.45,
+    "dd": 41.6,
+    "trades": 4965,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 65440.45
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 14,
+    "profit": 87991.64,
+    "dd": 40.8,
+    "trades": 4881,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 88571.64
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 21,
+    "profit": 97966.24,
+    "dd": 43.9,
+    "trades": 5112,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 98546.24
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 18,
+    "profit": 76420.44,
+    "dd": 43.7,
+    "trades": 4989,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 77000.44
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 30,
+    "profit": 84083.4,
+    "dd": 39.0,
+    "trades": 5366,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 84663.4
+  },
+  {
+    "ema_fast": 8,
+    "ema_slow": 35,
+    "profit": 73449.91,
+    "dd": 42.4,
+    "trades": 5460,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 74029.91
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 12,
+    "profit": 69642.02,
+    "dd": 46.1,
+    "trades": 4672,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 70222.02
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 14,
+    "profit": 61762.76,
+    "dd": 48.3,
+    "trades": 4722,
+    "wr": 56.9,
+    "ruined": false,
+    "final": 62342.76
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 15,
+    "profit": 45471.77,
+    "dd": 46.8,
+    "trades": 4763,
+    "wr": 56.7,
+    "ruined": false,
+    "final": 46051.77
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 17,
+    "profit": 36763.03,
+    "dd": 51.5,
+    "trades": 4831,
+    "wr": 56.6,
+    "ruined": false,
+    "final": 37343.03
+  },
+  {
+    "ema_fast": 10,
+    "ema_slow": 15,
+    "profit": -723.22,
+    "dd": 97.6,
+    "trades": 4071,
+    "wr": 56.2,
+    "ruined": true,
+    "final": -143.22
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 21,
+    "profit": 18660.62,
+    "dd": 52.0,
+    "trades": 4997,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 19240.62
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 35,
+    "profit": 46829.89,
+    "dd": 51.7,
+    "trades": 5337,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 47409.89
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 18,
+    "profit": 38311.17,
+    "dd": 51.0,
+    "trades": 4875,
+    "wr": 56.5,
+    "ruined": false,
+    "final": 38891.17
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 25,
+    "profit": 34659.35,
+    "dd": 45.1,
+    "trades": 5108,
+    "wr": 56.3,
+    "ruined": false,
+    "final": 35239.35
+  },
+  {
+    "ema_fast": 9,
+    "ema_slow": 30,
+    "profit": 27475.5,
+    "dd": 52.1,
+    "trades": 5242,
+    "wr": 56.2,
+    "ruined": false,
+    "final": 28055.5
+  },
+  {
+    "ema_fast": 10,
+    "ema_slow": 14,
+    "profit": 11821.18,
+    "dd": 54.9,
+    "trades": 4631,
+    "wr": 56.4,
+    "ruined": false,
+    "final": 12401.18
+  },
+  {
+    "ema_fast": 10,
+    "ema_slow": 17,
+    "profit": 3237.24,
+    "dd": 62.4,
+    "trades": 4755,
+    "wr": 56.2,
+    "ruined": false,
+    "final": 3817.24
+  },
+  {
+    "ema_fast": 10,
+    "ema_slow": 18,
+    "profit": 5537.62,
+    "dd": 59.2,
+    "trades": 4792,
+    "wr": 56.2,
+    "ruined": false,
+    "final": 6117.62
+  },
+  {
+    "ema_fast": 12,
+    "ema_slow": 18,
+    "profit": -1603.65,
+    "dd": 97.5,
+    "trades": 1695,
+    "wr": 57.3,
+    "ruined": true,
+    "final": -1023.65
+  },
+  {
+    "ema_fast": 12,
+    "ema_slow": 15,
+    "profit": -1542.19,
+    "dd": 97.5,
+    "trades": 1858,
+    "wr": 57.2,
+    "ruined": true,
+    "final": -962.19
+  },
+  {
+    "ema_fast": 12,
+    "ema_slow": 17,
+    "profit": -1583.71,
+    "dd": 97.4,
+    "trades": 1735,
+    "wr": 57.3,
+    "ruined": true,
+    "final": -1003.71
+  },
+  {
+    "ema_fast": 10,
+    "ema_slow": 21,
+    "profit": 6598.0,
+    "dd": 57.3,
+    "trades": 4893,
+    "wr": 56.0,
+    "ruined": false,
+    "final": 7178.0
+  },
+  {
+    "ema_fast": 12,
+    "ema_slow": 30,
+    "profit": -1287.25,
+    "dd": 97.3,
+    "trades": 2247,
+    "wr": 56.6,
+    "ruined": true,
+    "final": -707.25
+  },
+  {
+    "ema_fast": 12,
+    "ema_slow": 35,
+    "profit": -1330.87,
+    "dd": 97.5,
+    "trades": 2310,
+    "wr": 56.4,
+    "ruined": true,
+    "final": -750.87
+  },
+  {
+    "ema_fast": 10,
+    "ema_slow": 25,
+    "profit": 14133.03,
+    "dd": 40.6,
+    "trades": 4994,
+    "wr": 55.9,
+    "ruined": false,
+    "final": 14713.03
+  },
+  {
+    "ema_fast": 12,
+    "ema_slow": 25,
+    "profit": -1423.7,
+    "dd": 97.4,
+    "trades": 2184,
+    "wr": 56.3,
+    "ruined": true,
+    "final": -843.7
+  },
+  {
+    "ema_fast": 12,
+    "ema_slow": 21,
+    "profit": -1450.64,
+    "dd": 97.4,
+    "trades": 2118,
+    "wr": 56.2,
+    "ruined": true,
+    "final": -870.64
+  },
+  {
+    "ema_fast": 15,
+    "ema_slow": 21,
+    "profit": -1310.42,
+    "dd": 97.5,
+    "trades": 2010,
+    "wr": 56.3,
+    "ruined": true,
+    "final": -730.42
+  },
+  {
+    "ema_fast": 10,
+    "ema_slow": 30,
+    "profit": 8310.07,
+    "dd": 54.4,
+    "trades": 5144,
+    "wr": 55.8,
+    "ruined": false,
+    "final": 8890.07
+  },
+  {
+    "ema_fast": 15,
+    "ema_slow": 18,
+    "profit": -1390.86,
+    "dd": 97.5,
+    "trades": 1947,
+    "wr": 56.2,
+    "ruined": true,
+    "final": -810.86
+  },
+  {
+    "ema_fast": 15,
+    "ema_slow": 25,
+    "profit": -1282.18,
+    "dd": 97.5,
+    "trades": 2069,
+    "wr": 56.4,
+    "ruined": true,
+    "final": -702.18
+  },
+  {
+    "ema_fast": 10,
+    "ema_slow": 35,
+    "profit": 17768.42,
+    "dd": 52.3,
+    "trades": 5242,
+    "wr": 55.9,
+    "ruined": false,
+    "final": 18348.42
+  },
+  {
+    "ema_fast": 15,
+    "ema_slow": 30,
+    "profit": -1196.17,
+    "dd": 97.5,
+    "trades": 2250,
+    "wr": 56.5,
+    "ruined": true,
+    "final": -616.17
+  },
+  {
+    "ema_fast": 15,
+    "ema_slow": 35,
+    "profit": -1340.75,
+    "dd": 97.5,
+    "trades": 2189,
+    "wr": 56.3,
+    "ruined": true,
+    "final": -760.75
+  }
+]

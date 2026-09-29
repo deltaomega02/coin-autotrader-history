@@ -1,0 +1,4162 @@
+{
+  "timestamp": "2026-04-19T00:07:24.240226",
+  "elapsed_total_sec": 3922.2,
+  "counts": {
+    "phase1": 104,
+    "phase2": 10000,
+    "phase3": 4000,
+    "survivors": 6696
+  },
+  "top_50_by_score": [
+    {
+      "cfg_hash": "f4bf896f82",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.5,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 802828704999.82,
+      "dd": 56.3,
+      "trades": 6737,
+      "wr": 58.0,
+      "ruined": false,
+      "final_bal": 802828705579.82,
+      "yearly": {
+        "2020": {
+          "trades": 405,
+          "wins": 195,
+          "pnl": 188.48
+        },
+        "2021": {
+          "trades": 1121,
+          "wins": 665,
+          "pnl": 3328.09
+        },
+        "2022": {
+          "trades": 1633,
+          "wins": 1000,
+          "pnl": 2260252.96
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 35475.27
+        },
+        "2024": {
+          "trades": 1530,
+          "wins": 894,
+          "pnl": 1263731636.82
+        },
+        "2025": {
+          "trades": 1574,
+          "wins": 883,
+          "pnl": 85526060407.25
+        },
+        "2026": {
+          "trades": 472,
+          "wins": 271,
+          "pnl": 716036615442.2
+        }
+      },
+      "long": {
+        "t": 2994,
+        "w": 1641,
+        "wr": 54.8
+      },
+      "short": {
+        "t": 3743,
+        "w": 2268,
+        "wr": 60.6
+      },
+      "calmar": 14259834902.31,
+      "score": 14259834902.31
+    },
+    {
+      "cfg_hash": "4f2083704f",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 2.0,
+        "adx_enter_trending": 27,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 231577714996.74,
+      "dd": 52.7,
+      "trades": 6707,
+      "wr": 58.3,
+      "ruined": false,
+      "final_bal": 231577715576.74,
+      "yearly": {
+        "2020": {
+          "trades": 407,
+          "wins": 195,
+          "pnl": 163.22
+        },
+        "2021": {
+          "trades": 1128,
+          "wins": 687,
+          "pnl": 7132.69
+        },
+        "2022": {
+          "trades": 1631,
+          "wins": 1005,
+          "pnl": 3980366.56
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 67336.22
+        },
+        "2024": {
+          "trades": 1501,
+          "wins": 872,
+          "pnl": 921218151.87
+        },
+        "2025": {
+          "trades": 1579,
+          "wins": 886,
+          "pnl": 33240434455.97
+        },
+        "2026": {
+          "trades": 459,
+          "wins": 263,
+          "pnl": 197412009121.49
+        }
+      },
+      "long": {
+        "t": 2992,
+        "w": 1645,
+        "wr": 55.0
+      },
+      "short": {
+        "t": 3715,
+        "w": 2264,
+        "wr": 60.9
+      },
+      "calmar": 4394264041.68,
+      "score": 4394264041.68
+    },
+    {
+      "cfg_hash": "2585fc8188",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.1,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 173631534972.39,
+      "dd": 52.6,
+      "trades": 6861,
+      "wr": 59.8,
+      "ruined": false,
+      "final_bal": 173631535552.39,
+      "yearly": {
+        "2020": {
+          "trades": 419,
+          "wins": 210,
+          "pnl": 202.89
+        },
+        "2021": {
+          "trades": 1144,
+          "wins": 703,
+          "pnl": 3260.92
+        },
+        "2022": {
+          "trades": 1652,
+          "wins": 1038,
+          "pnl": 1195582.04
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -13813.35
+        },
+        "2024": {
+          "trades": 1569,
+          "wins": 940,
+          "pnl": 353768938.62
+        },
+        "2025": {
+          "trades": 1597,
+          "wins": 925,
+          "pnl": 16581680703.69
+        },
+        "2026": {
+          "trades": 479,
+          "wins": 284,
+          "pnl": 156694901828.85
+        }
+      },
+      "long": {
+        "t": 3058,
+        "w": 1726,
+        "wr": 56.4
+      },
+      "short": {
+        "t": 3803,
+        "w": 2374,
+        "wr": 62.4
+      },
+      "calmar": 3300979752.33,
+      "score": 3300979752.33
+    },
+    {
+      "cfg_hash": "b74ec28609",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.5,
+        "entry_score_threshold": 35,
+        "pullback_ema_dist_pct": 1.0,
+        "adx_enter_trending": 25,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 167069940435.1,
+      "dd": 51.4,
+      "trades": 6476,
+      "wr": 57.8,
+      "ruined": false,
+      "final_bal": 167069941015.1,
+      "yearly": {
+        "2020": {
+          "trades": 392,
+          "wins": 190,
+          "pnl": 266.17
+        },
+        "2021": {
+          "trades": 1071,
+          "wins": 639,
+          "pnl": 4257.08
+        },
+        "2022": {
+          "trades": 1562,
+          "wins": 954,
+          "pnl": 1543076.13
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 24251.21
+        },
+        "2024": {
+          "trades": 1485,
+          "wins": 859,
+          "pnl": 497405035.31
+        },
+        "2025": {
+          "trades": 1511,
+          "wins": 845,
+          "pnl": 22525208971.48
+        },
+        "2026": {
+          "trades": 453,
+          "wins": 257,
+          "pnl": 144045756308.97
+        }
+      },
+      "long": {
+        "t": 2862,
+        "w": 1564,
+        "wr": 54.6
+      },
+      "short": {
+        "t": 3614,
+        "w": 2181,
+        "wr": 60.3
+      },
+      "calmar": 3250387946.21,
+      "score": 3250387946.21
+    },
+    {
+      "cfg_hash": "dc35a95d08",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 24,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 107307722496.52,
+      "dd": 54.0,
+      "trades": 6574,
+      "wr": 58.0,
+      "ruined": false,
+      "final_bal": 107307723076.52,
+      "yearly": {
+        "2020": {
+          "trades": 395,
+          "wins": 192,
+          "pnl": 221.45
+        },
+        "2021": {
+          "trades": 1089,
+          "wins": 649,
+          "pnl": 3629.31
+        },
+        "2022": {
+          "trades": 1596,
+          "wins": 977,
+          "pnl": 1325029.78
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 20193.57
+        },
+        "2024": {
+          "trades": 1500,
+          "wins": 870,
+          "pnl": 390174178.7
+        },
+        "2025": {
+          "trades": 1537,
+          "wins": 860,
+          "pnl": 13929137180.35
+        },
+        "2026": {
+          "trades": 455,
+          "wins": 261,
+          "pnl": 92987063794.63
+        }
+      },
+      "long": {
+        "t": 2914,
+        "w": 1595,
+        "wr": 54.7
+      },
+      "short": {
+        "t": 3660,
+        "w": 2215,
+        "wr": 60.5
+      },
+      "calmar": 1987180046.23,
+      "score": 1987180046.23
+    },
+    {
+      "cfg_hash": "fe38ce6a67",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 25,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 96707955778.89,
+      "dd": 51.3,
+      "trades": 6446,
+      "wr": 57.6,
+      "ruined": false,
+      "final_bal": 96707956358.89,
+      "yearly": {
+        "2020": {
+          "trades": 390,
+          "wins": 188,
+          "pnl": 243.35
+        },
+        "2021": {
+          "trades": 1062,
+          "wins": 633,
+          "pnl": 3974.73
+        },
+        "2022": {
+          "trades": 1551,
+          "wins": 939,
+          "pnl": 1038242.27
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 16334.5
+        },
+        "2024": {
+          "trades": 1482,
+          "wins": 857,
+          "pnl": 349910437.12
+        },
+        "2025": {
+          "trades": 1509,
+          "wins": 840,
+          "pnl": 13072670275.57
+        },
+        "2026": {
+          "trades": 450,
+          "wins": 255,
+          "pnl": 83284318002.62
+        }
+      },
+      "long": {
+        "t": 2856,
+        "w": 1557,
+        "wr": 54.5
+      },
+      "short": {
+        "t": 3590,
+        "w": 2156,
+        "wr": 60.1
+      },
+      "calmar": 1885145336.82,
+      "score": 1885145336.82
+    },
+    {
+      "cfg_hash": "75a553ad30",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.1,
+        "trailing_distance": 0.08,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 76219729325.1,
+      "dd": 53.1,
+      "trades": 6869,
+      "wr": 59.8,
+      "ruined": false,
+      "final_bal": 76219729905.1,
+      "yearly": {
+        "2020": {
+          "trades": 421,
+          "wins": 212,
+          "pnl": 163.74
+        },
+        "2021": {
+          "trades": 1148,
+          "wins": 707,
+          "pnl": 2777.59
+        },
+        "2022": {
+          "trades": 1652,
+          "wins": 1039,
+          "pnl": 863873.61
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -9987.61
+        },
+        "2024": {
+          "trades": 1570,
+          "wins": 942,
+          "pnl": 226091260.73
+        },
+        "2025": {
+          "trades": 1598,
+          "wins": 926,
+          "pnl": 8189510741.08
+        },
+        "2026": {
+          "trades": 479,
+          "wins": 284,
+          "pnl": 67803272227.22
+        }
+      },
+      "long": {
+        "t": 3062,
+        "w": 1731,
+        "wr": 56.5
+      },
+      "short": {
+        "t": 3807,
+        "w": 2379,
+        "wr": 62.5
+      },
+      "calmar": 1435399798.97,
+      "score": 1435399798.97
+    },
+    {
+      "cfg_hash": "532b4d923a",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 37,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 28,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 0.8,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 52213196827.53,
+      "dd": 39.7,
+      "trades": 6794,
+      "wr": 65.7,
+      "ruined": false,
+      "final_bal": 52213197407.53,
+      "yearly": {
+        "2020": {
+          "trades": 473,
+          "wins": 266,
+          "pnl": 489.93
+        },
+        "2021": {
+          "trades": 1155,
+          "wins": 775,
+          "pnl": 4530.14
+        },
+        "2022": {
+          "trades": 1590,
+          "wins": 1102,
+          "pnl": 1224892.95
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -14162.42
+        },
+        "2024": {
+          "trades": 1564,
+          "wins": 1025,
+          "pnl": 267038496.3
+        },
+        "2025": {
+          "trades": 1556,
+          "wins": 994,
+          "pnl": 8250540154.59
+        },
+        "2026": {
+          "trades": 455,
+          "wins": 304,
+          "pnl": 43694404157.31
+        }
+      },
+      "long": {
+        "t": 3039,
+        "w": 1913,
+        "wr": 62.9
+      },
+      "short": {
+        "t": 3755,
+        "w": 2553,
+        "wr": 68.0
+      },
+      "calmar": 1315193874.75,
+      "score": 1315193874.75
+    },
+    {
+      "cfg_hash": "26bac88140",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 37,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 24,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 56961339092.26,
+      "dd": 45.2,
+      "trades": 6818,
+      "wr": 61.7,
+      "ruined": false,
+      "final_bal": 56961339672.26,
+      "yearly": {
+        "2020": {
+          "trades": 432,
+          "wins": 229,
+          "pnl": 350.62
+        },
+        "2021": {
+          "trades": 1143,
+          "wins": 725,
+          "pnl": 4619.09
+        },
+        "2022": {
+          "trades": 1624,
+          "wins": 1053,
+          "pnl": 1179835.31
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -13649.26
+        },
+        "2024": {
+          "trades": 1570,
+          "wins": 970,
+          "pnl": 257132241.49
+        },
+        "2025": {
+          "trades": 1580,
+          "wins": 938,
+          "pnl": 6600303617.83
+        },
+        "2026": {
+          "trades": 468,
+          "wins": 290,
+          "pnl": 50102733808.44
+        }
+      },
+      "long": {
+        "t": 3042,
+        "w": 1777,
+        "wr": 58.4
+      },
+      "short": {
+        "t": 3776,
+        "w": 2428,
+        "wr": 64.3
+      },
+      "calmar": 1260206617.09,
+      "score": 1260206617.09
+    },
+    {
+      "cfg_hash": "d2667cd3b2",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 2.5,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.08,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 63734768922.57,
+      "dd": 56.8,
+      "trades": 6588,
+      "wr": 58.3,
+      "ruined": false,
+      "final_bal": 63734769502.57,
+      "yearly": {
+        "2020": {
+          "trades": 397,
+          "wins": 188,
+          "pnl": 61.02
+        },
+        "2021": {
+          "trades": 1111,
+          "wins": 679,
+          "pnl": 5177.0
+        },
+        "2022": {
+          "trades": 1607,
+          "wins": 989,
+          "pnl": 1955242.43
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 32586.93
+        },
+        "2024": {
+          "trades": 1480,
+          "wins": 861,
+          "pnl": 339751730.23
+        },
+        "2025": {
+          "trades": 1541,
+          "wins": 868,
+          "pnl": 9831139463.77
+        },
+        "2026": {
+          "trades": 450,
+          "wins": 256,
+          "pnl": 53561886392.44
+        }
+      },
+      "long": {
+        "t": 2930,
+        "w": 1609,
+        "wr": 54.9
+      },
+      "short": {
+        "t": 3658,
+        "w": 2233,
+        "wr": 61.0
+      },
+      "calmar": 1122091002.16,
+      "score": 1122091002.16
+    },
+    {
+      "cfg_hash": "ff69d06b53",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.4,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 2.25,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.0999999999999999,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 53102224183.4,
+      "dd": 52.9,
+      "trades": 6815,
+      "wr": 57.7,
+      "ruined": false,
+      "final_bal": 53102224763.4,
+      "yearly": {
+        "2020": {
+          "trades": 428,
+          "wins": 208,
+          "pnl": 264.24
+        },
+        "2021": {
+          "trades": 1155,
+          "wins": 712,
+          "pnl": 14996.9
+        },
+        "2022": {
+          "trades": 1637,
+          "wins": 989,
+          "pnl": 2309209.28
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -29672.22
+        },
+        "2024": {
+          "trades": 1548,
+          "wins": 897,
+          "pnl": 724548635.6
+        },
+        "2025": {
+          "trades": 1589,
+          "wins": 875,
+          "pnl": 9120534295.78
+        },
+        "2026": {
+          "trades": 457,
+          "wins": 253,
+          "pnl": 43254848185.07
+        }
+      },
+      "long": {
+        "t": 3058,
+        "w": 1686,
+        "wr": 55.1
+      },
+      "short": {
+        "t": 3757,
+        "w": 2248,
+        "wr": 59.8
+      },
+      "calmar": 1003822763.39,
+      "score": 1003822763.39
+    },
+    {
+      "cfg_hash": "e522bf2810",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 3.0,
+        "entry_score_threshold": 42,
+        "pullback_ema_dist_pct": 2.0,
+        "adx_enter_trending": 29,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 56082130594.2,
+      "dd": 57.3,
+      "trades": 6618,
+      "wr": 58.3,
+      "ruined": false,
+      "final_bal": 56082131174.2,
+      "yearly": {
+        "2020": {
+          "trades": 398,
+          "wins": 189,
+          "pnl": 59.9
+        },
+        "2021": {
+          "trades": 1113,
+          "wins": 680,
+          "pnl": 5351.51
+        },
+        "2022": {
+          "trades": 1611,
+          "wins": 988,
+          "pnl": 1659014.55
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 28103.67
+        },
+        "2024": {
+          "trades": 1488,
+          "wins": 868,
+          "pnl": 325460396.19
+        },
+        "2025": {
+          "trades": 1555,
+          "wins": 874,
+          "pnl": 9013873452.98
+        },
+        "2026": {
+          "trades": 451,
+          "wins": 257,
+          "pnl": 46741105946.65
+        }
+      },
+      "long": {
+        "t": 2953,
+        "w": 1621,
+        "wr": 54.9
+      },
+      "short": {
+        "t": 3665,
+        "w": 2236,
+        "wr": 61.0
+      },
+      "calmar": 978745734.63,
+      "score": 978745734.63
+    },
+    {
+      "cfg_hash": "6b0d8ea610",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 2.75,
+        "adx_enter_trending": 33,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.3,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 46875900987.91,
+      "dd": 49.2,
+      "trades": 6335,
+      "wr": 56.4,
+      "ruined": false,
+      "final_bal": 46875901567.91,
+      "yearly": {
+        "2020": {
+          "trades": 370,
+          "wins": 170,
+          "pnl": 194.62
+        },
+        "2021": {
+          "trades": 1080,
+          "wins": 630,
+          "pnl": 5638.34
+        },
+        "2022": {
+          "trades": 1540,
+          "wins": 918,
+          "pnl": 1435184.5
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 25089.8
+        },
+        "2024": {
+          "trades": 1429,
+          "wins": 804,
+          "pnl": 302600577.42
+        },
+        "2025": {
+          "trades": 1490,
+          "wins": 812,
+          "pnl": 6741734121.68
+        },
+        "2026": {
+          "trades": 424,
+          "wins": 237,
+          "pnl": 39830101912.81
+        }
+      },
+      "long": {
+        "t": 2822,
+        "w": 1489,
+        "wr": 52.8
+      },
+      "short": {
+        "t": 3513,
+        "w": 2083,
+        "wr": 59.3
+      },
+      "calmar": 952762215.2,
+      "score": 952762215.2
+    },
+    {
+      "cfg_hash": "d090b1d68b",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 26,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.1,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 40336021746.99,
+      "dd": 45.7,
+      "trades": 6532,
+      "wr": 59.5,
+      "ruined": false,
+      "final_bal": 40336022326.99,
+      "yearly": {
+        "2020": {
+          "trades": 402,
+          "wins": 202,
+          "pnl": 278.51
+        },
+        "2021": {
+          "trades": 1082,
+          "wins": 665,
+          "pnl": 3651.96
+        },
+        "2022": {
+          "trades": 1562,
+          "wins": 979,
+          "pnl": 885338.59
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -10244.01
+        },
+        "2024": {
+          "trades": 1515,
+          "wins": 903,
+          "pnl": 185380664.53
+        },
+        "2025": {
+          "trades": 1524,
+          "wins": 875,
+          "pnl": 4223217980.5
+        },
+        "2026": {
+          "trades": 446,
+          "wins": 264,
+          "pnl": 35926545808.17
+        }
+      },
+      "long": {
+        "t": 2899,
+        "w": 1633,
+        "wr": 56.3
+      },
+      "short": {
+        "t": 3633,
+        "w": 2255,
+        "wr": 62.1
+      },
+      "calmar": 882626296.43,
+      "score": 882626296.43
+    },
+    {
+      "cfg_hash": "09158f6c0b",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 50,
+        "pullback_ema_dist_pct": 2.25,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.4,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 38313830985.97,
+      "dd": 48.1,
+      "trades": 6310,
+      "wr": 55.0,
+      "ruined": false,
+      "final_bal": 38313831565.97,
+      "yearly": {
+        "2020": {
+          "trades": 358,
+          "wins": 160,
+          "pnl": 176.17
+        },
+        "2021": {
+          "trades": 1036,
+          "wins": 597,
+          "pnl": 6869.01
+        },
+        "2022": {
+          "trades": 1552,
+          "wins": 890,
+          "pnl": 1183038.83
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 28445.15
+        },
+        "2024": {
+          "trades": 1433,
+          "wins": 783,
+          "pnl": 192446933.4
+        },
+        "2025": {
+          "trades": 1498,
+          "wins": 805,
+          "pnl": 6345238193.72
+        },
+        "2026": {
+          "trades": 431,
+          "wins": 233,
+          "pnl": 31774929060.95
+        }
+      },
+      "long": {
+        "t": 2779,
+        "w": 1431,
+        "wr": 51.5
+      },
+      "short": {
+        "t": 3531,
+        "w": 2038,
+        "wr": 57.7
+      },
+      "calmar": 796545342.74,
+      "score": 796545342.74
+    },
+    {
+      "cfg_hash": "ca0c212f6c",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.35,
+        "tp_rr_ratio": 5.5,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 26,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 43271431001.91,
+      "dd": 58.1,
+      "trades": 6575,
+      "wr": 54.9,
+      "ruined": false,
+      "final_bal": 43271431581.91,
+      "yearly": {
+        "2020": {
+          "trades": 412,
+          "wins": 194,
+          "pnl": 420.88
+        },
+        "2021": {
+          "trades": 1093,
+          "wins": 618,
+          "pnl": 3834.56
+        },
+        "2022": {
+          "trades": 1569,
+          "wins": 927,
+          "pnl": 1895070.68
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 29763.59
+        },
+        "2024": {
+          "trades": 1501,
+          "wins": 826,
+          "pnl": 500591418.39
+        },
+        "2025": {
+          "trades": 1542,
+          "wins": 806,
+          "pnl": 7536966297.19
+        },
+        "2026": {
+          "trades": 456,
+          "wins": 240,
+          "pnl": 35231945927.89
+        }
+      },
+      "long": {
+        "t": 2929,
+        "w": 1527,
+        "wr": 52.1
+      },
+      "short": {
+        "t": 3646,
+        "w": 2085,
+        "wr": 57.2
+      },
+      "calmar": 744775060.27,
+      "score": 744775060.27
+    },
+    {
+      "cfg_hash": "7c9e41f15b",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 2.5,
+        "entry_score_threshold": 48,
+        "pullback_ema_dist_pct": 2.0,
+        "adx_enter_trending": 27,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.0999999999999999,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 34089323785.73,
+      "dd": 48.4,
+      "trades": 6810,
+      "wr": 59.8,
+      "ruined": false,
+      "final_bal": 34089324365.73,
+      "yearly": {
+        "2020": {
+          "trades": 423,
+          "wins": 212,
+          "pnl": 175.8
+        },
+        "2021": {
+          "trades": 1131,
+          "wins": 714,
+          "pnl": 8216.89
+        },
+        "2022": {
+          "trades": 1648,
+          "wins": 1039,
+          "pnl": 2106469.75
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -26996.3
+        },
+        "2024": {
+          "trades": 1539,
+          "wins": 914,
+          "pnl": 301867309.54
+        },
+        "2025": {
+          "trades": 1606,
+          "wins": 923,
+          "pnl": 5090461180.82
+        },
+        "2026": {
+          "trades": 462,
+          "wins": 272,
+          "pnl": 28694909160.5
+        }
+      },
+      "long": {
+        "t": 3029,
+        "w": 1717,
+        "wr": 56.7
+      },
+      "short": {
+        "t": 3781,
+        "w": 2357,
+        "wr": 62.3
+      },
+      "calmar": 704324871.61,
+      "score": 704324871.61
+    },
+    {
+      "cfg_hash": "e3d76f5b5d",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 26,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 30119877283.06,
+      "dd": 43.3,
+      "trades": 6631,
+      "wr": 61.4,
+      "ruined": false,
+      "final_bal": 30119877863.06,
+      "yearly": {
+        "2020": {
+          "trades": 422,
+          "wins": 220,
+          "pnl": 300.78
+        },
+        "2021": {
+          "trades": 1105,
+          "wins": 698,
+          "pnl": 3460.26
+        },
+        "2022": {
+          "trades": 1575,
+          "wins": 1015,
+          "pnl": 733693.3
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -8494.76
+        },
+        "2024": {
+          "trades": 1537,
+          "wins": 948,
+          "pnl": 149419695.54
+        },
+        "2025": {
+          "trades": 1541,
+          "wins": 913,
+          "pnl": 3156208753.93
+        },
+        "2026": {
+          "trades": 450,
+          "wins": 280,
+          "pnl": 26813521605.27
+        }
+      },
+      "long": {
+        "t": 2964,
+        "w": 1724,
+        "wr": 58.2
+      },
+      "short": {
+        "t": 3667,
+        "w": 2350,
+        "wr": 64.1
+      },
+      "calmar": 695609175.13,
+      "score": 695609175.13
+    },
+    {
+      "cfg_hash": "7c8b10da8b",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.75,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 48,
+        "pullback_ema_dist_pct": 2.75,
+        "adx_enter_trending": 33,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.0999999999999999,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 30087334510.15,
+      "dd": 46.9,
+      "trades": 6300,
+      "wr": 63.5,
+      "ruined": false,
+      "final_bal": 30087335090.15,
+      "yearly": {
+        "2020": {
+          "trades": 375,
+          "wins": 193,
+          "pnl": 71.58
+        },
+        "2021": {
+          "trades": 1055,
+          "wins": 703,
+          "pnl": 4819.29
+        },
+        "2022": {
+          "trades": 1541,
+          "wins": 1023,
+          "pnl": 753982.86
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -9685.34
+        },
+        "2024": {
+          "trades": 1423,
+          "wins": 902,
+          "pnl": 150768848.52
+        },
+        "2025": {
+          "trades": 1478,
+          "wins": 913,
+          "pnl": 3809183597.76
+        },
+        "2026": {
+          "trades": 427,
+          "wins": 268,
+          "pnl": 26126634606.74
+        }
+      },
+      "long": {
+        "t": 2747,
+        "w": 1660,
+        "wr": 60.4
+      },
+      "short": {
+        "t": 3553,
+        "w": 2342,
+        "wr": 65.9
+      },
+      "calmar": 641520991.69,
+      "score": 641520991.69
+    },
+    {
+      "cfg_hash": "21cfd8fae6",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 28,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 0.9,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 25549527313.11,
+      "dd": 42.6,
+      "trades": 6702,
+      "wr": 63.6,
+      "ruined": false,
+      "final_bal": 25549527893.11,
+      "yearly": {
+        "2020": {
+          "trades": 453,
+          "wins": 249,
+          "pnl": 391.95
+        },
+        "2021": {
+          "trades": 1126,
+          "wins": 727,
+          "pnl": 2407.56
+        },
+        "2022": {
+          "trades": 1581,
+          "wins": 1060,
+          "pnl": 806429.12
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -9321.76
+        },
+        "2024": {
+          "trades": 1548,
+          "wins": 983,
+          "pnl": 146699595.28
+        },
+        "2025": {
+          "trades": 1541,
+          "wins": 953,
+          "pnl": 3651414473.31
+        },
+        "2026": {
+          "trades": 452,
+          "wins": 292,
+          "pnl": 21750615068.9
+        }
+      },
+      "long": {
+        "t": 2969,
+        "w": 1796,
+        "wr": 60.5
+      },
+      "short": {
+        "t": 3733,
+        "w": 2468,
+        "wr": 66.1
+      },
+      "calmar": 599754162.28,
+      "score": 599754162.28
+    },
+    {
+      "cfg_hash": "8a26d18372",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.35,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 35,
+        "pullback_ema_dist_pct": 1.0,
+        "adx_enter_trending": 28,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 0.8,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 26099134574.75,
+      "dd": 50.9,
+      "trades": 6935,
+      "wr": 63.3,
+      "ruined": false,
+      "final_bal": 26099135154.75,
+      "yearly": {
+        "2020": {
+          "trades": 502,
+          "wins": 273,
+          "pnl": 510.2
+        },
+        "2021": {
+          "trades": 1187,
+          "wins": 771,
+          "pnl": 5120.8
+        },
+        "2022": {
+          "trades": 1609,
+          "wins": 1083,
+          "pnl": 1339206.62
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -15486.0
+        },
+        "2024": {
+          "trades": 1586,
+          "wins": 998,
+          "pnl": 217056732.18
+        },
+        "2025": {
+          "trades": 1593,
+          "wins": 975,
+          "pnl": 5454730706.38
+        },
+        "2026": {
+          "trades": 457,
+          "wins": 288,
+          "pnl": 20426019515.83
+        }
+      },
+      "long": {
+        "t": 3130,
+        "w": 1902,
+        "wr": 60.8
+      },
+      "short": {
+        "t": 3805,
+        "w": 2486,
+        "wr": 65.3
+      },
+      "calmar": 512753135.06,
+      "score": 512753135.06
+    },
+    {
+      "cfg_hash": "df4b2f399b",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.65,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 30,
+        "pullback_ema_dist_pct": 2.5,
+        "adx_enter_trending": 32,
+        "adx_exit_trending": 22,
+        "atr_high_vol_percentile": 95,
+        "orderbook_imbalance_min": 0.58,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 636,
+        "_from_hash": "468594372c"
+      },
+      "profit": 21405640389.94,
+      "dd": 49.2,
+      "trades": 6159,
+      "wr": 64.5,
+      "ruined": false,
+      "final_bal": 21405640969.94,
+      "yearly": {
+        "2020": {
+          "trades": 391,
+          "wins": 212,
+          "pnl": 258.51
+        },
+        "2021": {
+          "trades": 1016,
+          "wins": 672,
+          "pnl": 2579.13
+        },
+        "2022": {
+          "trades": 1492,
+          "wins": 1018,
+          "pnl": 888917.41
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -13602.09
+        },
+        "2024": {
+          "trades": 1438,
+          "wins": 930,
+          "pnl": 157814875.42
+        },
+        "2025": {
+          "trades": 1406,
+          "wins": 870,
+          "pnl": 2102439880.41
+        },
+        "2026": {
+          "trades": 415,
+          "wins": 272,
+          "pnl": 19144509212.4
+        }
+      },
+      "long": {
+        "t": 2708,
+        "w": 1659,
+        "wr": 61.3
+      },
+      "short": {
+        "t": 3451,
+        "w": 2315,
+        "wr": 67.1
+      },
+      "calmar": 435073991.67,
+      "score": 435073991.67
+    },
+    {
+      "cfg_hash": "6769c280e9",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.6,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 42,
+        "pullback_ema_dist_pct": 2.0,
+        "adx_enter_trending": 31,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 21842754070.99,
+      "dd": 51.3,
+      "trades": 6714,
+      "wr": 63.2,
+      "ruined": false,
+      "final_bal": 21842754650.99,
+      "yearly": {
+        "2020": {
+          "trades": 427,
+          "wins": 221,
+          "pnl": 42.39
+        },
+        "2021": {
+          "trades": 1143,
+          "wins": 758,
+          "pnl": 4833.52
+        },
+        "2022": {
+          "trades": 1618,
+          "wins": 1059,
+          "pnl": 536089.9
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -6907.02
+        },
+        "2024": {
+          "trades": 1518,
+          "wins": 958,
+          "pnl": 73276441.87
+        },
+        "2025": {
+          "trades": 1558,
+          "wins": 958,
+          "pnl": 2347486090.78
+        },
+        "2026": {
+          "trades": 449,
+          "wins": 289,
+          "pnl": 19421459210.81
+        }
+      },
+      "long": {
+        "t": 2980,
+        "w": 1795,
+        "wr": 60.2
+      },
+      "short": {
+        "t": 3734,
+        "w": 2448,
+        "wr": 65.6
+      },
+      "calmar": 425784679.75,
+      "score": 425784679.75
+    },
+    {
+      "cfg_hash": "5092b80145",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 35,
+        "pullback_ema_dist_pct": 0.5,
+        "adx_enter_trending": 26,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.1,
+        "trailing_distance": 0.08,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 17392992331.35,
+      "dd": 43.2,
+      "trades": 6440,
+      "wr": 59.4,
+      "ruined": false,
+      "final_bal": 17392992911.35,
+      "yearly": {
+        "2020": {
+          "trades": 395,
+          "wins": 197,
+          "pnl": 222.94
+        },
+        "2021": {
+          "trades": 1053,
+          "wins": 655,
+          "pnl": 4561.08
+        },
+        "2022": {
+          "trades": 1542,
+          "wins": 963,
+          "pnl": 878604.72
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -10178.62
+        },
+        "2024": {
+          "trades": 1502,
+          "wins": 895,
+          "pnl": 154343391.34
+        },
+        "2025": {
+          "trades": 1506,
+          "wins": 854,
+          "pnl": 1819559182.55
+        },
+        "2026": {
+          "trades": 441,
+          "wins": 261,
+          "pnl": 15418218278.59
+        }
+      },
+      "long": {
+        "t": 2866,
+        "w": 1609,
+        "wr": 56.1
+      },
+      "short": {
+        "t": 3574,
+        "w": 2216,
+        "wr": 62.0
+      },
+      "calmar": 402615563.23,
+      "score": 402615563.23
+    },
+    {
+      "cfg_hash": "b5c07899e5",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.5,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 19,
+        "adx_exit_trending": 17,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 0.8,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 6,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 4202,
+        "_from_hash": "28dff407f6"
+      },
+      "profit": 20794738572.1,
+      "dd": 52.7,
+      "trades": 7266,
+      "wr": 65.0,
+      "ruined": false,
+      "final_bal": 20794739152.1,
+      "yearly": {
+        "2020": {
+          "trades": 511,
+          "wins": 285,
+          "pnl": 389.14
+        },
+        "2021": {
+          "trades": 1264,
+          "wins": 853,
+          "pnl": 8463.41
+        },
+        "2022": {
+          "trades": 1713,
+          "wins": 1162,
+          "pnl": 1648623.24
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -12809.68
+        },
+        "2024": {
+          "trades": 1630,
+          "wins": 1064,
+          "pnl": 227411582.06
+        },
+        "2025": {
+          "trades": 1663,
+          "wins": 1038,
+          "pnl": 3756556240.89
+        },
+        "2026": {
+          "trades": 484,
+          "wins": 319,
+          "pnl": 16809127814.28
+        }
+      },
+      "long": {
+        "t": 3356,
+        "w": 2103,
+        "wr": 62.7
+      },
+      "short": {
+        "t": 3910,
+        "w": 2618,
+        "wr": 67.0
+      },
+      "calmar": 394587069.68,
+      "score": 394587069.68
+    },
+    {
+      "cfg_hash": "119e0f4a42",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.25,
+        "tp_rr_ratio": 5.5,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.05,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 32839377880.07,
+      "dd": 61.1,
+      "trades": 7147,
+      "wr": 56.4,
+      "ruined": false,
+      "final_bal": 32839378460.07,
+      "yearly": {
+        "2020": {
+          "trades": 489,
+          "wins": 233,
+          "pnl": 290.24
+        },
+        "2021": {
+          "trades": 1203,
+          "wins": 710,
+          "pnl": 5981.87
+        },
+        "2022": {
+          "trades": 1675,
+          "wins": 995,
+          "pnl": 1272314.54
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -14723.0
+        },
+        "2024": {
+          "trades": 1646,
+          "wins": 944,
+          "pnl": 395636618.67
+        },
+        "2025": {
+          "trades": 1645,
+          "wins": 873,
+          "pnl": 3651194906.01
+        },
+        "2026": {
+          "trades": 488,
+          "wins": 278,
+          "pnl": 28791284222.99
+        }
+      },
+      "long": {
+        "t": 3246,
+        "w": 1743,
+        "wr": 53.7
+      },
+      "short": {
+        "t": 3901,
+        "w": 2290,
+        "wr": 58.7
+      },
+      "calmar": 537469359.74,
+      "score": 376228551.82
+    },
+    {
+      "cfg_hash": "b0c179c623",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 0.5,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 0.8,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 14844053994.36,
+      "dd": 48.3,
+      "trades": 7102,
+      "wr": 65.3,
+      "ruined": false,
+      "final_bal": 14844054574.36,
+      "yearly": {
+        "2020": {
+          "trades": 482,
+          "wins": 270,
+          "pnl": 255.23
+        },
+        "2021": {
+          "trades": 1181,
+          "wins": 791,
+          "pnl": 3242.75
+        },
+        "2022": {
+          "trades": 1675,
+          "wins": 1147,
+          "pnl": 648151.8
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -7506.09
+        },
+        "2024": {
+          "trades": 1634,
+          "wins": 1077,
+          "pnl": 152084747.92
+        },
+        "2025": {
+          "trades": 1633,
+          "wins": 1022,
+          "pnl": 1980528869.92
+        },
+        "2026": {
+          "trades": 496,
+          "wins": 331,
+          "pnl": 12710797964.09
+        }
+      },
+      "long": {
+        "t": 3221,
+        "w": 2018,
+        "wr": 62.7
+      },
+      "short": {
+        "t": 3881,
+        "w": 2620,
+        "wr": 67.5
+      },
+      "calmar": 307330310.44,
+      "score": 307330310.44
+    },
+    {
+      "cfg_hash": "7bbf10c343",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 48,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 17,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 0.8,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 6,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 4202,
+        "_from_hash": "28dff407f6"
+      },
+      "profit": 12544506897.65,
+      "dd": 41.6,
+      "trades": 7076,
+      "wr": 65.0,
+      "ruined": false,
+      "final_bal": 12544507477.65,
+      "yearly": {
+        "2020": {
+          "trades": 489,
+          "wins": 271,
+          "pnl": 303.79
+        },
+        "2021": {
+          "trades": 1183,
+          "wins": 795,
+          "pnl": 4443.57
+        },
+        "2022": {
+          "trades": 1678,
+          "wins": 1147,
+          "pnl": 1025104.95
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -7958.52
+        },
+        "2024": {
+          "trades": 1606,
+          "wins": 1049,
+          "pnl": 136902305.0
+        },
+        "2025": {
+          "trades": 1641,
+          "wins": 1026,
+          "pnl": 2353336811.88
+        },
+        "2026": {
+          "trades": 478,
+          "wins": 314,
+          "pnl": 10053247618.24
+        }
+      },
+      "long": {
+        "t": 3230,
+        "w": 2023,
+        "wr": 62.6
+      },
+      "short": {
+        "t": 3846,
+        "w": 2579,
+        "wr": 67.1
+      },
+      "calmar": 301550646.58,
+      "score": 301550646.58
+    },
+    {
+      "cfg_hash": "13862cf2f3",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.4,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 42,
+        "pullback_ema_dist_pct": 2.75,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 15522173987.62,
+      "dd": 51.5,
+      "trades": 6921,
+      "wr": 59.7,
+      "ruined": false,
+      "final_bal": 15522174567.62,
+      "yearly": {
+        "2020": {
+          "trades": 451,
+          "wins": 229,
+          "pnl": 280.17
+        },
+        "2021": {
+          "trades": 1185,
+          "wins": 752,
+          "pnl": 12615.94
+        },
+        "2022": {
+          "trades": 1651,
+          "wins": 1027,
+          "pnl": 1144619.55
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -14782.14
+        },
+        "2024": {
+          "trades": 1560,
+          "wins": 933,
+          "pnl": 220021228.53
+        },
+        "2025": {
+          "trades": 1609,
+          "wins": 919,
+          "pnl": 2469817120.31
+        },
+        "2026": {
+          "trades": 464,
+          "wins": 275,
+          "pnl": 12831194636.51
+        }
+      },
+      "long": {
+        "t": 3121,
+        "w": 1779,
+        "wr": 57.0
+      },
+      "short": {
+        "t": 3800,
+        "w": 2356,
+        "wr": 62.0
+      },
+      "calmar": 301401436.65,
+      "score": 301401436.65
+    },
+    {
+      "cfg_hash": "64b6dd608c",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.5,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 0.9,
+        "trailing_distance": 0.09,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 14848212905.78,
+      "dd": 51.0,
+      "trades": 7118,
+      "wr": 63.4,
+      "ruined": false,
+      "final_bal": 14848213485.78,
+      "yearly": {
+        "2020": {
+          "trades": 473,
+          "wins": 259,
+          "pnl": 208.08
+        },
+        "2021": {
+          "trades": 1191,
+          "wins": 762,
+          "pnl": 1133.76
+        },
+        "2022": {
+          "trades": 1688,
+          "wins": 1126,
+          "pnl": 451999.43
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -5223.55
+        },
+        "2024": {
+          "trades": 1631,
+          "wins": 1043,
+          "pnl": 95626162.66
+        },
+        "2025": {
+          "trades": 1640,
+          "wins": 1009,
+          "pnl": 2250547180.44
+        },
+        "2026": {
+          "trades": 494,
+          "wins": 315,
+          "pnl": 12501593176.21
+        }
+      },
+      "long": {
+        "t": 3190,
+        "w": 1927,
+        "wr": 60.4
+      },
+      "short": {
+        "t": 3928,
+        "w": 2587,
+        "wr": 65.9
+      },
+      "calmar": 291141429.53,
+      "score": 291141429.53
+    },
+    {
+      "cfg_hash": "24593d1d61",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 7.0,
+        "entry_score_threshold": 38,
+        "pullback_ema_dist_pct": 2.0,
+        "adx_enter_trending": 32,
+        "adx_exit_trending": 22,
+        "atr_high_vol_percentile": 95,
+        "orderbook_imbalance_min": 0.58,
+        "trailing_activation": 1.0999999999999999,
+        "trailing_distance": 0.09000000000000001,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 636,
+        "_from_hash": "468594372c"
+      },
+      "profit": 15111106796.52,
+      "dd": 53.7,
+      "trades": 6160,
+      "wr": 60.5,
+      "ruined": false,
+      "final_bal": 15111107376.52,
+      "yearly": {
+        "2020": {
+          "trades": 386,
+          "wins": 193,
+          "pnl": 191.08
+        },
+        "2021": {
+          "trades": 1008,
+          "wins": 632,
+          "pnl": 2332.08
+        },
+        "2022": {
+          "trades": 1482,
+          "wins": 957,
+          "pnl": 742547.39
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -11371.17
+        },
+        "2024": {
+          "trades": 1450,
+          "wins": 878,
+          "pnl": 131319412.28
+        },
+        "2025": {
+          "trades": 1419,
+          "wins": 814,
+          "pnl": 1228103874.23
+        },
+        "2026": {
+          "trades": 414,
+          "wins": 251,
+          "pnl": 13750951541.89
+        }
+      },
+      "long": {
+        "t": 2715,
+        "w": 1544,
+        "wr": 56.9
+      },
+      "short": {
+        "t": 3445,
+        "w": 2181,
+        "wr": 63.3
+      },
+      "calmar": 281398636.81,
+      "score": 281398636.81
+    },
+    {
+      "cfg_hash": "db7a809b50",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.35,
+        "tp_rr_ratio": 4.5,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 1.0,
+        "adx_enter_trending": 24,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 15744305064.31,
+      "dd": 57.5,
+      "trades": 6916,
+      "wr": 58.7,
+      "ruined": false,
+      "final_bal": 15744305644.31,
+      "yearly": {
+        "2020": {
+          "trades": 459,
+          "wins": 235,
+          "pnl": 534.33
+        },
+        "2021": {
+          "trades": 1159,
+          "wins": 704,
+          "pnl": 5966.77
+        },
+        "2022": {
+          "trades": 1630,
+          "wins": 1008,
+          "pnl": 894728.12
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -10381.82
+        },
+        "2024": {
+          "trades": 1591,
+          "wins": 938,
+          "pnl": 147918180.84
+        },
+        "2025": {
+          "trades": 1602,
+          "wins": 894,
+          "pnl": 1945499145.2
+        },
+        "2026": {
+          "trades": 474,
+          "wins": 280,
+          "pnl": 13649998622.13
+        }
+      },
+      "long": {
+        "t": 3117,
+        "w": 1737,
+        "wr": 55.7
+      },
+      "short": {
+        "t": 3799,
+        "w": 2322,
+        "wr": 61.1
+      },
+      "calmar": 273814001.12,
+      "score": 273814001.12
+    },
+    {
+      "cfg_hash": "1eb755fdbb",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.65,
+        "tp_rr_ratio": 6.5,
+        "entry_score_threshold": 38,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 32,
+        "adx_exit_trending": 22,
+        "atr_high_vol_percentile": 95,
+        "orderbook_imbalance_min": 0.58,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 636,
+        "_from_hash": "468594372c"
+      },
+      "profit": 15329804410.99,
+      "dd": 59.2,
+      "trades": 5866,
+      "wr": 60.9,
+      "ruined": false,
+      "final_bal": 15329804990.99,
+      "yearly": {
+        "2020": {
+          "trades": 359,
+          "wins": 183,
+          "pnl": 247.56
+        },
+        "2021": {
+          "trades": 957,
+          "wins": 594,
+          "pnl": 1637.1
+        },
+        "2022": {
+          "trades": 1430,
+          "wins": 927,
+          "pnl": 648803.75
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 13181.59
+        },
+        "2024": {
+          "trades": 1379,
+          "wins": 845,
+          "pnl": 139442533.87
+        },
+        "2025": {
+          "trades": 1340,
+          "wins": 782,
+          "pnl": 1940215563.58
+        },
+        "2026": {
+          "trades": 399,
+          "wins": 243,
+          "pnl": 13249484174.81
+        }
+      },
+      "long": {
+        "t": 2562,
+        "w": 1463,
+        "wr": 57.1
+      },
+      "short": {
+        "t": 3304,
+        "w": 2112,
+        "wr": 63.9
+      },
+      "calmar": 258949398.83,
+      "score": 258949398.83
+    },
+    {
+      "cfg_hash": "51d69e882a",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 12,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 32,
+        "pullback_ema_dist_pct": 0.35,
+        "adx_enter_trending": 27,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 70,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8184,
+        "_from_hash": "3850d0057d"
+      },
+      "profit": 11264950997.56,
+      "dd": 46.1,
+      "trades": 5278,
+      "wr": 56.0,
+      "ruined": false,
+      "final_bal": 11264951577.56,
+      "yearly": {
+        "2020": {
+          "trades": 311,
+          "wins": 143,
+          "pnl": 289.19
+        },
+        "2021": {
+          "trades": 828,
+          "wins": 491,
+          "pnl": 6852.44
+        },
+        "2022": {
+          "trades": 1306,
+          "wins": 761,
+          "pnl": 877373.95
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 14487.9
+        },
+        "2024": {
+          "trades": 1210,
+          "wins": 684,
+          "pnl": 90430010.3
+        },
+        "2025": {
+          "trades": 1268,
+          "wins": 684,
+          "pnl": 2113041261.35
+        },
+        "2026": {
+          "trades": 353,
+          "wins": 191,
+          "pnl": 9060582453.69
+        }
+      },
+      "long": {
+        "t": 2357,
+        "w": 1245,
+        "wr": 52.8
+      },
+      "short": {
+        "t": 2921,
+        "w": 1710,
+        "wr": 58.5
+      },
+      "calmar": 244359023.81,
+      "score": 244359023.81
+    },
+    {
+      "cfg_hash": "80816a8da4",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 28,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 0.9,
+        "trailing_distance": 0.08,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 8869515368.52,
+      "dd": 44.0,
+      "trades": 6690,
+      "wr": 63.6,
+      "ruined": false,
+      "final_bal": 8869515948.52,
+      "yearly": {
+        "2020": {
+          "trades": 451,
+          "wins": 247,
+          "pnl": 308.74
+        },
+        "2021": {
+          "trades": 1120,
+          "wins": 723,
+          "pnl": 1831.44
+        },
+        "2022": {
+          "trades": 1581,
+          "wins": 1059,
+          "pnl": 488816.03
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -5655.85
+        },
+        "2024": {
+          "trades": 1546,
+          "wins": 980,
+          "pnl": 70723573.47
+        },
+        "2025": {
+          "trades": 1540,
+          "wins": 952,
+          "pnl": 1384430491.08
+        },
+        "2026": {
+          "trades": 451,
+          "wins": 291,
+          "pnl": 7413877734.87
+        }
+      },
+      "long": {
+        "t": 2964,
+        "w": 1790,
+        "wr": 60.4
+      },
+      "short": {
+        "t": 3726,
+        "w": 2462,
+        "wr": 66.1
+      },
+      "calmar": 201579894.74,
+      "score": 201579894.74
+    },
+    {
+      "cfg_hash": "297257328b",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 12,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 0.85,
+        "adx_enter_trending": 30,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 70,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 1.1,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8184,
+        "_from_hash": "3850d0057d"
+      },
+      "profit": 9346761287.6,
+      "dd": 48.1,
+      "trades": 5400,
+      "wr": 58.0,
+      "ruined": false,
+      "final_bal": 9346761867.6,
+      "yearly": {
+        "2020": {
+          "trades": 314,
+          "wins": 147,
+          "pnl": 156.01
+        },
+        "2021": {
+          "trades": 878,
+          "wins": 544,
+          "pnl": 6376.04
+        },
+        "2022": {
+          "trades": 1325,
+          "wins": 794,
+          "pnl": 652515.82
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -7582.52
+        },
+        "2024": {
+          "trades": 1245,
+          "wins": 732,
+          "pnl": 77813550.15
+        },
+        "2025": {
+          "trades": 1282,
+          "wins": 718,
+          "pnl": 1688945835.04
+        },
+        "2026": {
+          "trades": 355,
+          "wins": 198,
+          "pnl": 7579352168.32
+        }
+      },
+      "long": {
+        "t": 2368,
+        "w": 1298,
+        "wr": 54.8
+      },
+      "short": {
+        "t": 3032,
+        "w": 1835,
+        "wr": 60.5
+      },
+      "calmar": 194319361.49,
+      "score": 194319361.49
+    },
+    {
+      "cfg_hash": "2176928b66",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.35,
+        "tp_rr_ratio": 4.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 24,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 10846505064.09,
+      "dd": 55.9,
+      "trades": 6878,
+      "wr": 58.5,
+      "ruined": false,
+      "final_bal": 10846505644.09,
+      "yearly": {
+        "2020": {
+          "trades": 456,
+          "wins": 232,
+          "pnl": 485.67
+        },
+        "2021": {
+          "trades": 1148,
+          "wins": 696,
+          "pnl": 5399.98
+        },
+        "2022": {
+          "trades": 1617,
+          "wins": 993,
+          "pnl": 596219.8
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -6935.23
+        },
+        "2024": {
+          "trades": 1591,
+          "wins": 938,
+          "pnl": 113536167.77
+        },
+        "2025": {
+          "trades": 1594,
+          "wins": 886,
+          "pnl": 1225834122.08
+        },
+        "2026": {
+          "trades": 471,
+          "wins": 280,
+          "pnl": 9506541335.27
+        }
+      },
+      "long": {
+        "t": 3107,
+        "w": 1729,
+        "wr": 55.6
+      },
+      "short": {
+        "t": 3771,
+        "w": 2296,
+        "wr": 60.9
+      },
+      "calmar": 194034079.86,
+      "score": 194034079.86
+    },
+    {
+      "cfg_hash": "7d6e5b6d55",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.5,
+        "entry_score_threshold": 30,
+        "pullback_ema_dist_pct": 1.75,
+        "adx_enter_trending": 36,
+        "adx_exit_trending": 22,
+        "atr_high_vol_percentile": 95,
+        "orderbook_imbalance_min": 0.58,
+        "trailing_activation": 1.0999999999999999,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 636,
+        "_from_hash": "468594372c"
+      },
+      "profit": 9064213538.96,
+      "dd": 47.4,
+      "trades": 5815,
+      "wr": 60.3,
+      "ruined": false,
+      "final_bal": 9064214118.96,
+      "yearly": {
+        "2020": {
+          "trades": 373,
+          "wins": 183,
+          "pnl": 139.5
+        },
+        "2021": {
+          "trades": 954,
+          "wins": 592,
+          "pnl": 1595.95
+        },
+        "2022": {
+          "trades": 1383,
+          "wins": 892,
+          "pnl": 367536.8
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -5630.7
+        },
+        "2024": {
+          "trades": 1355,
+          "wins": 819,
+          "pnl": 57999949.5
+        },
+        "2025": {
+          "trades": 1350,
+          "wins": 776,
+          "pnl": 726518407.63
+        },
+        "2026": {
+          "trades": 399,
+          "wins": 243,
+          "pnl": 8279333271.55
+        }
+      },
+      "long": {
+        "t": 2563,
+        "w": 1460,
+        "wr": 57.0
+      },
+      "short": {
+        "t": 3252,
+        "w": 2045,
+        "wr": 62.9
+      },
+      "calmar": 191228133.73,
+      "score": 191228133.73
+    },
+    {
+      "cfg_hash": "165b26d376",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 12,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.5,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 1.1,
+        "adx_enter_trending": 29,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 70,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 0.8,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8184,
+        "_from_hash": "3850d0057d"
+      },
+      "profit": 7561652693.09,
+      "dd": 41.5,
+      "trades": 5847,
+      "wr": 64.0,
+      "ruined": false,
+      "final_bal": 7561653273.09,
+      "yearly": {
+        "2020": {
+          "trades": 376,
+          "wins": 200,
+          "pnl": 260.72
+        },
+        "2021": {
+          "trades": 972,
+          "wins": 657,
+          "pnl": 9255.02
+        },
+        "2022": {
+          "trades": 1410,
+          "wins": 926,
+          "pnl": 743083.17
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -8659.19
+        },
+        "2024": {
+          "trades": 1334,
+          "wins": 863,
+          "pnl": 81958738.22
+        },
+        "2025": {
+          "trades": 1370,
+          "wins": 858,
+          "pnl": 2171257925.81
+        },
+        "2026": {
+          "trades": 384,
+          "wins": 241,
+          "pnl": 5307693820.61
+        }
+      },
+      "long": {
+        "t": 2610,
+        "w": 1607,
+        "wr": 61.6
+      },
+      "short": {
+        "t": 3237,
+        "w": 2138,
+        "wr": 66.0
+      },
+      "calmar": 182208498.63,
+      "score": 182208498.63
+    },
+    {
+      "cfg_hash": "15266a6165",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.75,
+        "tp_rr_ratio": 3.0,
+        "entry_score_threshold": 42,
+        "pullback_ema_dist_pct": 2.5,
+        "adx_enter_trending": 31,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.0999999999999999,
+        "trailing_distance": 0.07,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 10034520860.06,
+      "dd": 59.4,
+      "trades": 6432,
+      "wr": 63.6,
+      "ruined": false,
+      "final_bal": 10034521440.06,
+      "yearly": {
+        "2020": {
+          "trades": 380,
+          "wins": 194,
+          "pnl": -16.25
+        },
+        "2021": {
+          "trades": 1097,
+          "wins": 734,
+          "pnl": 3472.85
+        },
+        "2022": {
+          "trades": 1570,
+          "wins": 1041,
+          "pnl": 484344.73
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -6227.96
+        },
+        "2024": {
+          "trades": 1450,
+          "wins": 919,
+          "pnl": 61565269.72
+        },
+        "2025": {
+          "trades": 1499,
+          "wins": 928,
+          "pnl": 1404249688.23
+        },
+        "2026": {
+          "trades": 435,
+          "wins": 273,
+          "pnl": 8568226060.0
+        }
+      },
+      "long": {
+        "t": 2828,
+        "w": 1712,
+        "wr": 60.5
+      },
+      "short": {
+        "t": 3604,
+        "w": 2377,
+        "wr": 66.0
+      },
+      "calmar": 168931327.61,
+      "score": 168931327.61
+    },
+    {
+      "cfg_hash": "e4b544feaa",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 43,
+        "pullback_ema_dist_pct": 1.0,
+        "adx_enter_trending": 28,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.52,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.09,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": false,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8032,
+        "_from_hash": "a818424384"
+      },
+      "profit": 8143751393.53,
+      "dd": 48.4,
+      "trades": 6285,
+      "wr": 57.9,
+      "ruined": false,
+      "final_bal": 8143751973.53,
+      "yearly": {
+        "2020": {
+          "trades": 387,
+          "wins": 187,
+          "pnl": 170.08
+        },
+        "2021": {
+          "trades": 1046,
+          "wins": 626,
+          "pnl": 2266.88
+        },
+        "2022": {
+          "trades": 1515,
+          "wins": 932,
+          "pnl": 577939.63
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 8542.56
+        },
+        "2024": {
+          "trades": 1447,
+          "wins": 829,
+          "pnl": 68797446.32
+        },
+        "2025": {
+          "trades": 1459,
+          "wins": 816,
+          "pnl": 1345058726.86
+        },
+        "2026": {
+          "trades": 429,
+          "wins": 245,
+          "pnl": 6729308032.45
+        }
+      },
+      "long": {
+        "t": 2759,
+        "w": 1502,
+        "wr": 54.4
+      },
+      "short": {
+        "t": 3526,
+        "w": 2134,
+        "wr": 60.5
+      },
+      "calmar": 168259326.31,
+      "score": 168259326.31
+    },
+    {
+      "cfg_hash": "53650d1300",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.6,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 42,
+        "pullback_ema_dist_pct": 1.25,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 17,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 0.6,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 6,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 4202,
+        "_from_hash": "28dff407f6"
+      },
+      "profit": 5971582583.47,
+      "dd": 36.4,
+      "trades": 7339,
+      "wr": 71.0,
+      "ruined": false,
+      "final_bal": 5971583163.47,
+      "yearly": {
+        "2020": {
+          "trades": 561,
+          "wins": 345,
+          "pnl": 303.24
+        },
+        "2021": {
+          "trades": 1242,
+          "wins": 912,
+          "pnl": 5630.08
+        },
+        "2022": {
+          "trades": 1726,
+          "wins": 1279,
+          "pnl": 879957.06
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -6845.78
+        },
+        "2024": {
+          "trades": 1657,
+          "wins": 1190,
+          "pnl": 115593260.85
+        },
+        "2025": {
+          "trades": 1660,
+          "wins": 1136,
+          "pnl": 1307209390.14
+        },
+        "2026": {
+          "trades": 492,
+          "wins": 352,
+          "pnl": 4547902619.13
+        }
+      },
+      "long": {
+        "t": 3392,
+        "w": 2354,
+        "wr": 69.4
+      },
+      "short": {
+        "t": 3947,
+        "w": 2860,
+        "wr": 72.5
+      },
+      "calmar": 164054466.58,
+      "score": 164054466.58
+    },
+    {
+      "cfg_hash": "7f7f3bc8a4",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.75,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 3.0,
+        "adx_enter_trending": 27,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.09,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 8879397963.73,
+      "dd": 54.3,
+      "trades": 6451,
+      "wr": 61.7,
+      "ruined": false,
+      "final_bal": 8879398543.73,
+      "yearly": {
+        "2020": {
+          "trades": 380,
+          "wins": 189,
+          "pnl": 10.63
+        },
+        "2021": {
+          "trades": 1090,
+          "wins": 701,
+          "pnl": 2961.3
+        },
+        "2022": {
+          "trades": 1581,
+          "wins": 1031,
+          "pnl": 719882.21
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 11822.72
+        },
+        "2024": {
+          "trades": 1446,
+          "wins": 892,
+          "pnl": 102905975.61
+        },
+        "2025": {
+          "trades": 1507,
+          "wins": 898,
+          "pnl": 1614493889.32
+        },
+        "2026": {
+          "trades": 445,
+          "wins": 268,
+          "pnl": 7161265153.2
+        }
+      },
+      "long": {
+        "t": 2860,
+        "w": 1680,
+        "wr": 58.7
+      },
+      "short": {
+        "t": 3591,
+        "w": 2300,
+        "wr": 64.0
+      },
+      "calmar": 163524824.38,
+      "score": 163524824.38
+    },
+    {
+      "cfg_hash": "897cd98dfe",
+      "cfg": {
+        "ema_fast": 5,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.75,
+        "tp_rr_ratio": 9.0,
+        "entry_score_threshold": 45,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 19,
+        "adx_exit_trending": 20,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.65,
+        "trailing_activation": 0.9,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 4447,
+        "_from_hash": "04d8180674"
+      },
+      "profit": 6639862281.79,
+      "dd": 41.6,
+      "trades": 6419,
+      "wr": 66.6,
+      "ruined": false,
+      "final_bal": 6639862861.79,
+      "yearly": {
+        "2020": {
+          "trades": 371,
+          "wins": 204,
+          "pnl": 161.84
+        },
+        "2021": {
+          "trades": 1033,
+          "wins": 726,
+          "pnl": 2861.82
+        },
+        "2022": {
+          "trades": 1566,
+          "wins": 1078,
+          "pnl": 246549.4
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -3116.02
+        },
+        "2024": {
+          "trades": 1487,
+          "wins": 991,
+          "pnl": 42592837.75
+        },
+        "2025": {
+          "trades": 1517,
+          "wins": 984,
+          "pnl": 1318944104.39
+        },
+        "2026": {
+          "trades": 444,
+          "wins": 289,
+          "pnl": 5278080613.87
+        }
+      },
+      "long": {
+        "t": 2822,
+        "w": 1802,
+        "wr": 63.9
+      },
+      "short": {
+        "t": 3597,
+        "w": 2470,
+        "wr": 68.7
+      },
+      "calmar": 159612074.08,
+      "score": 159612074.08
+    },
+    {
+      "cfg_hash": "e2cf7218ea",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.6,
+        "tp_rr_ratio": 3.0,
+        "entry_score_threshold": 48,
+        "pullback_ema_dist_pct": 2.75,
+        "adx_enter_trending": 27,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.0,
+        "trailing_distance": 0.08,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 7052273103.83,
+      "dd": 44.2,
+      "trades": 6853,
+      "wr": 63.1,
+      "ruined": false,
+      "final_bal": 7052273683.83,
+      "yearly": {
+        "2020": {
+          "trades": 436,
+          "wins": 230,
+          "pnl": 93.92
+        },
+        "2021": {
+          "trades": 1140,
+          "wins": 753,
+          "pnl": 4201.72
+        },
+        "2022": {
+          "trades": 1656,
+          "wins": 1085,
+          "pnl": 426162.37
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -5496.93
+        },
+        "2024": {
+          "trades": 1543,
+          "wins": 972,
+          "pnl": 53500886.05
+        },
+        "2025": {
+          "trades": 1610,
+          "wins": 981,
+          "pnl": 857700049.09
+        },
+        "2026": {
+          "trades": 467,
+          "wins": 300,
+          "pnl": 6140648938.86
+        }
+      },
+      "long": {
+        "t": 3054,
+        "w": 1835,
+        "wr": 60.1
+      },
+      "short": {
+        "t": 3799,
+        "w": 2486,
+        "wr": 65.4
+      },
+      "calmar": 159553690.13,
+      "score": 159553690.13
+    },
+    {
+      "cfg_hash": "c05fe49d86",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 12,
+        "sl_atr_mult": 1.5,
+        "tp_rr_ratio": 6.0,
+        "entry_score_threshold": 38,
+        "pullback_ema_dist_pct": 0.85,
+        "adx_enter_trending": 27,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 70,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 0.9,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 12,
+        "max_simultaneous": 4,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8184,
+        "_from_hash": "3850d0057d"
+      },
+      "profit": 7478685779.85,
+      "dd": 48.9,
+      "trades": 5840,
+      "wr": 61.4,
+      "ruined": false,
+      "final_bal": 7478686359.85,
+      "yearly": {
+        "2020": {
+          "trades": 376,
+          "wins": 196,
+          "pnl": 254.42
+        },
+        "2021": {
+          "trades": 970,
+          "wins": 622,
+          "pnl": 5214.54
+        },
+        "2022": {
+          "trades": 1406,
+          "wins": 889,
+          "pnl": 591515.67
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -6868.23
+        },
+        "2024": {
+          "trades": 1326,
+          "wins": 826,
+          "pnl": 92017860.83
+        },
+        "2025": {
+          "trades": 1386,
+          "wins": 827,
+          "pnl": 1897061001.1
+        },
+        "2026": {
+          "trades": 375,
+          "wins": 228,
+          "pnl": 5489018532.77
+        }
+      },
+      "long": {
+        "t": 2607,
+        "w": 1533,
+        "wr": 58.8
+      },
+      "short": {
+        "t": 3233,
+        "w": 2055,
+        "wr": 63.6
+      },
+      "calmar": 152938359.51,
+      "score": 152938359.51
+    },
+    {
+      "cfg_hash": "8954182d6f",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.75,
+        "tp_rr_ratio": 5.0,
+        "entry_score_threshold": 48,
+        "pullback_ema_dist_pct": 1.5,
+        "adx_enter_trending": 22,
+        "adx_exit_trending": 17,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 0.8,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 6,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 4202,
+        "_from_hash": "28dff407f6"
+      },
+      "profit": 6217240695.02,
+      "dd": 40.8,
+      "trades": 6915,
+      "wr": 68.4,
+      "ruined": false,
+      "final_bal": 6217241275.02,
+      "yearly": {
+        "2020": {
+          "trades": 458,
+          "wins": 266,
+          "pnl": 185.72
+        },
+        "2021": {
+          "trades": 1151,
+          "wins": 816,
+          "pnl": 3487.52
+        },
+        "2022": {
+          "trades": 1651,
+          "wins": 1180,
+          "pnl": 577688.97
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -4491.96
+        },
+        "2024": {
+          "trades": 1573,
+          "wins": 1086,
+          "pnl": 77765776.04
+        },
+        "2025": {
+          "trades": 1611,
+          "wins": 1062,
+          "pnl": 1319215282.37
+        },
+        "2026": {
+          "trades": 470,
+          "wins": 320,
+          "pnl": 4819684497.62
+        }
+      },
+      "long": {
+        "t": 3131,
+        "w": 2069,
+        "wr": 66.1
+      },
+      "short": {
+        "t": 3784,
+        "w": 2661,
+        "wr": 70.3
+      },
+      "calmar": 152383350.37,
+      "score": 152383350.37
+    },
+    {
+      "cfg_hash": "3e7536010d",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.6,
+        "tp_rr_ratio": 3.5,
+        "entry_score_threshold": 42,
+        "pullback_ema_dist_pct": 2.25,
+        "adx_enter_trending": 33,
+        "adx_exit_trending": 15,
+        "atr_high_vol_percentile": 90,
+        "orderbook_imbalance_min": 0.6,
+        "trailing_activation": 1.2,
+        "trailing_distance": 0.08,
+        "risk_per_trade": 0.025,
+        "max_leverage": 10,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 8311,
+        "_from_hash": "ebf44f5f18"
+      },
+      "profit": 13390395554.86,
+      "dd": 62.0,
+      "trades": 6328,
+      "wr": 59.8,
+      "ruined": false,
+      "final_bal": 13390396134.86,
+      "yearly": {
+        "2020": {
+          "trades": 385,
+          "wins": 183,
+          "pnl": -41.95
+        },
+        "2021": {
+          "trades": 1063,
+          "wins": 660,
+          "pnl": 2194.32
+        },
+        "2022": {
+          "trades": 1550,
+          "wins": 980,
+          "pnl": 553862.55
+        },
+        "2023": {
+          "trades": 2,
+          "wins": 1,
+          "pnl": 9239.54
+        },
+        "2024": {
+          "trades": 1427,
+          "wins": 855,
+          "pnl": 101027619.08
+        },
+        "2025": {
+          "trades": 1478,
+          "wins": 855,
+          "pnl": 2151877284.7
+        },
+        "2026": {
+          "trades": 423,
+          "wins": 249,
+          "pnl": 11136927127.89
+        }
+      },
+      "long": {
+        "t": 2784,
+        "w": 1577,
+        "wr": 56.6
+      },
+      "short": {
+        "t": 3544,
+        "w": 2206,
+        "wr": 62.2
+      },
+      "calmar": 215974121.85,
+      "score": 151181885.3
+    },
+    {
+      "cfg_hash": "63c3d477f0",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.6,
+        "tp_rr_ratio": 4.5,
+        "entry_score_threshold": 50,
+        "pullback_ema_dist_pct": 1.0,
+        "adx_enter_trending": 23,
+        "adx_exit_trending": 17,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 0.6,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 6,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 4202,
+        "_from_hash": "28dff407f6"
+      },
+      "profit": 5390477370.64,
+      "dd": 36.4,
+      "trades": 7269,
+      "wr": 71.1,
+      "ruined": false,
+      "final_bal": 5390477950.64,
+      "yearly": {
+        "2020": {
+          "trades": 554,
+          "wins": 341,
+          "pnl": 289.66
+        },
+        "2021": {
+          "trades": 1213,
+          "wins": 889,
+          "pnl": 4659.7
+        },
+        "2022": {
+          "trades": 1707,
+          "wins": 1265,
+          "pnl": 676424.81
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -5265.0
+        },
+        "2024": {
+          "trades": 1649,
+          "wins": 1183,
+          "pnl": 88747822.88
+        },
+        "2025": {
+          "trades": 1653,
+          "wins": 1135,
+          "pnl": 1106180561.47
+        },
+        "2026": {
+          "trades": 492,
+          "wins": 355,
+          "pnl": 4194874608.37
+        }
+      },
+      "long": {
+        "t": 3329,
+        "w": 2313,
+        "wr": 69.5
+      },
+      "short": {
+        "t": 3940,
+        "w": 2855,
+        "wr": 72.5
+      },
+      "calmar": 148090037.65,
+      "score": 148090037.65
+    },
+    {
+      "cfg_hash": "9df9035bf3",
+      "cfg": {
+        "ema_fast": 3,
+        "ema_slow": 15,
+        "sl_atr_mult": 1.6,
+        "tp_rr_ratio": 4.0,
+        "entry_score_threshold": 40,
+        "pullback_ema_dist_pct": 0.75,
+        "adx_enter_trending": 19,
+        "adx_exit_trending": 17,
+        "atr_high_vol_percentile": 85,
+        "orderbook_imbalance_min": 0.5,
+        "trailing_activation": 0.6,
+        "trailing_distance": 0.020000000000000004,
+        "risk_per_trade": 0.025,
+        "max_leverage": 6,
+        "max_simultaneous": 3,
+        "use_funding": true,
+        "funding_bias_threshold": 0.0005,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "_phase": 3,
+        "_idx": 4202,
+        "_from_hash": "28dff407f6"
+      },
+      "profit": 5575457377.84,
+      "dd": 38.5,
+      "trades": 7510,
+      "wr": 70.8,
+      "ruined": false,
+      "final_bal": 5575457957.84,
+      "yearly": {
+        "2020": {
+          "trades": 583,
+          "wins": 359,
+          "pnl": 280.04
+        },
+        "2021": {
+          "trades": 1305,
+          "wins": 953,
+          "pnl": 6049.88
+        },
+        "2022": {
+          "trades": 1752,
+          "wins": 1283,
+          "pnl": 667027.03
+        },
+        "2023": {
+          "trades": 1,
+          "wins": 0,
+          "pnl": -5203.03
+        },
+        "2024": {
+          "trades": 1679,
+          "wins": 1209,
+          "pnl": 102168818.85
+        },
+        "2025": {
+          "trades": 1686,
+          "wins": 1153,
+          "pnl": 1140528930.83
+        },
+        "2026": {
+          "trades": 504,
+          "wins": 363,
+          "pnl": 4332093205.5
+        }
+      },
+      "long": {
+        "t": 3533,
+        "w": 2443,
+        "wr": 69.1
+      },
+      "short": {
+        "t": 3977,
+        "w": 2877,
+        "wr": 72.3
+      },
+      "calmar": 144817074.75,
+      "score": 144817074.75
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "timestamp": "2026-04-14T02:47:41.052185",
+  "candidates": [
+    [
+      0.5,
+      0.1
+    ],
+    [
+      0.6,
+      0.1
+    ],
+    [
+      0.7,
+      0.1
+    ],
+    [
+      0.8,
+      0.1
+    ],
+    [
+      0.9,
+      0.1
+    ],
+    [
+      1.0,
+      0.1
+    ],
+    [
+      1.1,
+      0.1
+    ],
+    [
+      1.2,
+      0.1
+    ],
+    [
+      0.8,
+      0.12
+    ],
+    [
+      1.0,
+      0.12
+    ],
+    [
+      1.2,
+      0.12
+    ],
+    [
+      0.8,
+      0.15
+    ],
+    [
+      1.0,
+      0.15
+    ],
+    [
+      1.2,
+      0.15
+    ],
+    [
+      1.5,
+      0.3
+    ]
+  ],
+  "slippage_levels": [
+    0.0,
+    0.02,
+    0.05,
+    0.08,
+    0.1,
+    0.15
+  ],
+  "results": {
+    "0.5_0.1": {
+      "0.0": {
+        "net_profit": 560694.09,
+        "max_dd": 16.6,
+        "final_balance": 561294.09,
+        "total_trades": 3801,
+        "win_rate": 75.0,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 135990.23,
+        "max_dd": 18.7,
+        "final_balance": 136590.23,
+        "total_trades": 3781,
+        "win_rate": 74.2,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 10494.18,
+        "max_dd": 26.3,
+        "final_balance": 11094.18,
+        "total_trades": 3754,
+        "win_rate": 72.4,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": -368.66,
+        "max_dd": 78.3,
+        "final_balance": 231.34,
+        "total_trades": 3737,
+        "win_rate": 70.5,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -1058.21,
+        "max_dd": 98.1,
+        "final_balance": -458.21,
+        "total_trades": 1827,
+        "win_rate": 70.7,
+        "ruined": true
+      },
+      "0.15": {
+        "net_profit": -1454.8,
+        "max_dd": 98.0,
+        "final_balance": -854.8,
+        "total_trades": 1109,
+        "win_rate": 69.4,
+        "ruined": true
+      }
+    },
+    "0.6_0.1": {
+      "0.0": {
+        "net_profit": 836890.82,
+        "max_dd": 18.6,
+        "final_balance": 837490.82,
+        "total_trades": 3643,
+        "win_rate": 71.8,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 159560.59,
+        "max_dd": 20.5,
+        "final_balance": 160160.59,
+        "total_trades": 3613,
+        "win_rate": 70.7,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 12912.47,
+        "max_dd": 26.9,
+        "final_balance": 13512.47,
+        "total_trades": 3597,
+        "win_rate": 69.1,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": -354.32,
+        "max_dd": 75.3,
+        "final_balance": 245.68,
+        "total_trades": 3572,
+        "win_rate": 67.2,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -1103.41,
+        "max_dd": 98.2,
+        "final_balance": -503.41,
+        "total_trades": 1589,
+        "win_rate": 67.6,
+        "ruined": true
+      },
+      "0.15": {
+        "net_profit": -1416.62,
+        "max_dd": 98.0,
+        "final_balance": -816.62,
+        "total_trades": 1080,
+        "win_rate": 66.9,
+        "ruined": true
+      }
+    },
+    "0.7_0.1": {
+      "0.0": {
+        "net_profit": 702949.93,
+        "max_dd": 18.0,
+        "final_balance": 703549.93,
+        "total_trades": 3465,
+        "win_rate": 68.9,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 171209.79,
+        "max_dd": 20.0,
+        "final_balance": 171809.79,
+        "total_trades": 3441,
+        "win_rate": 68.1,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 17358.22,
+        "max_dd": 26.6,
+        "final_balance": 17958.22,
+        "total_trades": 3428,
+        "win_rate": 66.7,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": -59.12,
+        "max_dd": 61.1,
+        "final_balance": 540.88,
+        "total_trades": 3438,
+        "win_rate": 64.8,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -844.0,
+        "max_dd": 98.3,
+        "final_balance": -244.0,
+        "total_trades": 2495,
+        "win_rate": 65.5,
+        "ruined": true
+      },
+      "0.15": {
+        "net_profit": -1345.99,
+        "max_dd": 98.1,
+        "final_balance": -745.99,
+        "total_trades": 1050,
+        "win_rate": 65.0,
+        "ruined": true
+      }
+    },
+    "0.8_0.1": {
+      "0.0": {
+        "net_profit": 900026.33,
+        "max_dd": 16.7,
+        "final_balance": 900626.33,
+        "total_trades": 3337,
+        "win_rate": 66.8,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 301580.03,
+        "max_dd": 17.1,
+        "final_balance": 302180.03,
+        "total_trades": 3310,
+        "win_rate": 66.0,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 26812.36,
+        "max_dd": 26.3,
+        "final_balance": 27412.36,
+        "total_trades": 3302,
+        "win_rate": 64.4,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 1230.94,
+        "max_dd": 51.0,
+        "final_balance": 1830.94,
+        "total_trades": 3293,
+        "win_rate": 62.7,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -551.39,
+        "max_dd": 95.8,
+        "final_balance": 48.61,
+        "total_trades": 3293,
+        "win_rate": 61.8,
+        "ruined": false
+      },
+      "0.15": {
+        "net_profit": -1284.77,
+        "max_dd": 98.0,
+        "final_balance": -684.77,
+        "total_trades": 1011,
+        "win_rate": 63.3,
+        "ruined": true
+      }
+    },
+    "0.9_0.1": {
+      "0.0": {
+        "net_profit": 1128758.75,
+        "max_dd": 17.7,
+        "final_balance": 1129358.75,
+        "total_trades": 3185,
+        "win_rate": 64.6,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 312780.23,
+        "max_dd": 20.9,
+        "final_balance": 313380.23,
+        "total_trades": 3168,
+        "win_rate": 63.9,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 32443.49,
+        "max_dd": 28.5,
+        "final_balance": 33043.49,
+        "total_trades": 3168,
+        "win_rate": 62.3,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 1286.83,
+        "max_dd": 51.9,
+        "final_balance": 1886.83,
+        "total_trades": 3151,
+        "win_rate": 60.5,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -481.94,
+        "max_dd": 90.5,
+        "final_balance": 118.06,
+        "total_trades": 3161,
+        "win_rate": 59.5,
+        "ruined": false
+      },
+      "0.15": {
+        "net_profit": -1254.41,
+        "max_dd": 98.0,
+        "final_balance": -654.41,
+        "total_trades": 976,
+        "win_rate": 60.9,
+        "ruined": true
+      }
+    },
+    "1.0_0.1": {
+      "0.0": {
+        "net_profit": 772248.21,
+        "max_dd": 17.8,
+        "final_balance": 772848.21,
+        "total_trades": 3050,
+        "win_rate": 62.4,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 266436.3,
+        "max_dd": 20.3,
+        "final_balance": 267036.3,
+        "total_trades": 3041,
+        "win_rate": 61.8,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 33286.55,
+        "max_dd": 26.7,
+        "final_balance": 33886.55,
+        "total_trades": 3049,
+        "win_rate": 60.2,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 2069.07,
+        "max_dd": 46.2,
+        "final_balance": 2669.07,
+        "total_trades": 3049,
+        "win_rate": 58.4,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -234.42,
+        "max_dd": 76.9,
+        "final_balance": 365.58,
+        "total_trades": 3049,
+        "win_rate": 57.7,
+        "ruined": false
+      },
+      "0.15": {
+        "net_profit": -1164.74,
+        "max_dd": 98.3,
+        "final_balance": -564.74,
+        "total_trades": 1152,
+        "win_rate": 58.5,
+        "ruined": true
+      }
+    },
+    "1.1_0.1": {
+      "0.0": {
+        "net_profit": 806342.98,
+        "max_dd": 17.8,
+        "final_balance": 806942.98,
+        "total_trades": 2941,
+        "win_rate": 60.5,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 271048.65,
+        "max_dd": 19.5,
+        "final_balance": 271648.65,
+        "total_trades": 2928,
+        "win_rate": 59.8,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 37192.78,
+        "max_dd": 29.8,
+        "final_balance": 37792.78,
+        "total_trades": 2926,
+        "win_rate": 58.3,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 2747.87,
+        "max_dd": 44.1,
+        "final_balance": 3347.87,
+        "total_trades": 2933,
+        "win_rate": 56.6,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -147.07,
+        "max_dd": 75.2,
+        "final_balance": 452.93,
+        "total_trades": 2940,
+        "win_rate": 55.6,
+        "ruined": false
+      },
+      "0.15": {
+        "net_profit": -1094.47,
+        "max_dd": 98.5,
+        "final_balance": -494.47,
+        "total_trades": 1359,
+        "win_rate": 56.4,
+        "ruined": true
+      }
+    },
+    "1.2_0.1": {
+      "0.0": {
+        "net_profit": 781726.3,
+        "max_dd": 17.8,
+        "final_balance": 782326.3,
+        "total_trades": 2825,
+        "win_rate": 58.7,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 280354.62,
+        "max_dd": 22.5,
+        "final_balance": 280954.62,
+        "total_trades": 2817,
+        "win_rate": 58.0,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 39665.04,
+        "max_dd": 27.8,
+        "final_balance": 40265.04,
+        "total_trades": 2827,
+        "win_rate": 56.7,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 3656.17,
+        "max_dd": 38.1,
+        "final_balance": 4256.17,
+        "total_trades": 2844,
+        "win_rate": 55.1,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": 195.16,
+        "max_dd": 66.9,
+        "final_balance": 795.16,
+        "total_trades": 2856,
+        "win_rate": 54.3,
+        "ruined": false
+      },
+      "0.15": {
+        "net_profit": -1096.16,
+        "max_dd": 98.4,
+        "final_balance": -496.16,
+        "total_trades": 1316,
+        "win_rate": 55.0,
+        "ruined": true
+      }
+    },
+    "0.8_0.12": {
+      "0.0": {
+        "net_profit": 597159.67,
+        "max_dd": 17.1,
+        "final_balance": 597759.67,
+        "total_trades": 3337,
+        "win_rate": 66.8,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 200597.35,
+        "max_dd": 17.6,
+        "final_balance": 201197.35,
+        "total_trades": 3310,
+        "win_rate": 66.0,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 17400.26,
+        "max_dd": 27.0,
+        "final_balance": 18000.26,
+        "total_trades": 3302,
+        "win_rate": 64.4,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 457.67,
+        "max_dd": 57.1,
+        "final_balance": 1057.67,
+        "total_trades": 3293,
+        "win_rate": 62.7,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -698.47,
+        "max_dd": 98.6,
+        "final_balance": -98.47,
+        "total_trades": 2865,
+        "win_rate": 62.0,
+        "ruined": true
+      },
+      "0.15": {
+        "net_profit": -1317.52,
+        "max_dd": 98.0,
+        "final_balance": -717.52,
+        "total_trades": 1011,
+        "win_rate": 63.3,
+        "ruined": true
+      }
+    },
+    "1.0_0.12": {
+      "0.0": {
+        "net_profit": 550066.14,
+        "max_dd": 17.9,
+        "final_balance": 550666.14,
+        "total_trades": 3050,
+        "win_rate": 62.4,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 189765.71,
+        "max_dd": 20.8,
+        "final_balance": 190365.71,
+        "total_trades": 3041,
+        "win_rate": 61.8,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 23241.54,
+        "max_dd": 27.0,
+        "final_balance": 23841.54,
+        "total_trades": 3049,
+        "win_rate": 60.2,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 1158.18,
+        "max_dd": 50.5,
+        "final_balance": 1758.18,
+        "total_trades": 3049,
+        "win_rate": 58.4,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -455.95,
+        "max_dd": 90.0,
+        "final_balance": 144.05,
+        "total_trades": 3049,
+        "win_rate": 57.7,
+        "ruined": false
+      },
+      "0.15": {
+        "net_profit": -1199.96,
+        "max_dd": 98.2,
+        "final_balance": -599.96,
+        "total_trades": 1041,
+        "win_rate": 58.8,
+        "ruined": true
+      }
+    },
+    "1.2_0.12": {
+      "0.0": {
+        "net_profit": 587699.36,
+        "max_dd": 17.9,
+        "final_balance": 588299.36,
+        "total_trades": 2825,
+        "win_rate": 58.7,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 210830.13,
+        "max_dd": 22.9,
+        "final_balance": 211430.13,
+        "total_trades": 2817,
+        "win_rate": 58.0,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 29502.62,
+        "max_dd": 28.1,
+        "final_balance": 30102.62,
+        "total_trades": 2827,
+        "win_rate": 56.7,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 2460.5,
+        "max_dd": 43.3,
+        "final_balance": 3060.5,
+        "total_trades": 2844,
+        "win_rate": 55.1,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -111.27,
+        "max_dd": 72.3,
+        "final_balance": 488.73,
+        "total_trades": 2856,
+        "win_rate": 54.3,
+        "ruined": false
+      },
+      "0.15": {
+        "net_profit": -1124.02,
+        "max_dd": 98.3,
+        "final_balance": -524.02,
+        "total_trades": 1239,
+        "win_rate": 55.3,
+        "ruined": true
+      }
+    },
+    "0.8_0.15": {
+      "0.0": {
+        "net_profit": 320997.11,
+        "max_dd": 17.8,
+        "final_balance": 321597.11,
+        "total_trades": 3337,
+        "win_rate": 66.8,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 107933.78,
+        "max_dd": 18.6,
+        "final_balance": 108533.78,
+        "total_trades": 3310,
+        "win_rate": 66.0,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 8776.38,
+        "max_dd": 28.1,
+        "final_balance": 9376.38,
+        "total_trades": 3302,
+        "win_rate": 64.4,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": -230.04,
+        "max_dd": 71.6,
+        "final_balance": 369.96,
+        "total_trades": 3293,
+        "win_rate": 62.7,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -841.71,
+        "max_dd": 98.5,
+        "final_balance": -241.71,
+        "total_trades": 2383,
+        "win_rate": 63.2,
+        "ruined": true
+      },
+      "0.15": {
+        "net_profit": -1360.69,
+        "max_dd": 98.0,
+        "final_balance": -760.69,
+        "total_trades": 1011,
+        "win_rate": 63.3,
+        "ruined": true
+      }
+    },
+    "1.0_0.15": {
+      "0.0": {
+        "net_profit": 329542.55,
+        "max_dd": 18.1,
+        "final_balance": 330142.55,
+        "total_trades": 3050,
+        "win_rate": 62.4,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 113430.06,
+        "max_dd": 21.5,
+        "final_balance": 114030.06,
+        "total_trades": 3041,
+        "win_rate": 61.8,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 13269.75,
+        "max_dd": 27.6,
+        "final_balance": 13869.75,
+        "total_trades": 3049,
+        "win_rate": 60.2,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 264.41,
+        "max_dd": 57.9,
+        "final_balance": 864.41,
+        "total_trades": 3049,
+        "win_rate": 58.4,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -662.96,
+        "max_dd": 98.9,
+        "final_balance": -62.96,
+        "total_trades": 2767,
+        "win_rate": 57.8,
+        "ruined": true
+      },
+      "0.15": {
+        "net_profit": -1249.85,
+        "max_dd": 98.2,
+        "final_balance": -649.85,
+        "total_trades": 939,
+        "win_rate": 59.0,
+        "ruined": true
+      }
+    },
+    "1.2_0.15": {
+      "0.0": {
+        "net_profit": 382173.52,
+        "max_dd": 18.1,
+        "final_balance": 382773.52,
+        "total_trades": 2825,
+        "win_rate": 58.7,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 136989.12,
+        "max_dd": 23.6,
+        "final_balance": 137589.12,
+        "total_trades": 2817,
+        "win_rate": 58.0,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 18714.9,
+        "max_dd": 29.4,
+        "final_balance": 19314.9,
+        "total_trades": 2827,
+        "win_rate": 56.7,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": 1202.96,
+        "max_dd": 51.2,
+        "final_balance": 1802.96,
+        "total_trades": 2844,
+        "win_rate": 55.1,
+        "ruined": false
+      },
+      "0.1": {
+        "net_profit": -425.42,
+        "max_dd": 87.4,
+        "final_balance": 174.58,
+        "total_trades": 2856,
+        "win_rate": 54.3,
+        "ruined": false
+      },
+      "0.15": {
+        "net_profit": -1162.43,
+        "max_dd": 98.2,
+        "final_balance": -562.43,
+        "total_trades": 1099,
+        "win_rate": 56.0,
+        "ruined": true
+      }
+    },
+    "1.5_0.3": {
+      "0.0": {
+        "net_profit": 36016.65,
+        "max_dd": 26.8,
+        "final_balance": 36616.65,
+        "total_trades": 2573,
+        "win_rate": 54.0,
+        "ruined": false
+      },
+      "0.02": {
+        "net_profit": 11828.53,
+        "max_dd": 29.2,
+        "final_balance": 12428.53,
+        "total_trades": 2572,
+        "win_rate": 53.4,
+        "ruined": false
+      },
+      "0.05": {
+        "net_profit": 451.79,
+        "max_dd": 56.5,
+        "final_balance": 1051.79,
+        "total_trades": 2589,
+        "win_rate": 52.2,
+        "ruined": false
+      },
+      "0.08": {
+        "net_profit": -992.35,
+        "max_dd": 98.3,
+        "final_balance": -392.35,
+        "total_trades": 1487,
+        "win_rate": 52.5,
+        "ruined": true
+      },
+      "0.1": {
+        "net_profit": -1139.8,
+        "max_dd": 98.0,
+        "final_balance": -539.8,
+        "total_trades": 1079,
+        "win_rate": 52.3,
+        "ruined": true
+      },
+      "0.15": {
+        "net_profit": -1385.11,
+        "max_dd": 97.7,
+        "final_balance": -785.11,
+        "total_trades": 819,
+        "win_rate": 52.0,
+        "ruined": true
+      }
+    }
+  }
+}

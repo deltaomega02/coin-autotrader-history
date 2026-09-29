@@ -1,0 +1,866 @@
+{
+  "A v7": {
+    "\uc2e4\uc804 04-09~18": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "\uc2e4\uc804 04-09~18",
+      "profit": 57.94,
+      "dd": 4.9,
+      "trades": 24,
+      "wr": 54.2,
+      "ruined": false
+    },
+    "\ucd5c\uadfc 2\uc8fc": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "\ucd5c\uadfc 2\uc8fc",
+      "profit": 54.03,
+      "dd": 11.8,
+      "trades": 37,
+      "wr": 54.1,
+      "ruined": false
+    },
+    "2020 COVID": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "2020 COVID",
+      "profit": -115.01,
+      "dd": 39.8,
+      "trades": 339,
+      "wr": 46.6,
+      "ruined": false
+    },
+    "2026 YTD": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "2026 YTD",
+      "profit": 1211.14,
+      "dd": 15.8,
+      "trades": 375,
+      "wr": 57.6,
+      "ruined": false
+    },
+    "2021 Bull": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "2021 Bull",
+      "profit": 5.2,
+      "dd": 27.6,
+      "trades": 913,
+      "wr": 59.4,
+      "ruined": false
+    },
+    "2024": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "2024",
+      "profit": 3839.98,
+      "dd": 21.6,
+      "trades": 1265,
+      "wr": 56.3,
+      "ruined": false
+    },
+    "2025": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "2025",
+      "profit": 364.37,
+      "dd": 31.5,
+      "trades": 1255,
+      "wr": 54.7,
+      "ruined": false
+    },
+    "2023 \uc800\ubcc0\ub3d9": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "2023 \uc800\ubcc0\ub3d9",
+      "profit": 250.06,
+      "dd": 57.6,
+      "trades": 1170,
+      "wr": 48.8,
+      "ruined": false
+    },
+    "2022 \ud06c\ub798\uc2dc": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "2022 \ud06c\ub798\uc2dc",
+      "profit": 5188.28,
+      "dd": 24.9,
+      "trades": 1301,
+      "wr": 60.6,
+      "ruined": false
+    },
+    "Full 6y": {
+      "label": "A v7",
+      "ema": "5/18",
+      "period": "Full 6y",
+      "profit": 221393.08,
+      "dd": 51.7,
+      "trades": 5422,
+      "wr": 56.8,
+      "ruined": false,
+      "mc": {
+        "ruin_rate": 0.847,
+        "median": 248803.0,
+        "p25": 208883.0,
+        "p75": 280214.0
+      }
+    }
+  },
+  "B EMA 3/15": {
+    "\uc2e4\uc804 04-09~18": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "\uc2e4\uc804 04-09~18",
+      "profit": 87.87,
+      "dd": 4.8,
+      "trades": 27,
+      "wr": 59.3,
+      "ruined": false
+    },
+    "\ucd5c\uadfc 2\uc8fc": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "\ucd5c\uadfc 2\uc8fc",
+      "profit": 75.3,
+      "dd": 10.1,
+      "trades": 45,
+      "wr": 55.6,
+      "ruined": false
+    },
+    "2026 YTD": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "2026 YTD",
+      "profit": 1116.81,
+      "dd": 20.3,
+      "trades": 400,
+      "wr": 57.0,
+      "ruined": false
+    },
+    "2020 COVID": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "2020 COVID",
+      "profit": -144.86,
+      "dd": 43.1,
+      "trades": 369,
+      "wr": 47.2,
+      "ruined": false
+    },
+    "2021 Bull": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "2021 Bull",
+      "profit": 293.85,
+      "dd": 26.0,
+      "trades": 994,
+      "wr": 59.4,
+      "ruined": false
+    },
+    "2025": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "2025",
+      "profit": 1417.11,
+      "dd": 29.4,
+      "trades": 1341,
+      "wr": 55.3,
+      "ruined": false
+    },
+    "2023 \uc800\ubcc0\ub3d9": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "2023 \uc800\ubcc0\ub3d9",
+      "profit": 627.72,
+      "dd": 33.4,
+      "trades": 1272,
+      "wr": 49.0,
+      "ruined": false
+    },
+    "2024": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "2024",
+      "profit": 6773.94,
+      "dd": 20.8,
+      "trades": 1351,
+      "wr": 57.2,
+      "ruined": false
+    },
+    "2022 \ud06c\ub798\uc2dc": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "2022 \ud06c\ub798\uc2dc",
+      "profit": 12050.06,
+      "dd": 25.6,
+      "trades": 1401,
+      "wr": 61.2,
+      "ruined": false
+    },
+    "Full 6y": {
+      "label": "B EMA 3/15",
+      "ema": "3/15",
+      "period": "Full 6y",
+      "profit": 2493374.4,
+      "dd": 43.1,
+      "trades": 5843,
+      "wr": 57.4,
+      "ruined": false,
+      "mc": {
+        "ruin_rate": 0.903,
+        "median": 2528812.0,
+        "p25": 2266593.0,
+        "p75": 3071996.0
+      }
+    }
+  },
+  "F EMA 1/12": {
+    "\uc2e4\uc804 04-09~18": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "\uc2e4\uc804 04-09~18",
+      "profit": -15.67,
+      "dd": 6.2,
+      "trades": 28,
+      "wr": 42.9,
+      "ruined": false
+    },
+    "\ucd5c\uadfc 2\uc8fc": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "\ucd5c\uadfc 2\uc8fc",
+      "profit": 9.78,
+      "dd": 10.0,
+      "trades": 48,
+      "wr": 47.9,
+      "ruined": false
+    },
+    "2026 YTD": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "2026 YTD",
+      "profit": 1979.07,
+      "dd": 19.7,
+      "trades": 455,
+      "wr": 57.4,
+      "ruined": false
+    },
+    "2020 COVID": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "2020 COVID",
+      "profit": 374.46,
+      "dd": 29.0,
+      "trades": 518,
+      "wr": 48.6,
+      "ruined": false
+    },
+    "2021 Bull": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "2021 Bull",
+      "profit": 3725.32,
+      "dd": 26.8,
+      "trades": 1310,
+      "wr": 61.4,
+      "ruined": false
+    },
+    "2025": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "2025",
+      "profit": 2235.22,
+      "dd": 32.0,
+      "trades": 1545,
+      "wr": 55.3,
+      "ruined": false
+    },
+    "2024": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "2024",
+      "profit": 5915.18,
+      "dd": 25.9,
+      "trades": 1567,
+      "wr": 56.3,
+      "ruined": false
+    },
+    "2023 \uc800\ubcc0\ub3d9": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "2023 \uc800\ubcc0\ub3d9",
+      "profit": 408.47,
+      "dd": 44.5,
+      "trades": 1487,
+      "wr": 47.5,
+      "ruined": false
+    },
+    "2022 \ud06c\ub798\uc2dc": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "2022 \ud06c\ub798\uc2dc",
+      "profit": 18982.72,
+      "dd": 25.3,
+      "trades": 1631,
+      "wr": 60.6,
+      "ruined": false
+    },
+    "Full 6y": {
+      "label": "F EMA 1/12",
+      "ema": "1/12",
+      "period": "Full 6y",
+      "profit": 118220696.23,
+      "dd": 31.1,
+      "trades": 7003,
+      "wr": 57.5,
+      "ruined": false,
+      "mc": {
+        "ruin_rate": 0.91,
+        "median": 123206375.0,
+        "p25": 102941749.0,
+        "p75": 136128422.0
+      }
+    }
+  },
+  "G EMA 1/15": {
+    "\uc2e4\uc804 04-09~18": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "\uc2e4\uc804 04-09~18",
+      "profit": -18.82,
+      "dd": 6.2,
+      "trades": 28,
+      "wr": 42.9,
+      "ruined": false
+    },
+    "\ucd5c\uadfc 2\uc8fc": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "\ucd5c\uadfc 2\uc8fc",
+      "profit": 9.32,
+      "dd": 10.0,
+      "trades": 48,
+      "wr": 47.9,
+      "ruined": false
+    },
+    "2026 YTD": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "2026 YTD",
+      "profit": 1875.73,
+      "dd": 19.6,
+      "trades": 451,
+      "wr": 57.0,
+      "ruined": false
+    },
+    "2020 COVID": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "2020 COVID",
+      "profit": 332.17,
+      "dd": 32.2,
+      "trades": 514,
+      "wr": 48.4,
+      "ruined": false
+    },
+    "2021 Bull": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "2021 Bull",
+      "profit": 3738.49,
+      "dd": 23.1,
+      "trades": 1313,
+      "wr": 61.6,
+      "ruined": false
+    },
+    "2025": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "2025",
+      "profit": 1431.88,
+      "dd": 34.1,
+      "trades": 1545,
+      "wr": 54.8,
+      "ruined": false
+    },
+    "2024": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "2024",
+      "profit": 6318.67,
+      "dd": 29.6,
+      "trades": 1570,
+      "wr": 56.2,
+      "ruined": false
+    },
+    "2023 \uc800\ubcc0\ub3d9": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "2023 \uc800\ubcc0\ub3d9",
+      "profit": 456.77,
+      "dd": 45.6,
+      "trades": 1488,
+      "wr": 47.6,
+      "ruined": false
+    },
+    "2022 \ud06c\ub798\uc2dc": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "2022 \ud06c\ub798\uc2dc",
+      "profit": 19447.36,
+      "dd": 25.5,
+      "trades": 1643,
+      "wr": 60.4,
+      "ruined": false
+    },
+    "Full 6y": {
+      "label": "G EMA 1/15",
+      "ema": "1/15",
+      "period": "Full 6y",
+      "profit": 93448474.71,
+      "dd": 32.5,
+      "trades": 7009,
+      "wr": 57.3,
+      "ruined": false,
+      "mc": {
+        "ruin_rate": 0.933,
+        "median": 101446283.0,
+        "p25": 85765354.0,
+        "p75": 109055897.0
+      }
+    }
+  },
+  "H EMA 1/18": {
+    "\uc2e4\uc804 04-09~18": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "\uc2e4\uc804 04-09~18",
+      "profit": -18.26,
+      "dd": 6.2,
+      "trades": 28,
+      "wr": 42.9,
+      "ruined": false
+    },
+    "\ucd5c\uadfc 2\uc8fc": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "\ucd5c\uadfc 2\uc8fc",
+      "profit": 9.32,
+      "dd": 10.0,
+      "trades": 48,
+      "wr": 47.9,
+      "ruined": false
+    },
+    "2026 YTD": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "2026 YTD",
+      "profit": 1808.5,
+      "dd": 15.6,
+      "trades": 448,
+      "wr": 57.4,
+      "ruined": false
+    },
+    "2020 COVID": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "2020 COVID",
+      "profit": 359.97,
+      "dd": 30.2,
+      "trades": 520,
+      "wr": 48.5,
+      "ruined": false
+    },
+    "2021 Bull": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "2021 Bull",
+      "profit": 3844.2,
+      "dd": 25.1,
+      "trades": 1317,
+      "wr": 61.6,
+      "ruined": false
+    },
+    "2025": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "2025",
+      "profit": 1382.26,
+      "dd": 31.4,
+      "trades": 1549,
+      "wr": 54.6,
+      "ruined": false
+    },
+    "2024": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "2024",
+      "profit": 6536.75,
+      "dd": 28.6,
+      "trades": 1561,
+      "wr": 56.3,
+      "ruined": false
+    },
+    "2023 \uc800\ubcc0\ub3d9": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "2023 \uc800\ubcc0\ub3d9",
+      "profit": 465.97,
+      "dd": 33.2,
+      "trades": 1485,
+      "wr": 47.6,
+      "ruined": false
+    },
+    "2022 \ud06c\ub798\uc2dc": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "2022 \ud06c\ub798\uc2dc",
+      "profit": 16010.87,
+      "dd": 28.8,
+      "trades": 1647,
+      "wr": 60.2,
+      "ruined": false
+    },
+    "Full 6y": {
+      "label": "H EMA 1/18",
+      "ema": "1/18",
+      "period": "Full 6y",
+      "profit": 82302909.87,
+      "dd": 30.2,
+      "trades": 7019,
+      "wr": 57.3,
+      "ruined": false,
+      "mc": {
+        "ruin_rate": 0.937,
+        "median": 83850168.0,
+        "p25": 66962208.0,
+        "p75": 92014214.0
+      }
+    }
+  },
+  "I EMA 1/10": {
+    "\uc2e4\uc804 04-09~18": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "\uc2e4\uc804 04-09~18",
+      "profit": -13.02,
+      "dd": 5.7,
+      "trades": 28,
+      "wr": 42.9,
+      "ruined": false
+    },
+    "\ucd5c\uadfc 2\uc8fc": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "\ucd5c\uadfc 2\uc8fc",
+      "profit": 11.68,
+      "dd": 10.0,
+      "trades": 48,
+      "wr": 47.9,
+      "ruined": false
+    },
+    "2026 YTD": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "2026 YTD",
+      "profit": 1435.41,
+      "dd": 19.8,
+      "trades": 452,
+      "wr": 56.2,
+      "ruined": false
+    },
+    "2020 COVID": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "2020 COVID",
+      "profit": 400.72,
+      "dd": 27.2,
+      "trades": 513,
+      "wr": 48.3,
+      "ruined": false
+    },
+    "2024": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "2024",
+      "profit": 6235.61,
+      "dd": 32.3,
+      "trades": 1566,
+      "wr": 56.4,
+      "ruined": false
+    },
+    "2025": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "2025",
+      "profit": 2804.84,
+      "dd": 30.1,
+      "trades": 1548,
+      "wr": 55.4,
+      "ruined": false
+    },
+    "2023 \uc800\ubcc0\ub3d9": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "2023 \uc800\ubcc0\ub3d9",
+      "profit": 483.04,
+      "dd": 47.7,
+      "trades": 1489,
+      "wr": 47.6,
+      "ruined": false
+    },
+    "2021 Bull": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "2021 Bull",
+      "profit": 3520.96,
+      "dd": 23.0,
+      "trades": 1308,
+      "wr": 61.3,
+      "ruined": false
+    },
+    "2022 \ud06c\ub798\uc2dc": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "2022 \ud06c\ub798\uc2dc",
+      "profit": 20577.32,
+      "dd": 26.3,
+      "trades": 1635,
+      "wr": 60.6,
+      "ruined": false
+    },
+    "Full 6y": {
+      "label": "I EMA 1/10",
+      "ema": "1/10",
+      "period": "Full 6y",
+      "profit": 116498101.26,
+      "dd": 31.8,
+      "trades": 6999,
+      "wr": 57.3,
+      "ruined": false,
+      "mc": {
+        "ruin_rate": 0.94,
+        "median": 103990605.0,
+        "p25": 91692083.0,
+        "p75": 120155791.0
+      }
+    }
+  },
+  "J EMA 2/15": {
+    "\uc2e4\uc804 04-09~18": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "\uc2e4\uc804 04-09~18",
+      "profit": 67.84,
+      "dd": 4.9,
+      "trades": 29,
+      "wr": 55.2,
+      "ruined": false
+    },
+    "\ucd5c\uadfc 2\uc8fc": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "\ucd5c\uadfc 2\uc8fc",
+      "profit": 79.34,
+      "dd": 12.2,
+      "trades": 49,
+      "wr": 55.1,
+      "ruined": false
+    },
+    "2026 YTD": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "2026 YTD",
+      "profit": 644.47,
+      "dd": 17.4,
+      "trades": 409,
+      "wr": 54.5,
+      "ruined": false
+    },
+    "2020 COVID": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "2020 COVID",
+      "profit": 105.43,
+      "dd": 32.0,
+      "trades": 406,
+      "wr": 48.5,
+      "ruined": false
+    },
+    "2021 Bull": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "2021 Bull",
+      "profit": 915.76,
+      "dd": 24.8,
+      "trades": 1072,
+      "wr": 60.3,
+      "ruined": false
+    },
+    "2025": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "2025",
+      "profit": 640.12,
+      "dd": 40.6,
+      "trades": 1389,
+      "wr": 53.9,
+      "ruined": false
+    },
+    "2022 \ud06c\ub798\uc2dc": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "2022 \ud06c\ub798\uc2dc",
+      "profit": 20333.0,
+      "dd": 19.2,
+      "trades": 1464,
+      "wr": 61.9,
+      "ruined": false
+    },
+    "2023 \uc800\ubcc0\ub3d9": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "2023 \uc800\ubcc0\ub3d9",
+      "profit": 535.35,
+      "dd": 35.0,
+      "trades": 1340,
+      "wr": 48.2,
+      "ruined": false
+    },
+    "2024": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "2024",
+      "profit": 10996.01,
+      "dd": 21.7,
+      "trades": 1403,
+      "wr": 57.4,
+      "ruined": false
+    },
+    "Full 6y": {
+      "label": "J EMA 2/15",
+      "ema": "2/15",
+      "period": "Full 6y",
+      "profit": 9098493.06,
+      "dd": 39.4,
+      "trades": 6134,
+      "wr": 57.2,
+      "ruined": false,
+      "mc": {
+        "ruin_rate": 0.927,
+        "median": 9088918.0,
+        "p25": 7520248.0,
+        "p75": 10832776.0
+      }
+    }
+  },
+  "K EMA 2/12": {
+    "2026 YTD": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "2026 YTD",
+      "profit": 538.28,
+      "dd": 17.9,
+      "trades": 414,
+      "wr": 53.9,
+      "ruined": false
+    },
+    "\uc2e4\uc804 04-09~18": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "\uc2e4\uc804 04-09~18",
+      "profit": 67.84,
+      "dd": 4.9,
+      "trades": 29,
+      "wr": 55.2,
+      "ruined": false
+    },
+    "\ucd5c\uadfc 2\uc8fc": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "\ucd5c\uadfc 2\uc8fc",
+      "profit": 64.15,
+      "dd": 12.2,
+      "trades": 49,
+      "wr": 53.1,
+      "ruined": false
+    },
+    "2020 COVID": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "2020 COVID",
+      "profit": 52.67,
+      "dd": 34.0,
+      "trades": 402,
+      "wr": 48.3,
+      "ruined": false
+    },
+    "2021 Bull": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "2021 Bull",
+      "profit": 857.91,
+      "dd": 27.1,
+      "trades": 1056,
+      "wr": 60.1,
+      "ruined": false
+    },
+    "2025": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "2025",
+      "profit": 609.32,
+      "dd": 40.3,
+      "trades": 1391,
+      "wr": 53.8,
+      "ruined": false
+    },
+    "2024": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "2024",
+      "profit": 8699.49,
+      "dd": 19.4,
+      "trades": 1406,
+      "wr": 57.3,
+      "ruined": false
+    },
+    "2022 \ud06c\ub798\uc2dc": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "2022 \ud06c\ub798\uc2dc",
+      "profit": 15753.25,
+      "dd": 18.7,
+      "trades": 1473,
+      "wr": 61.3,
+      "ruined": false
+    },
+    "2023 \uc800\ubcc0\ub3d9": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "2023 \uc800\ubcc0\ub3d9",
+      "profit": 458.28,
+      "dd": 36.5,
+      "trades": 1339,
+      "wr": 48.1,
+      "ruined": false
+    },
+    "Full 6y": {
+      "label": "K EMA 2/12",
+      "ema": "2/12",
+      "period": "Full 6y",
+      "profit": 4899421.21,
+      "dd": 39.2,
+      "trades": 6129,
+      "wr": 57.0,
+      "ruined": false,
+      "mc": {
+        "ruin_rate": 0.923,
+        "median": 5060356.0,
+        "p25": 4238050.0,
+        "p75": 6043543.0
+      }
+    }
+  }
+}
